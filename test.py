@@ -1,51 +1,36 @@
 import requests
-import time
 import os
 
-# Flask server URL (replace with the actual server IP address)
-url = "http://192.168.0.171:5000/predict"
+url = "https://smartfire2.share.zrok.io/api/predict"
+image_path = "test_fire.jpg"
 
-while True:
-    print("?? Capturing image using libcamera...")
-    ret = os.system("libcamera-jpeg -o latest.jpg --width 416 --height 416 --nopreview")
-    if ret != 0 or not os.path.exists("latest.jpg"):
-        print("? Failed to capture image.")
-        time.sleep(2)
-        continue
+# 이미지 파일 존재 여부 확인
+if not os.path.exists(image_path):
+    print(f"❌ 파일을 찾을 수 없습니다: {image_path}")
+    exit()
 
-    try:
-        # Prepare image and sensor data
-        with open("latest.jpg", "rb") as img_file:
-            files = {
-                'image': ("frame.jpg", img_file, 'image/jpeg')
-            }
-            data = {
-                'mq2': '300',
-                'smoke': '400',
-                'temp': '55',
-                'humidity': '30',
-                'flame': '0.8'
-            }
+# 요청 구성
+files = {
+    'image': (image_path, open(image_path, 'rb'), 'image/jpeg')
+}
+data = {
+    'mq2': '300',
+    'smoke': '400',
+    'temp': '55',
+    'humidity': '30',
+    'flame': '0.8'
+}
 
-            print("?? Sending image and sensor data to the server...")
-            response = requests.post(url, files=files, data=data, timeout=10)
-            result = response.json()
+print("🔗 Sending request to server...")
+response = requests.post(url, files=files, data=data)
 
-            # Print the result
-            print("? Server response:", result)
-
-            if result.get("fire_detected"):
-                print("?? FIRE DETECTED!")
-            else:
-                print("? No fire detected.")
-
-        # ? Delete the latest.jpg file after sending it
-        if os.path.exists("latest.jpg"):
-            os.remove("latest.jpg")
-            print("??? latest.jpg file has been deleted.")
-
-    except Exception as e:
-        print(f"? Failed to send request: {e}")
-
-    # Wait 10 seconds before the next frame
-    time.sleep(10)
+# 응답 처리
+try:
+    result = response.json()
+    print("✅ Server response:")
+    for k, v in result.items():
+        print(f"🔸 {k}: {v}")
+except Exception as e:
+    print("❗ 예외 발생:", e)
+    print(f"📦 Status code: {response.status_code}")
+    print(f"📄 Raw text: {response.text}")
