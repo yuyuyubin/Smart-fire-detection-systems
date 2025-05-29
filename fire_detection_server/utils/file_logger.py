@@ -3,6 +3,7 @@ import os
 
 LATEST_RESULT_PATH = "data/latest_result.json"
 FIRE_LOG_PATH = "data/fire_log.json"
+MAX_LOG_COUNT = 1000  # 최대 저장할 로그 개수
 
 def save_result_json(data: dict):
     os.makedirs("data", exist_ok=True)
@@ -19,6 +20,11 @@ def append_logs(data: dict):
             except json.JSONDecodeError:
                 logs = []
     logs.append(data)
+
+    # 최대 로그 개수 초과 시 오래된 로그 삭제
+    if len(logs) > MAX_LOG_COUNT:
+        logs = logs[-MAX_LOG_COUNT:]
+
     with open(FIRE_LOG_PATH, 'w') as f:
         json.dump(logs, f, indent=2)
 

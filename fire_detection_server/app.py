@@ -1,127 +1,111 @@
+from flask import Flask, request, jsonify, send_from_directory, Response
+from flask_cors import CORS
 import os
-import cv2
-import numpy as np
-import tensorflow as tf
-from ultralytics import YOLO
 from datetime import datetime
-from flask import jsonify
-from utils.file_logger import save_result_json, append_logs
+import cv2
+from utils.prediction_handler import run_prediction, manual_prediction, run_prediction_with_data
+from utils.sensor_handler import save_sensor_data, get_latest_status, get_sensor_history
+from utils.file_logger import save_result_json, append_logs, get_latest_result, get_fire_events
 
-sensor_model = tf.keras.models.load_model(os.path.join("models", "fire_model_with_fuzzy.h5"))
-image_model = YOLO(os.path.join("models", "best8_ver2.pt"))
+app = Flask(__name__)
+CORS(app)
 
-def run_prediction(request):
+camera = cv2.VideoCapture(0)
+camera.set(cv2.CAP_PROP_FRAME_WIDTH, 640)
+camera.set(cv2.CAP_PROP_FRAME_HEIGHT, 480)
+
+def generate_frames():
+    while True:
+        success, frame = camera.read()
+        if not success:
+            continue
+        ret, buffer = cv2.imencode('.jpg', frame)
+        frame_bytes = buffer.tobytes()
+        yield (b'--frame\r\n'
+               b'Content-Type: image/jpeg\r\n\r\n' + frame_bytes + b'\r\n')
+
+@app.route('/video_feed')
+def video_feed():
+    return Response(generate_frames(),
+                    mimetype='multipart/x-mixed-replace; boundary=frame')
+
+@app.route('/api/sensor-data', methods=['POST'])
+def sensor_data():
     try:
-        data = request.form
+        data = request.get_json()
+        if not data:
+            return jsonify({"error": "No JSON payload"}), 400
+        
+        print(f"[센서 데이터 수신] {data}")  # 여기서 터미널 출력
+
+        save_sensor_data(data)
+        return jsonify({"status": "success"}), 200
+    except Exception as e:
+        print(f"[센서 데이터 수신 오류] {e}")  # 에러도 출력
+        return jsonify({"error": str(e)}), 500
+
+@app.route('/api/image', methods=['POST'])
+def image_data():
+    try:
         image = request.files.get('image')
         if image is None:
-            return jsonify({'error': 'No image provided'}), 400
-
-        sensor_input = np.array([[float(data.get('mq2', 0)), float(data.get('smoke', 0)),
-                                  float(data.get('temp', 0)), float(data.get('humidity', 0)),
-                                  float(data.get('flame', 0))]])
-        sensor_prob = float(sensor_model.predict(sensor_input)[0][0]) * 100
+            return jsonify({"error": "No image provided"}), 400
 
         temp_dir = os.path.join(os.getcwd(), "temp")
         os.makedirs(temp_dir, exist_ok=True)
-        filepath = os.path.join(temp_dir, "received.jpg")
+        ts = datetime.now().strftime("%Y%m%d_%H%M%S")
+        filepath = os.path.join(temp_dir, f"image_{ts}.jpg")
         image.save(filepath)
 
-        return run_prediction_with_data(dict(zip(['mq2','smoke','temp','humidity','flame'],
-                                                 sensor_input[0])), filepath)
+        sensor_data = get_latest_status()
+        if not sensor_data:
+            return jsonify({"error": "No sensor data available"}), 400
+
+        result = run_prediction_with_data(sensor_data, filepath)
+        return jsonify(result)
     except Exception as e:
-        print(f"[❌ ERROR] {e}")
         return jsonify({"error": str(e)}), 500
 
-def run_prediction_with_data(sensor_data, image_path):
+@app.route('/api/manual-predict', methods=['POST'])
+def manual_predict():
     try:
-        sensor_input = np.array([[float(sensor_data.get('mq2', 0)), float(sensor_data.get('smoke', 0)),
-                                  float(sensor_data.get('temp', 0)), float(sensor_data.get('humidity', 0)),
-                                  float(sensor_data.get('flame', 0))]])
-        sensor_prob = float(sensor_model.predict(sensor_input)[0][0]) * 100
-
-        results = image_model.predict(image_path, conf=0.25)
-        fire_conf = 0
-        fire_detected = False
-        img = cv2.imread(image_path)
-
-        for r in results:
-            for box in r.boxes:
-                cls_name = image_model.names[int(box.cls[0])].lower()
-                if "fire" in cls_name or "flame" in cls_name:
-                    fire_detected = True
-                    fire_conf = float(box.conf[0]) * 100
-                    x1, y1, x2, y2 = map(int, box.xyxy[0])
-                    label = f"{cls_name} {fire_conf:.1f}%"
-                    cv2.rectangle(img, (x1, y1), (x2, y2), (0, 255, 0), 2)
-                    cv2.putText(img, label, (x1, y1 - 10),
-                                cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2)
-
-        final_score = sensor_prob * 0.6 + fire_conf * 0.4
-        fire_status = final_score >= 70
-
-        save_path = ""
-        if fire_status:
-            os.makedirs("static/detected", exist_ok=True)
-            ts = datetime.now().strftime("%Y%m%d_%H%M%S")
-            save_path = f"static/detected/fire_{ts}.jpg"
-            cv2.imwrite(save_path, img)
-
-        result = {
-            "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-            "sensor_fire_probability": round(sensor_prob, 2),
-            "image_fire_confidence": round(fire_conf, 2),
-            "final_score": round(final_score, 2),
-            "fire_detected": fire_status,
-            "image_path": save_path
-        }
-
-        save_result_json(result)
-        append_logs(result)
-        return result
+        data = request.get_json()
+        if not data:
+            return jsonify({"error": "No JSON payload"}), 400
+        result = manual_prediction(data)
+        return jsonify(result)
     except Exception as e:
-        print(f"[❌ ERROR] {e}")
-        return {"error": str(e)}
+        return jsonify({"error": str(e)}), 500
 
-def manual_prediction(data):
+@app.route('/api/fire-status', methods=['GET'])
+def fire_status():
+    return jsonify(get_latest_result())
+
+@app.route('/api/latest-image', methods=['GET'])
+def latest_image():
     try:
-        sensor_input = np.array([[float(data.get('mq2', 0)), float(data.get('smoke', 0)),
-                                  float(data.get('temp', 0)), float(data.get('humidity', 0)),
-                                  float(data.get('flame', 0))]])
-        sensor_prob = float(sensor_model.predict(sensor_input)[0][0]) * 100
+        images = sorted(os.listdir("static/detected"))
+        if images:
+            return jsonify({"image_url": f"/static/detected/{images[-1]}"})
+    except:
+        pass
+    return jsonify({"image_url": None})
 
-        image_path = data.get('image_path')
-        if not image_path or not os.path.exists(image_path):
-            return {"error": "Invalid or missing image_path"}
+@app.route('/api/sensors', methods=['GET'])
+def sensors():
+    return jsonify(get_latest_status())
 
-        results = image_model.predict(image_path, conf=0.25)
-        fire_conf = 0
-        fire_detected = False
-        img = cv2.imread(image_path)
+@app.route('/api/sensors/history', methods=['GET'])
+def sensors_history():
+    return jsonify(get_sensor_history())
 
-        for r in results:
-            for box in r.boxes:
-                cls_name = image_model.names[int(box.cls[0])].lower()
-                if "fire" in cls_name or "flame" in cls_name:
-                    fire_detected = True
-                    fire_conf = float(box.conf[0]) * 100
-                    x1, y1, x2, y2 = map(int, box.xyxy[0])
-                    label = f"{cls_name} {fire_conf:.1f}%"
-                    cv2.rectangle(img, (x1, y1), (x2, y2), (0, 255, 0), 2)
-                    cv2.putText(img, label, (x1, y1 - 10),
-                                cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2)
+@app.route('/api/fire-events', methods=['GET'])
+def fire_events():
+    return jsonify(get_fire_events())
 
-        final_score = sensor_prob * 0.6 + fire_conf * 0.4
-        fire_status = final_score >= 70
+@app.route('/static/detected/<filename>')
+def send_image(filename):
+    return send_from_directory("static/detected", filename)
 
-        result = {
-            "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-            "sensor_fire_probability": round(sensor_prob, 2),
-            "image_fire_confidence": round(fire_conf, 2),
-            "final_score": round(final_score, 2),
-            "fire_detected": fire_status,
-            "image_path": image_path
-        }
-        return result
-    except Exception as e:
-        return {"error": str(e)}
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=5000)

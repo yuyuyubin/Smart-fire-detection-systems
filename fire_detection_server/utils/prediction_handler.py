@@ -17,27 +17,37 @@ def run_prediction(request):
         if image is None:
             return jsonify({'error': 'No image provided'}), 400
 
-        sensor_input = np.array([[float(data.get('mq2', 0)), float(data.get('smoke', 0)),
-                                  float(data.get('temp', 0)), float(data.get('humidity', 0)),
-                                  float(data.get('flame', 0))]])
+        sensor_input = np.array([[float(data.get('mq2', 0)),
+                                  float(data.get('flame', 0)),
+                                  float(data.get('temperature', 0)),
+                                  float(data.get('humidity', 0))]])
         sensor_prob = float(sensor_model.predict(sensor_input)[0][0]) * 100
 
         temp_dir = os.path.join(os.getcwd(), "temp")
         os.makedirs(temp_dir, exist_ok=True)
         filepath = os.path.join(temp_dir, "received.jpg")
         image.save(filepath)
+        print(f"[이미지 수신] 저장 경로: {filepath}")
 
-        return run_prediction_with_data(dict(zip(['mq2','smoke','temp','humidity','flame'],
-                                                 sensor_input[0])), filepath)
+        sensor_dict = {
+            'mq2': float(data.get('mq2', 0)),
+            'flame': float(data.get('flame', 0)),
+            'temp': float(data.get('temperature', 0)),
+            'humidity': float(data.get('humidity', 0))
+        }
+        return run_prediction_with_data(sensor_dict, filepath)
     except Exception as e:
         print(f"[❌ ERROR] {e}")
         return jsonify({"error": str(e)}), 500
 
 def run_prediction_with_data(sensor_data, image_path):
     try:
-        sensor_input = np.array([[float(sensor_data.get('mq2', 0)), float(sensor_data.get('smoke', 0)),
-                                  float(sensor_data.get('temp', 0)), float(sensor_data.get('humidity', 0)),
-                                  float(sensor_data.get('flame', 0))]])
+        print(f"[예측 시작] 센서 데이터: {sensor_data}, 이미지 경로: {image_path}")
+
+        sensor_input = np.array([[float(sensor_data.get('mq2', 0)),
+                                  float(sensor_data.get('flame', 0)),
+                                  float(sensor_data.get('temp', 0)),
+                                  float(sensor_data.get('humidity', 0))]])
         sensor_prob = float(sensor_model.predict(sensor_input)[0][0]) * 100
 
         results = image_model.predict(image_path, conf=0.25)
@@ -60,12 +70,15 @@ def run_prediction_with_data(sensor_data, image_path):
         final_score = sensor_prob * 0.6 + fire_conf * 0.4
         fire_status = final_score >= 70
 
+        print(f"[예측 완료] 센서 확률: {sensor_prob:.2f}%, 이미지 확률: {fire_conf:.2f}%, 최종 점수: {final_score:.2f}%, 화재 감지: {fire_status}")
+
         save_path = ""
         if fire_status:
             os.makedirs("static/detected", exist_ok=True)
             ts = datetime.now().strftime("%Y%m%d_%H%M%S")
             save_path = f"static/detected/fire_{ts}.jpg"
             cv2.imwrite(save_path, img)
+            print(f"[화재 이미지 저장] {save_path}")
 
         result = {
             "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
@@ -85,9 +98,10 @@ def run_prediction_with_data(sensor_data, image_path):
 
 def manual_prediction(data):
     try:
-        sensor_input = np.array([[float(data.get('mq2', 0)), float(data.get('smoke', 0)),
-                                  float(data.get('temp', 0)), float(data.get('humidity', 0)),
-                                  float(data.get('flame', 0))]])
+        sensor_input = np.array([[float(data.get('mq2', 0)),
+                                  float(data.get('flame', 0)),
+                                  float(data.get('temp', 0)),
+                                  float(data.get('humidity', 0))]])
         sensor_prob = float(sensor_model.predict(sensor_input)[0][0]) * 100
 
         image_path = data.get('image_path')
