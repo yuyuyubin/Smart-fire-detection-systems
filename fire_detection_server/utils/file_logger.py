@@ -1,32 +1,41 @@
-import json, os
+import json
+import os
 
-FIRE_LOG_FILE = "data/fire_log.json"
-LATEST_RESULT_FILE = "data/latest_result.json"
+LATEST_RESULT_PATH = "data/latest_result.json"
+FIRE_LOG_PATH = "data/fire_log.json"
 
-def save_result_json(result):
-    with open(LATEST_RESULT_FILE, "w") as f:
-        json.dump(result, f)
+def save_result_json(data: dict):
+    os.makedirs("data", exist_ok=True)
+    with open(LATEST_RESULT_PATH, 'w') as f:
+        json.dump(data, f, indent=2)
 
-def get_latest_result():
-    try:
-        with open(LATEST_RESULT_FILE) as f:
-            return json.load(f)
-    except:
-        return {"fire_detected": False}
-
-def append_logs(result):
+def append_logs(data: dict):
+    os.makedirs("data", exist_ok=True)
     logs = []
-    if os.path.exists(FIRE_LOG_FILE):
-        with open(FIRE_LOG_FILE, "r") as f:
-            logs = json.load(f)
-    logs.append(result)
-    with open(FIRE_LOG_FILE, "w") as f:
+    if os.path.exists(FIRE_LOG_PATH):
+        with open(FIRE_LOG_PATH, 'r') as f:
+            try:
+                logs = json.load(f)
+            except json.JSONDecodeError:
+                logs = []
+    logs.append(data)
+    with open(FIRE_LOG_PATH, 'w') as f:
         json.dump(logs, f, indent=2)
 
+def get_latest_result():
+    if os.path.exists(LATEST_RESULT_PATH):
+        with open(LATEST_RESULT_PATH, 'r') as f:
+            try:
+                return json.load(f)
+            except json.JSONDecodeError:
+                return {}
+    return {}
+
 def get_fire_events():
-    try:
-        with open(FIRE_LOG_FILE, "r") as f:
-            logs = json.load(f)
-        return [log for log in logs if log.get("fire_detected")]
-    except:
-        return []
+    if os.path.exists(FIRE_LOG_PATH):
+        with open(FIRE_LOG_PATH, 'r') as f:
+            try:
+                return json.load(f)
+            except json.JSONDecodeError:
+                return []
+    return []

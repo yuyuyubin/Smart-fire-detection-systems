@@ -1,40 +1,41 @@
-# utils/sensor_handler.py
 import json
 import os
 from datetime import datetime
 
-SENSOR_LOG_FILE = "data/sensor_log.json"
-LATEST_STATUS_FILE = "data/latest_status.json"
+SENSOR_LOG_PATH = "data/sensor_log.json"
+LATEST_STATUS_PATH = "data/latest_status.json"
 
-def save_sensor_status(status):
-    # 타임스탬프 추가
-    status_with_time = status.copy()
-    status_with_time["timestamp"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+def save_sensor_data(data: dict):
+    os.makedirs("data", exist_ok=True)
+    data_with_ts = {"timestamp": datetime.now().isoformat(), **data}
+    with open(LATEST_STATUS_PATH, 'w') as f:
+        json.dump(data_with_ts, f)
 
-    # 최신 상태 저장
-    with open(LATEST_STATUS_FILE, "w") as f:
-        json.dump(status_with_time, f)
-
-    # 이력 저장
     logs = []
-    if os.path.exists(SENSOR_LOG_FILE):
-        with open(SENSOR_LOG_FILE, "r") as f:
-            logs = json.load(f)
-    logs.append(status_with_time)
-    with open(SENSOR_LOG_FILE, "w") as f:
+    if os.path.exists(SENSOR_LOG_PATH):
+        with open(SENSOR_LOG_PATH, 'r') as f:
+            try:
+                logs = json.load(f)
+            except json.JSONDecodeError:
+                logs = []
+    logs.append(data_with_ts)
+    with open(SENSOR_LOG_PATH, 'w') as f:
         json.dump(logs, f, indent=2)
 
 def get_latest_status():
-    try:
-        with open(LATEST_STATUS_FILE, "r") as f:
-            return json.load(f)
-    except:
-        return {"error": "No sensor data available"}
+    if os.path.exists(LATEST_STATUS_PATH):
+        with open(LATEST_STATUS_PATH, 'r') as f:
+            try:
+                return json.load(f)
+            except json.JSONDecodeError:
+                return {}
+    return {}
 
-def get_sensor_history(limit=100):
-    try:
-        with open(SENSOR_LOG_FILE, "r") as f:
-            logs = json.load(f)
-        return logs[-limit:]
-    except:
-        return []
+def get_sensor_history():
+    if os.path.exists(SENSOR_LOG_PATH):
+        with open(SENSOR_LOG_PATH, 'r') as f:
+            try:
+                return json.load(f)
+            except json.JSONDecodeError:
+                return []
+    return []

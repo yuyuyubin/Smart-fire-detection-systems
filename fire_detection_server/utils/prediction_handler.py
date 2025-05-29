@@ -1,4 +1,5 @@
-import json, os, cv2
+import os
+import cv2
 import numpy as np
 import tensorflow as tf
 from ultralytics import YOLO
@@ -13,13 +14,12 @@ def run_prediction(request):
     try:
         data = request.form
         image = request.files.get('image')
-
         if image is None:
             return jsonify({'error': 'No image provided'}), 400
 
-        sensor_input = np.array([[float(data['mq2']), float(data['smoke']),
-                                  float(data['temp']), float(data['humidity']),
-                                  float(data['flame'])]])
+        sensor_input = np.array([[float(data.get('mq2', 0)), float(data.get('smoke', 0)),
+                                  float(data.get('temp', 0)), float(data.get('humidity', 0)),
+                                  float(data.get('flame', 0))]])
         sensor_prob = float(sensor_model.predict(sensor_input)[0][0]) * 100
 
         temp_dir = os.path.join(os.getcwd(), "temp")
@@ -27,10 +27,23 @@ def run_prediction(request):
         filepath = os.path.join(temp_dir, "received.jpg")
         image.save(filepath)
 
-        results = image_model.predict(filepath, conf=0.25)
+        return run_prediction_with_data(dict(zip(['mq2','smoke','temp','humidity','flame'],
+                                                 sensor_input[0])), filepath)
+    except Exception as e:
+        print(f"[❌ ERROR] {e}")
+        return jsonify({"error": str(e)}), 500
+
+def run_prediction_with_data(sensor_data, image_path):
+    try:
+        sensor_input = np.array([[float(sensor_data.get('mq2', 0)), float(sensor_data.get('smoke', 0)),
+                                  float(sensor_data.get('temp', 0)), float(sensor_data.get('humidity', 0)),
+                                  float(sensor_data.get('flame', 0))]])
+        sensor_prob = float(sensor_model.predict(sensor_input)[0][0]) * 100
+
+        results = image_model.predict(image_path, conf=0.25)
         fire_conf = 0
         fire_detected = False
-        img = cv2.imread(filepath)
+        img = cv2.imread(image_path)
 
         for r in results:
             for box in r.boxes:
@@ -65,8 +78,50 @@ def run_prediction(request):
 
         save_result_json(result)
         append_logs(result)
-        return jsonify(result)
-
+        return result
     except Exception as e:
         print(f"[❌ ERROR] {e}")
-        return jsonify({"error": str(e)}), 500
+        return {"error": str(e)}
+
+def manual_prediction(data):
+    try:
+        sensor_input = np.array([[float(data.get('mq2', 0)), float(data.get('smoke', 0)),
+                                  float(data.get('temp', 0)), float(data.get('humidity', 0)),
+                                  float(data.get('flame', 0))]])
+        sensor_prob = float(sensor_model.predict(sensor_input)[0][0]) * 100
+
+        image_path = data.get('image_path')
+        if not image_path or not os.path.exists(image_path):
+            return {"error": "Invalid or missing image_path"}
+
+        results = image_model.predict(image_path, conf=0.25)
+        fire_conf = 0
+        fire_detected = False
+        img = cv2.imread(image_path)
+
+        for r in results:
+            for box in r.boxes:
+                cls_name = image_model.names[int(box.cls[0])].lower()
+                if "fire" in cls_name or "flame" in cls_name:
+                    fire_detected = True
+                    fire_conf = float(box.conf[0]) * 100
+                    x1, y1, x2, y2 = map(int, box.xyxy[0])
+                    label = f"{cls_name} {fire_conf:.1f}%"
+                    cv2.rectangle(img, (x1, y1), (x2, y2), (0, 255, 0), 2)
+                    cv2.putText(img, label, (x1, y1 - 10),
+                                cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2)
+
+        final_score = sensor_prob * 0.6 + fire_conf * 0.4
+        fire_status = final_score >= 70
+
+        result = {
+            "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+            "sensor_fire_probability": round(sensor_prob, 2),
+            "image_fire_confidence": round(fire_conf, 2),
+            "final_score": round(final_score, 2),
+            "fire_detected": fire_status,
+            "image_path": image_path
+        }
+        return result
+    except Exception as e:
+        return {"error": str(e)}
