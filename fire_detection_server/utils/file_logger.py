@@ -1,6 +1,6 @@
+# 로깅 관련 함수들
+import os  # os 모듈 추가
 import json
-import os
-
 # 파일 경로 설정
 LATEST_RESULT_PATH = "data/latest_result.json"
 FIRE_LOG_PATH = "data/fire_log.json"
@@ -31,19 +31,28 @@ def append_logs(board_id: str, data: dict):
             try:
                 logs = json.load(f)
             except json.JSONDecodeError:
-                logs = []
+                logs = []  # JSON 디코딩 오류시 빈 리스트로 초기화
 
     # 데이터 검증 (예: 'timestamp'와 'board_id' 등이 반드시 있어야 한다)
     if "timestamp" not in data or "board_id" not in data:
         print(f"[ERROR] Invalid data format: Missing 'timestamp' or 'board_id' in {data}")
         return  # 유효하지 않은 데이터는 추가하지 않음
 
+    # 보드별 로그 데이터 구조 변경 (fire_log와 다르게)
+    board_log = {
+        "board_id": data.get("board_id"),
+        "timestamp": data.get("timestamp"),
+        "sensor_data": data.get("sensor_data", {}),  # 센서 데이터 포함
+        "fire_detected": data.get("fire_detected"),
+        "image_path": data.get("image_path")
+    }
+
     # 새로운 로그 추가
-    logs.append(data)
+    logs.append(board_log)
 
     # 로그가 최대 개수를 초과하면 오래된 로그 삭제
     if len(logs) > MAX_LOG_COUNT:
-        logs = logs[-MAX_LOG_COUNT:]
+        logs = logs[-MAX_LOG_COUNT:]  # 최신 로그만 남기기
 
     # 파일에 기록
     with open(log_file_path, 'w') as f:

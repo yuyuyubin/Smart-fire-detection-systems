@@ -1,3 +1,4 @@
+import json
 import os
 import cv2
 import numpy as np
@@ -7,8 +8,21 @@ from datetime import datetime
 from utils.file_logger import save_result_json, append_logs, append_fire_log  # append_fire_log 추가
 
 # 모델 로드
-sensor_model = tf.keras.models.load_model(os.path.join("models", "fire_sensor_model_v2.h5"))
+sensor_model = tf.keras.models.load_model(os.path.join("models", "fire_sensor_model_.h5"))
 image_model = YOLO(os.path.join("models", "best8_ver2.pt"))
+
+# 이미지 디렉토리와 최대 이미지 개수 설정
+DETECTED_FOLDER = "static/detected"
+MAX_IMAGE_COUNT = 10  # 저장할 최대 이미지 개수
+
+os.makedirs(DETECTED_FOLDER, exist_ok=True)
+
+# 오래된 이미지 삭제 함수
+def clean_old_images():
+    images = sorted([f for f in os.listdir(DETECTED_FOLDER) if f.endswith('.jpg')])
+    if len(images) > MAX_IMAGE_COUNT:
+        for img in images[:-MAX_IMAGE_COUNT]:
+            os.remove(os.path.join(DETECTED_FOLDER, img))
 
 # 예측 처리 함수
 def run_prediction_with_data(sensor_data, image_path):
@@ -18,10 +32,13 @@ def run_prediction_with_data(sensor_data, image_path):
         
         # 1. 센서 데이터 입력 처리 (센서 데이터는 4개 값)
         sensor_input = np.array([[float(sensor_data.get('mq2', 0)),
-                                  float(sensor_data.get('flame', 0)),
                                   float(sensor_data.get('temp', 0)),
-                                  float(sensor_data.get('humidity', 0))]])  # 4개의 입력 값
+                                  float(sensor_data.get('humidity', 0)),
+                                  float(sensor_data.get('flame', 0))]])  # 4개의 입력 값
         
+        # 센서 데이터 출력 (터미널에)
+        print(f"[센서 데이터] board_id: {board_id}, mq2: {sensor_data.get('mq2', 0)}, temp: {sensor_data.get('temp', 0)}, humidity: {sensor_data.get('humidity', 0)}, flame: {sensor_data.get('flame', 0)}")
+
         # 센서 데이터로부터 화재 확률 예측
         sensor_prob = float(sensor_model.predict(sensor_input)[0][0]) * 100
         
@@ -50,10 +67,12 @@ def run_prediction_with_data(sensor_data, image_path):
 
         save_path = ""
         if fire_status:
-            os.makedirs("static/detected", exist_ok=True)
             ts = datetime.now().strftime("%Y%m%d_%H%M%S")
             save_path = f"static/detected/fire_{ts}.jpg"
             cv2.imwrite(save_path, img)
+
+            # 이미지 저장 후 오래된 이미지 삭제
+            clean_old_images()  # 오래된 이미지 삭제 호출
 
         # 5. 예측 결과 반환
         result = {
@@ -66,11 +85,12 @@ def run_prediction_with_data(sensor_data, image_path):
             "board_id": board_id  # board_id를 예측 결과에 포함
         }
 
-        # 6. 예측 결과와 로그 저장
+        # 센서 데이터와 예측 결과를 함께 포함하여 하나의 항목으로 로그 저장
+        data_with_sensor = {**result, "sensor_data": sensor_data}  # 예측 결과와 센서 데이터를 합침
         save_result_json(result)  # 최종 예측 결과 저장
-        append_logs(board_id, result)  # 특정 board_id의 로그 저장
+        append_logs(board_id, data_with_sensor)  # 센서 데이터와 예측 결과를 함께 로그에 저장
 
-        # 7. 화재가 감지되었든 아니든 항상 fire_log에 기록
+        # 6. 화재가 감지되었든 아니든 항상 fire_log에 기록
         append_fire_log(result)  # fire_log.json에 화재 이벤트 저장
 
         return result
@@ -79,3 +99,4 @@ def run_prediction_with_data(sensor_data, image_path):
         # 예측 실패 시 오류 반환
         print(f"[ERROR] 예측 실패: {e}")
         return {"error": str(e)}
+

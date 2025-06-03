@@ -17,7 +17,7 @@ app = Flask(__name__)
 CORS(app)
 
 # 큐(Queue)를 사용하여 최신 프레임을 관리
-frame_queue = deque(maxlen=10)  # 최대 10개의 프레임을 저장
+frame_queue = deque(maxlen=20)  # 최대 10개의 프레임을 저장
 frame_lock = Lock()  # 프레임을 다룰 때 동기화
 
 DETECTED_FOLDER = "static/detected"
@@ -74,7 +74,7 @@ def video_feed():
                     frame = frame_queue.popleft()  # 가장 오래된 프레임을 꺼내서 보내기
                     yield (b'--frame\r\n'
                            b'Content-Type: image/jpeg\r\n\r\n' + frame + b'\r\n')
-            time.sleep(0.05)  # 프레임 간 간격 설정
+            time.sleep(0.1)  # 프레임 간 간격 설정
     return Response(generate(), mimetype='multipart/x-mixed-replace; boundary=frame')
 
 # ===============================
@@ -91,7 +91,7 @@ def sensor_data():
         print(f"[센서 데이터 수신] {data} from board: {board_id}")
 
         # 보드별로 센서 데이터가 수신되었을 때만 예측을 실행하도록 처리
-        if board_id in ['esp1', 'esp2', 'esp3'] and any(k in data for k in ['mq2', 'flame', 'temperature', 'humidity']):
+        if board_id in ['esp1', 'esp2', 'esp3'] and any(k in data for k in ['mq2', 'temp', 'humidity','flame']):
             # 센서 데이터가 유효하면 예측 함수 호출
             image_path = get_latest_received_image()  # 최신 이미지 가져오기
             if image_path:
@@ -112,7 +112,7 @@ def sensor_data():
 """.strip())
 
                 # 보드별 로그 파일에 예측 결과 저장
-                append_logs(board_id, result)  # 수정된 부분
+               
 
         save_sensor_data(data)  # 센서 데이터 저장
         clean_old_sensor_logs()
