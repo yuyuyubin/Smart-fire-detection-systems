@@ -5,7 +5,7 @@ import json
 LATEST_RESULT_PATH = "data/latest_result.json"
 FIRE_LOG_PATH = "data/fire_log.json"
 SENSOR_LOG_PATH = "data/sensor_log.json"
-
+FIRE_STATUS_LOG_FILE = "data/fire_status_log.json" 
 # 보드별 로그 파일 경로
 BOARD_LOG_PATH = "data/board_logs"  # 각 보드별로 로그를 저장할 디렉토리
 
@@ -19,6 +19,38 @@ os.makedirs(BOARD_LOG_PATH, exist_ok=True)
 def save_result_json(data: dict):
     with open(LATEST_RESULT_PATH, 'w') as f:
         json.dump(data, f, indent=2)
+
+def save_fire_status_log(result):
+    """
+    최신 화재 정보를 fire_status_log.json 파일에 저장합니다.
+    """
+    try:
+        # 기존의 fire_status_log.json을 읽어옵니다.
+        if os.path.exists(FIRE_STATUS_LOG_FILE):
+            with open(FIRE_STATUS_LOG_FILE, "r") as file:
+                fire_status_log = json.load(file)
+        else:
+            fire_status_log = []
+
+        # board_id를 기준으로 최신 정보만 갱신
+        updated = False
+        for entry in fire_status_log:
+            if entry['board_id'] == result['board_id']:
+                # 최신 정보로 덮어쓰기
+                entry.update(result)
+                updated = True
+                break
+
+        if not updated:
+            # 새로운 보드 정보 추가
+            fire_status_log.append(result)
+
+        # 최신 화재 정보 저장
+        with open(FIRE_STATUS_LOG_FILE, "w") as file:
+            json.dump(fire_status_log, file, indent=4)
+
+    except Exception as e:
+        print(f"[ERROR] 화재 정보 저장 실패: {e}")
 
 # 보드별 로그 파일에 데이터 추가
 def append_logs(board_id: str, data: dict):
@@ -158,3 +190,31 @@ def clean_board_logs(board_id: str):
                     json.dump(logs, f, indent=2)
         except json.JSONDecodeError:
             pass
+
+
+def get_fire_status_log(board_ids=None):
+    """
+    최신 화재 정보를 반환하는 함수입니다.
+    board_ids가 제공되면 해당 보드들의 결과만 반환합니다.
+    """
+    try:
+        # fire_status_log.json에서 화재 정보를 읽어옵니다.
+        if os.path.exists(FIRE_STATUS_LOG_FILE):
+            with open(FIRE_STATUS_LOG_FILE, "r") as file:
+                fire_status_log = json.load(file)
+        else:
+            fire_status_log = []
+
+        if board_ids:
+            # 주어진 board_ids에 해당하는 결과만 반환 (여러 개의 보드 가능)
+            filtered_results = [entry for entry in fire_status_log if entry['board_id'] in board_ids]
+            return filtered_results if filtered_results else None  # 해당 board_id가 없으면 None 반환
+        else:
+            # 모든 결과를 반환
+            return fire_status_log
+    except Exception as e:
+        return {"error": str(e)}
+
+    except Exception as e:
+        print(f"[ERROR] 화재 정보 읽기 실패: {e}")
+        return []  # 오류 발생 시 빈 리스트 반환

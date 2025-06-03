@@ -11,7 +11,7 @@ from threading import Lock
 from collections import deque
 from utils.prediction_handler import run_prediction_with_data
 from utils.sensor_handler import save_sensor_data, get_latest_status, get_sensor_history
-from utils.file_logger import save_result_json, append_logs, get_latest_result, get_fire_events, clean_old_fire_logs, clean_old_sensor_logs
+from utils.file_logger import save_result_json, append_logs, get_fire_status_log, get_latest_result, get_fire_events, clean_old_fire_logs, clean_old_sensor_logs
 
 app = Flask(__name__)
 CORS(app)
@@ -27,6 +27,19 @@ MAX_RECEIVED_IMAGES = 5
 
 os.makedirs(DETECTED_FOLDER, exist_ok=True)
 os.makedirs(RECEIVED_FOLDER, exist_ok=True)
+
+@app.route('/api/fire-stat', methods=['GET'])
+def fire_stat():
+    # board_ids를 쿼리 파라미터로 전달받습니다.
+    board_ids_param = request.args.get('board_ids')  # 쉼표로 구분된 하나의 값 받기
+    
+    if board_ids_param:
+        # 쉼표로 구분된 값을 나누어서 리스트로 변환
+        board_ids = board_ids_param.split(',')
+        result = get_fire_status_log(board_ids)  # 주어진 board_ids에 대한 최신 화재 정보를 반환
+        return jsonify(result), 200
+    else:
+        return jsonify({"error": "No board_ids provided"}), 400
 
 # 예전 이미지 자동 정리
 def clean_old_images():
@@ -145,6 +158,7 @@ def image_data():
 def fire_status():
     return jsonify(get_latest_result())
 
+
 @app.route('/api/latest-image', methods=['GET'])
 def latest_image():
     try:
@@ -175,11 +189,16 @@ def send_image(filename):
 # 6. 최신 수신 이미지 가져오기
 # ===============================
 def get_latest_received_image():
+    """
+    가장 최근에 저장된 이미지를 반환하는 함수입니다.
+    만약 이미지가 없다면 None을 반환합니다.
+    """
     images = sorted([f for f in os.listdir(RECEIVED_FOLDER) if f.endswith('.jpg')])
     if images:
-        return os.path.join(RECEIVED_FOLDER, images[-1])  # 최신 이미지 경로 반환
+        latest_image_path = os.path.join(RECEIVED_FOLDER, images[-1])
+        print(f"[INFO] Latest image path: {latest_image_path}")  # 디버깅용 출력
+        return latest_image_path
     return None  # 이미지가 없으면 None 반환
-
 # ===============================
 # 메인 실행
 # ===============================

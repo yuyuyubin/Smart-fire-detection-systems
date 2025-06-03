@@ -6,7 +6,7 @@ import tensorflow as tf
 from ultralytics import YOLO
 from datetime import datetime
 import joblib  # joblib을 사용하여 scaler를 로드합니다.
-from utils.file_logger import save_result_json, append_logs, append_fire_log
+from utils.file_logger import save_result_json, append_logs, append_fire_log, save_fire_status_log  # save_fire_status_log 추가
 
 # 모델 로드
 sensor_model = tf.keras.models.load_model(os.path.join("models", "fire_sensor_model_.h5"))
@@ -70,7 +70,7 @@ def run_prediction_with_data(sensor_data, image_path):
 
         # 5. 센서 예측과 이미지 예측 결합
         final_score = sensor_prob * 0.6 + fire_conf * 0.4
-        fire_status = final_score >= 70
+        fire_status = final_score >= 30
 
         save_path = ""
         if fire_status:
@@ -99,6 +99,9 @@ def run_prediction_with_data(sensor_data, image_path):
 
         # 7. 화재가 감지되었든 아니든 항상 fire_log에 기록
         append_fire_log(result)  # fire_log.json에 화재 이벤트 저장
+
+        # 화재 상태를 따로 저장하는 함수 호출
+        save_fire_status_log(result)  # fire_status_log 저장
 
         return result
 
