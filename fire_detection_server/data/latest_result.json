@@ -1,9 +1,9 @@
 {
-  "timestamp": "2025-06-03 19:47:24",
-  "sensor_fire_probability": 100.0,
+  "timestamp": "2025-06-03 20:11:20",
+  "sensor_fire_probability": 0.0,
   "image_fire_confidence": 0,
-  "final_score": 60.0,
+  "final_score": 0.0,
   "fire_detected": false,
   "image_path": "",
-  "board_id": "esp2"
+  "board_id": "esp1"
 }
