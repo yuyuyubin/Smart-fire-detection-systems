@@ -1,14 +1,23 @@
-import requests
+import cv2
 
-url = "http://127.0.0.1:5000/predict"  # 또는 http://192.168.0.7:5000
-files = {'image': open('test_fire2.jpg', 'rb')}
-data = {
-    'mq2': '300',
-    'smoke': '400',
-    'temp': '55',
-    'humidity': '20',
-    'flame': '0.9'
-}
+# ? Raspberry Pi�� ������� TCP MJPEG ��Ʈ�� �ּ�
+url = "tcp://192.168.0.171:8888"
 
-response = requests.post(url, files=files, data=data)
-print(response.json())
+# ? OpenCV�� ��Ʈ�� ����
+cap = cv2.VideoCapture(url)
+
+if not cap.isOpened():
+    print("? Failed to open stream")
+    exit()
+
+while True:
+    ret, frame = cap.read()
+    if not ret:
+        print("?? Failed to read frame")
+        continue
+    cv2.imshow("?? MJPEG Stream via TCP", frame)
+    if cv2.waitKey(1) & 0xFF == ord('q'):
+        break
+
+cap.release()
+cv2.destroyAllWindows()
