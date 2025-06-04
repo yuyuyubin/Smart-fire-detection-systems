@@ -4,8 +4,8 @@ import time
 import threading
 
 # Flask server addresses for image and streaming video
-IMAGE_SERVER_URL = "http://192.168.0.27:5000/api/image"  # For sending prediction images
-STREAM_SERVER_URL = "http://192.168.0.27:5000/api/stream-frame"  # For sending streaming video frames
+IMAGE_SERVER_URL = "http://18.234.186.47:5000/api/image"  # For sending prediction images
+STREAM_SERVER_URL = "http://18.234.186.47:5000/api/stream-frame"  # For sending streaming video frames
 
 CAPTURE_INTERVAL_PREDICTION = 5  # Capture interval in seconds for prediction image (5 seconds)
 CAPTURE_INTERVAL_STREAM = 0.1   # Capture interval in seconds for streaming video (10 fps)
