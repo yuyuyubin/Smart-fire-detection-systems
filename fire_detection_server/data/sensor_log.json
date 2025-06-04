@@ -1,0 +1,8002 @@
+[
+  {
+    "timestamp": "2025-06-03T22:42:44.125737",
+    "board_id": "esp2",
+    "mq2": 147,
+    "temp": 24.7,
+    "humidity": 59.6,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:42:45.075682",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.9,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:42:45.423365",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 25.1,
+    "humidity": 56.6,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:42:49.130077",
+    "board_id": "esp2",
+    "mq2": 147,
+    "temp": 24.7,
+    "humidity": 59.5,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:42:50.070540",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.9,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:42:50.422135",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 25.1,
+    "humidity": 56.6,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:42:54.130776",
+    "board_id": "esp2",
+    "mq2": 146,
+    "temp": 24.7,
+    "humidity": 59.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:42:55.077010",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.8,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:42:55.413477",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 25.1,
+    "humidity": 56.6,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:42:59.137964",
+    "board_id": "esp2",
+    "mq2": 146,
+    "temp": 24.7,
+    "humidity": 59.4,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:43:00.085066",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.9,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:43:00.423219",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 25.2,
+    "humidity": 56.6,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:43:04.119566",
+    "board_id": "esp2",
+    "mq2": 147,
+    "temp": 24.7,
+    "humidity": 59.4,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:43:05.074631",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.8,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:43:05.408020",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 25.2,
+    "humidity": 56.6,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:43:09.133531",
+    "board_id": "esp2",
+    "mq2": 147,
+    "temp": 24.7,
+    "humidity": 59.5,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:43:10.090979",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.9,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:43:10.434429",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 25.1,
+    "humidity": 56.6,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:43:14.137272",
+    "board_id": "esp2",
+    "mq2": 147,
+    "temp": 24.7,
+    "humidity": 59.4,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:43:15.072901",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 57.0,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:43:15.416095",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 25.1,
+    "humidity": 56.6,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:43:19.132977",
+    "board_id": "esp2",
+    "mq2": 145,
+    "temp": 24.7,
+    "humidity": 59.4,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:43:20.084631",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 57.0,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:43:20.417767",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 25.2,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:43:25.076466",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 57.0,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:43:30.083978",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.9,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:43:35.074320",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.9,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:43:40.077082",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.9,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:43:45.077205",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.8,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:43:50.085996",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.7,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:43:52.321962",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 25.1,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:43:53.346963",
+    "board_id": "esp1",
+    "mq2": 147,
+    "temp": 24.7,
+    "humidity": 59.4,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:43:55.099003",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.7,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:43:57.279255",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 25.1,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:43:58.261246",
+    "board_id": "esp1",
+    "mq2": 146,
+    "temp": 24.8,
+    "humidity": 59.2,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:44:00.081242",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.7,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:44:02.284028",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 25.1,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:44:05.084602",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.7,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:44:07.285963",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 25.1,
+    "humidity": 56.6,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:44:10.091448",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.7,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:44:12.303016",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 25.1,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:44:15.094992",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.7,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:44:17.287588",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 25.2,
+    "humidity": 56.6,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:44:20.079615",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.7,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:44:22.302847",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 25.1,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:44:25.077731",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.8,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:44:27.300181",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 25.1,
+    "humidity": 56.4,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:44:30.074261",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.7,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:44:32.297569",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 25.2,
+    "humidity": 56.4,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:44:35.072482",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.7,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:44:37.286360",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 25.2,
+    "humidity": 56.4,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:44:40.072439",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.7,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:44:42.279747",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 25.1,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:44:45.070877",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.7,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:44:47.296905",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 25.2,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:44:50.074706",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.7,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:44:52.295640",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 25.2,
+    "humidity": 56.4,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:44:53.043516",
+    "board_id": "esp2",
+    "mq2": 145,
+    "temp": 24.8,
+    "humidity": 59.3,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:44:55.093529",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.6,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:44:57.299156",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 25.2,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:44:57.994544",
+    "board_id": "esp2",
+    "mq2": 145,
+    "temp": 24.8,
+    "humidity": 59.2,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:45:00.073644",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.7,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:45:02.298230",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 25.2,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:45:02.987603",
+    "board_id": "esp2",
+    "mq2": 145,
+    "temp": 24.8,
+    "humidity": 59.2,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:45:05.085233",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.6,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:45:07.285010",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 25.2,
+    "humidity": 56.7,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:45:07.995563",
+    "board_id": "esp2",
+    "mq2": 145,
+    "temp": 24.8,
+    "humidity": 59.2,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:45:10.070093",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.6,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:45:12.276586",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 25.1,
+    "humidity": 56.8,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:45:12.963416",
+    "board_id": "esp2",
+    "mq2": 145,
+    "temp": 24.8,
+    "humidity": 59.2,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:45:15.074127",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.6,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:45:17.305740",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 25.2,
+    "humidity": 56.9,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:45:17.980078",
+    "board_id": "esp2",
+    "mq2": 145,
+    "temp": 24.8,
+    "humidity": 59.1,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:45:20.082444",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.6,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:45:22.281772",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 25.2,
+    "humidity": 56.8,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:45:22.973539",
+    "board_id": "esp2",
+    "mq2": 145,
+    "temp": 24.8,
+    "humidity": 59.2,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:45:25.071526",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:45:27.274932",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 25.2,
+    "humidity": 56.7,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:45:27.978059",
+    "board_id": "esp2",
+    "mq2": 145,
+    "temp": 24.8,
+    "humidity": 59.2,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:45:30.072548",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:45:34.894880",
+    "board_id": "esp2",
+    "mq2": 145,
+    "temp": 24.8,
+    "humidity": 59.3,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:45:34.978470",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 25.2,
+    "humidity": 56.9,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:45:35.074954",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.7,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:45:37.280935",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 25.2,
+    "humidity": 57.0,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:45:37.978180",
+    "board_id": "esp2",
+    "mq2": 145,
+    "temp": 24.8,
+    "humidity": 59.3,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:45:40.074143",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.7,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:45:42.300771",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 25.2,
+    "humidity": 56.8,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:45:45.207893",
+    "board_id": "esp2",
+    "mq2": 145,
+    "temp": 24.8,
+    "humidity": 59.2,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:45:45.281166",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.7,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:45:47.283844",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 25.2,
+    "humidity": 56.6,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:45:47.969610",
+    "board_id": "esp2",
+    "mq2": 145,
+    "temp": 24.8,
+    "humidity": 59.2,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:45:50.066275",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.6,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:45:52.267602",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 25.2,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:45:52.972736",
+    "board_id": "esp2",
+    "mq2": 145,
+    "temp": 24.8,
+    "humidity": 59.1,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:45:55.069920",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:45:57.291750",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 25.2,
+    "humidity": 56.4,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:45:57.978652",
+    "board_id": "esp2",
+    "mq2": 145,
+    "temp": 24.8,
+    "humidity": 59.0,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:46:00.080133",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:46:02.286538",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 25.2,
+    "humidity": 56.3,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:46:02.981773",
+    "board_id": "esp2",
+    "mq2": 145,
+    "temp": 24.8,
+    "humidity": 59.0,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:46:05.070523",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:46:07.291084",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 25.2,
+    "humidity": 56.3,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:46:07.990336",
+    "board_id": "esp2",
+    "mq2": 145,
+    "temp": 24.8,
+    "humidity": 59.0,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:46:10.071815",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:46:12.300306",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 25.2,
+    "humidity": 56.2,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:46:12.995035",
+    "board_id": "esp2",
+    "mq2": 145,
+    "temp": 24.8,
+    "humidity": 59.0,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:46:15.078115",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:46:17.280874",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 25.2,
+    "humidity": 56.3,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:46:17.978844",
+    "board_id": "esp2",
+    "mq2": 145,
+    "temp": 24.8,
+    "humidity": 59.0,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:46:20.080272",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:46:22.283142",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 25.2,
+    "humidity": 56.2,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:46:22.990996",
+    "board_id": "esp2",
+    "mq2": 145,
+    "temp": 24.8,
+    "humidity": 59.0,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:46:25.076963",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:46:27.288847",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 25.2,
+    "humidity": 56.2,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:46:27.970454",
+    "board_id": "esp2",
+    "mq2": 145,
+    "temp": 24.8,
+    "humidity": 59.0,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:46:30.072340",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:46:32.281285",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 25.2,
+    "humidity": 56.2,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:46:32.990815",
+    "board_id": "esp2",
+    "mq2": 145,
+    "temp": 24.8,
+    "humidity": 58.9,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:46:35.081650",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.6,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:46:37.299106",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 25.2,
+    "humidity": 56.2,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:46:37.986525",
+    "board_id": "esp2",
+    "mq2": 145,
+    "temp": 24.8,
+    "humidity": 58.9,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:46:40.077094",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:46:42.292498",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 25.2,
+    "humidity": 56.2,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:46:42.990184",
+    "board_id": "esp2",
+    "mq2": 145,
+    "temp": 24.8,
+    "humidity": 59.0,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:46:45.113055",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:46:47.277049",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 25.2,
+    "humidity": 56.2,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:46:50.292463",
+    "board_id": "esp2",
+    "mq2": 147,
+    "temp": 24.8,
+    "humidity": 59.0,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:46:50.366269",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:46:52.279639",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 25.2,
+    "humidity": 56.2,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:46:52.986799",
+    "board_id": "esp2",
+    "mq2": 147,
+    "temp": 24.8,
+    "humidity": 59.0,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:46:55.074658",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:46:57.274771",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 25.2,
+    "humidity": 56.2,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:46:57.985243",
+    "board_id": "esp2",
+    "mq2": 147,
+    "temp": 24.8,
+    "humidity": 58.9,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:47:00.078507",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:47:02.293085",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 25.2,
+    "humidity": 56.2,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:47:02.971656",
+    "board_id": "esp2",
+    "mq2": 147,
+    "temp": 24.8,
+    "humidity": 59.0,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:47:05.082906",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:47:07.297492",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 25.2,
+    "humidity": 56.1,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:47:07.979791",
+    "board_id": "esp2",
+    "mq2": 147,
+    "temp": 24.8,
+    "humidity": 58.9,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:47:10.071756",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:47:12.289896",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 25.2,
+    "humidity": 56.2,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:47:12.997032",
+    "board_id": "esp2",
+    "mq2": 147,
+    "temp": 24.8,
+    "humidity": 58.9,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:47:15.078089",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:47:17.291589",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 25.2,
+    "humidity": 56.2,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:47:17.984534",
+    "board_id": "esp2",
+    "mq2": 147,
+    "temp": 24.8,
+    "humidity": 58.9,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:47:20.071741",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:47:22.288109",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 25.2,
+    "humidity": 56.2,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:47:22.974627",
+    "board_id": "esp2",
+    "mq2": 147,
+    "temp": 24.8,
+    "humidity": 59.0,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:47:25.080585",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.4,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:47:27.291755",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 25.2,
+    "humidity": 56.3,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:47:27.979521",
+    "board_id": "esp2",
+    "mq2": 147,
+    "temp": 24.8,
+    "humidity": 59.0,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:47:30.078799",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:47:32.985369",
+    "board_id": "esp2",
+    "mq2": 147,
+    "temp": 24.8,
+    "humidity": 59.0,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:47:35.067985",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:47:37.987665",
+    "board_id": "esp2",
+    "mq2": 146,
+    "temp": 24.8,
+    "humidity": 59.0,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:47:40.075977",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.6,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:47:42.993764",
+    "board_id": "esp2",
+    "mq2": 148,
+    "temp": 24.8,
+    "humidity": 59.0,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:47:45.541160",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.6,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:47:47.970123",
+    "board_id": "esp2",
+    "mq2": 148,
+    "temp": 24.8,
+    "humidity": 59.0,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:47:50.116743",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.6,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:47:52.970930",
+    "board_id": "esp2",
+    "mq2": 148,
+    "temp": 24.8,
+    "humidity": 59.1,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:47:55.073243",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.6,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:47:57.986651",
+    "board_id": "esp2",
+    "mq2": 148,
+    "temp": 24.8,
+    "humidity": 59.1,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:48:00.072568",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:48:02.992116",
+    "board_id": "esp2",
+    "mq2": 148,
+    "temp": 24.8,
+    "humidity": 59.1,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:48:04.829338",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 25.2,
+    "humidity": 56.1,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:48:05.067870",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:48:07.993334",
+    "board_id": "esp2",
+    "mq2": 148,
+    "temp": 24.8,
+    "humidity": 59.1,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:48:09.757400",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 25.2,
+    "humidity": 56.3,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:48:10.070817",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:48:12.992661",
+    "board_id": "esp2",
+    "mq2": 148,
+    "temp": 24.8,
+    "humidity": 59.1,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:48:14.769096",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 25.2,
+    "humidity": 56.3,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:48:15.081360",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:48:17.983982",
+    "board_id": "esp2",
+    "mq2": 148,
+    "temp": 24.8,
+    "humidity": 59.1,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:48:19.755874",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 25.2,
+    "humidity": 56.3,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:48:20.082912",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.6,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:48:22.989678",
+    "board_id": "esp2",
+    "mq2": 148,
+    "temp": 24.8,
+    "humidity": 59.1,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:48:24.760017",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 25.2,
+    "humidity": 56.4,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:48:25.076917",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:48:29.772462",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 25.3,
+    "humidity": 56.3,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:48:30.081778",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.6,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:48:34.741425",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 25.3,
+    "humidity": 56.3,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:48:35.077829",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.6,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:48:39.743011",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 25.3,
+    "humidity": 56.3,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:48:40.070486",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.6,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:48:44.756445",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 25.3,
+    "humidity": 56.2,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:48:45.095316",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.6,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:48:50.277139",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 25.3,
+    "humidity": 56.2,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:48:51.725761",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.6,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:48:54.788767",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 25.3,
+    "humidity": 56.2,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:48:55.068422",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.6,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:48:59.756152",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 25.3,
+    "humidity": 56.1,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:49:00.066839",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.6,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:49:00.852824",
+    "board_id": "esp2",
+    "mq2": 327,
+    "temp": 24.8,
+    "humidity": 59.1,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:49:04.749572",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 25.3,
+    "humidity": 56.2,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:49:05.081121",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.6,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:49:05.813592",
+    "board_id": "esp2",
+    "mq2": 361,
+    "temp": 24.9,
+    "humidity": 59.0,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:49:09.759592",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 25.3,
+    "humidity": 56.2,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:49:10.067965",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.6,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:49:10.822914",
+    "board_id": "esp2",
+    "mq2": 376,
+    "temp": 24.9,
+    "humidity": 59.1,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:49:14.765269",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 25.3,
+    "humidity": 56.2,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:49:15.064209",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.6,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:49:15.820860",
+    "board_id": "esp2",
+    "mq2": 379,
+    "temp": 24.9,
+    "humidity": 59.2,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:49:19.755195",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 25.3,
+    "humidity": 56.2,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:49:20.081938",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.7,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:49:20.811902",
+    "board_id": "esp2",
+    "mq2": 406,
+    "temp": 24.9,
+    "humidity": 59.2,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:49:24.745767",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 25.3,
+    "humidity": 56.2,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:49:25.071409",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.7,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:49:25.818663",
+    "board_id": "esp2",
+    "mq2": 427,
+    "temp": 24.9,
+    "humidity": 59.2,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:49:29.766624",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 25.3,
+    "humidity": 56.2,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:49:30.077053",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.7,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:49:30.813516",
+    "board_id": "esp2",
+    "mq2": 433,
+    "temp": 24.9,
+    "humidity": 59.1,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:49:34.747464",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 25.3,
+    "humidity": 56.1,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:49:35.074990",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.8,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:49:35.821427",
+    "board_id": "esp2",
+    "mq2": 404,
+    "temp": 24.9,
+    "humidity": 59.0,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:49:39.758939",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 25.3,
+    "humidity": 56.1,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:49:40.079248",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.7,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:49:40.824897",
+    "board_id": "esp2",
+    "mq2": 387,
+    "temp": 24.9,
+    "humidity": 58.9,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:49:46.267710",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 25.3,
+    "humidity": 56.1,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:49:46.369928",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.7,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:49:46.469680",
+    "board_id": "esp2",
+    "mq2": 374,
+    "temp": 24.9,
+    "humidity": 58.9,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:49:49.769606",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 25.4,
+    "humidity": 56.1,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:49:50.079419",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.7,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:49:50.817330",
+    "board_id": "esp2",
+    "mq2": 363,
+    "temp": 25.0,
+    "humidity": 58.9,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:49:54.775452",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 25.3,
+    "humidity": 56.0,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:49:55.082504",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.6,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:49:55.821781",
+    "board_id": "esp2",
+    "mq2": 354,
+    "temp": 24.9,
+    "humidity": 58.8,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:49:59.771601",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.3,
+    "humidity": 56.0,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:50:00.072081",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.6,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:50:00.827888",
+    "board_id": "esp2",
+    "mq2": 355,
+    "temp": 25.0,
+    "humidity": 58.8,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:50:04.774047",
+    "board_id": "esp1",
+    "mq2": 22,
+    "temp": 25.3,
+    "humidity": 55.9,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:50:05.082565",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.6,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:50:05.828487",
+    "board_id": "esp2",
+    "mq2": 364,
+    "temp": 25.0,
+    "humidity": 58.8,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:50:09.778843",
+    "board_id": "esp1",
+    "mq2": 27,
+    "temp": 25.3,
+    "humidity": 56.0,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:50:10.076473",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.6,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:50:10.833730",
+    "board_id": "esp2",
+    "mq2": 415,
+    "temp": 25.0,
+    "humidity": 58.8,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:50:14.785637",
+    "board_id": "esp1",
+    "mq2": 24,
+    "temp": 25.3,
+    "humidity": 56.1,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:50:15.087479",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.6,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:50:15.833322",
+    "board_id": "esp2",
+    "mq2": 391,
+    "temp": 25.0,
+    "humidity": 58.8,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:50:19.760577",
+    "board_id": "esp1",
+    "mq2": 22,
+    "temp": 25.4,
+    "humidity": 56.1,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:50:20.070391",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:50:20.827147",
+    "board_id": "esp2",
+    "mq2": 368,
+    "temp": 25.0,
+    "humidity": 58.8,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:50:24.761938",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 25.3,
+    "humidity": 56.0,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:50:25.078336",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:50:25.821302",
+    "board_id": "esp2",
+    "mq2": 355,
+    "temp": 25.0,
+    "humidity": 58.7,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:50:29.753409",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 25.4,
+    "humidity": 56.0,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:50:30.076834",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.8,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:50:30.814006",
+    "board_id": "esp2",
+    "mq2": 346,
+    "temp": 25.0,
+    "humidity": 58.7,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:50:34.758741",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 25.4,
+    "humidity": 55.9,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:50:35.080860",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.8,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:50:35.829453",
+    "board_id": "esp2",
+    "mq2": 339,
+    "temp": 25.0,
+    "humidity": 58.7,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:50:39.773823",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 25.4,
+    "humidity": 55.9,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:50:40.078176",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.7,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:50:40.845865",
+    "board_id": "esp2",
+    "mq2": 333,
+    "temp": 25.0,
+    "humidity": 58.7,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:50:44.772358",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.4,
+    "humidity": 55.9,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:50:45.134223",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.6,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:50:45.831855",
+    "board_id": "esp2",
+    "mq2": 327,
+    "temp": 25.0,
+    "humidity": 58.7,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:50:49.768119",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 25.4,
+    "humidity": 55.9,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:50:50.077601",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.6,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:50:52.449868",
+    "board_id": "esp2",
+    "mq2": 322,
+    "temp": 25.0,
+    "humidity": 58.7,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:50:54.753895",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 25.4,
+    "humidity": 55.9,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:50:55.074926",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:50:55.815488",
+    "board_id": "esp2",
+    "mq2": 318,
+    "temp": 25.0,
+    "humidity": 58.7,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:50:59.769147",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.3,
+    "humidity": 55.9,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:51:00.086972",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.6,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:51:00.828742",
+    "board_id": "esp2",
+    "mq2": 314,
+    "temp": 25.0,
+    "humidity": 58.7,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:51:04.769789",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.3,
+    "humidity": 55.9,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:51:05.078192",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.6,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:51:05.827669",
+    "board_id": "esp2",
+    "mq2": 309,
+    "temp": 25.0,
+    "humidity": 58.7,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:51:09.767966",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 25.3,
+    "humidity": 55.9,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:51:10.082405",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.6,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:51:10.814262",
+    "board_id": "esp2",
+    "mq2": 307,
+    "temp": 25.0,
+    "humidity": 58.7,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:51:14.771289",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.4,
+    "humidity": 55.9,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:51:15.080911",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:51:15.809134",
+    "board_id": "esp2",
+    "mq2": 302,
+    "temp": 25.0,
+    "humidity": 58.6,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:51:19.772548",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.3,
+    "humidity": 56.0,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:51:20.080593",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:51:20.822058",
+    "board_id": "esp2",
+    "mq2": 300,
+    "temp": 25.0,
+    "humidity": 58.7,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:51:24.753340",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.3,
+    "humidity": 56.0,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:51:25.080196",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.6,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:51:25.820658",
+    "board_id": "esp2",
+    "mq2": 296,
+    "temp": 25.0,
+    "humidity": 58.6,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:51:29.767401",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.3,
+    "humidity": 55.9,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:51:30.077940",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.6,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:51:30.830804",
+    "board_id": "esp2",
+    "mq2": 293,
+    "temp": 25.0,
+    "humidity": 58.6,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:51:34.772644",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.3,
+    "humidity": 55.9,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:51:35.080484",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:51:35.837253",
+    "board_id": "esp2",
+    "mq2": 291,
+    "temp": 25.0,
+    "humidity": 58.6,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:51:39.788996",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.3,
+    "humidity": 55.8,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:51:40.076879",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:51:40.813269",
+    "board_id": "esp2",
+    "mq2": 288,
+    "temp": 25.0,
+    "humidity": 58.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:51:44.760930",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.3,
+    "humidity": 55.8,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:51:45.082430",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.4,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:51:47.261889",
+    "board_id": "esp2",
+    "mq2": 284,
+    "temp": 25.0,
+    "humidity": 58.4,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:51:49.775311",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.3,
+    "humidity": 55.8,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:51:50.070757",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.4,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:51:50.817048",
+    "board_id": "esp2",
+    "mq2": 282,
+    "temp": 25.0,
+    "humidity": 58.4,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:51:54.771494",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.3,
+    "humidity": 55.8,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:51:55.101161",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.4,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:51:55.840088",
+    "board_id": "esp2",
+    "mq2": 280,
+    "temp": 25.0,
+    "humidity": 58.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:51:59.765225",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.3,
+    "humidity": 55.8,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:52:00.068754",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.4,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:52:00.824287",
+    "board_id": "esp2",
+    "mq2": 277,
+    "temp": 25.0,
+    "humidity": 58.4,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:52:04.769435",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.3,
+    "humidity": 55.9,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:52:05.079186",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.4,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:52:05.832788",
+    "board_id": "esp2",
+    "mq2": 276,
+    "temp": 25.0,
+    "humidity": 58.4,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:52:09.754677",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.3,
+    "humidity": 55.9,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:52:10.081493",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.3,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:52:10.821999",
+    "board_id": "esp2",
+    "mq2": 273,
+    "temp": 25.0,
+    "humidity": 58.4,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:52:14.774749",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.3,
+    "humidity": 55.9,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:52:15.085557",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.4,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:52:15.827205",
+    "board_id": "esp2",
+    "mq2": 272,
+    "temp": 25.0,
+    "humidity": 58.4,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:52:19.749286",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.3,
+    "humidity": 55.9,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:52:20.068451",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.3,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:52:20.821311",
+    "board_id": "esp2",
+    "mq2": 269,
+    "temp": 25.0,
+    "humidity": 58.4,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:52:24.776716",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.3,
+    "humidity": 55.8,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:52:25.084523",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.3,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:52:25.821052",
+    "board_id": "esp2",
+    "mq2": 267,
+    "temp": 25.0,
+    "humidity": 58.5,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:52:29.764473",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.2,
+    "humidity": 55.9,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:52:30.092766",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.4,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:52:30.838412",
+    "board_id": "esp2",
+    "mq2": 266,
+    "temp": 25.0,
+    "humidity": 58.5,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:52:34.763881",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.2,
+    "humidity": 56.0,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:52:35.080206",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:52:35.823837",
+    "board_id": "esp2",
+    "mq2": 265,
+    "temp": 25.0,
+    "humidity": 58.5,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:52:39.761134",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.2,
+    "humidity": 56.1,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:52:40.083193",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:52:40.833537",
+    "board_id": "esp2",
+    "mq2": 264,
+    "temp": 25.0,
+    "humidity": 58.6,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:52:44.773396",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.2,
+    "humidity": 56.2,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:52:45.078835",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:52:45.835691",
+    "board_id": "esp2",
+    "mq2": 261,
+    "temp": 25.0,
+    "humidity": 58.7,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:52:49.772947",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.2,
+    "humidity": 56.3,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:52:50.080560",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:52:50.838194",
+    "board_id": "esp2",
+    "mq2": 260,
+    "temp": 25.0,
+    "humidity": 58.9,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:52:54.784514",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.2,
+    "humidity": 56.4,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:52:55.129406",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.6,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:52:55.824563",
+    "board_id": "esp2",
+    "mq2": 257,
+    "temp": 25.0,
+    "humidity": 58.8,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:52:59.770714",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.2,
+    "humidity": 56.4,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:53:00.091160",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.6,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:53:00.821426",
+    "board_id": "esp2",
+    "mq2": 256,
+    "temp": 24.9,
+    "humidity": 58.9,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:53:04.761452",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.2,
+    "humidity": 56.4,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:53:05.083649",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.6,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:53:05.821050",
+    "board_id": "esp2",
+    "mq2": 255,
+    "temp": 25.0,
+    "humidity": 58.9,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:53:09.755027",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.2,
+    "humidity": 56.4,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:53:10.087854",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.7,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:53:10.818523",
+    "board_id": "esp2",
+    "mq2": 254,
+    "temp": 25.0,
+    "humidity": 58.9,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:53:15.079246",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.7,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:53:15.842953",
+    "board_id": "esp2",
+    "mq2": 253,
+    "temp": 25.0,
+    "humidity": 58.9,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:53:20.073112",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.7,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:53:20.811536",
+    "board_id": "esp2",
+    "mq2": 250,
+    "temp": 25.0,
+    "humidity": 58.8,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:53:25.082183",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.7,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:53:25.803991",
+    "board_id": "esp2",
+    "mq2": 248,
+    "temp": 25.0,
+    "humidity": 58.8,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:53:30.077751",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.6,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:53:30.800679",
+    "board_id": "esp2",
+    "mq2": 246,
+    "temp": 24.9,
+    "humidity": 58.7,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:53:35.086429",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.6,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:53:35.800085",
+    "board_id": "esp2",
+    "mq2": 244,
+    "temp": 24.9,
+    "humidity": 58.7,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:53:40.116452",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:53:40.817377",
+    "board_id": "esp2",
+    "mq2": 244,
+    "temp": 24.9,
+    "humidity": 58.7,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:53:44.460213",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.2,
+    "humidity": 56.3,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:53:45.101290",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:53:45.825760",
+    "board_id": "esp2",
+    "mq2": 242,
+    "temp": 24.9,
+    "humidity": 58.7,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:53:49.372829",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.2,
+    "humidity": 56.2,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:53:50.104147",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.6,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:53:50.864806",
+    "board_id": "esp2",
+    "mq2": 240,
+    "temp": 24.9,
+    "humidity": 58.7,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:53:54.366609",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.2,
+    "humidity": 56.2,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:53:55.092320",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:53:55.828829",
+    "board_id": "esp2",
+    "mq2": 240,
+    "temp": 24.9,
+    "humidity": 58.7,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:53:59.376495",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.2,
+    "humidity": 56.2,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:54:03.711470",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:54:03.828047",
+    "board_id": "esp2",
+    "mq2": 238,
+    "temp": 24.9,
+    "humidity": 58.7,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:54:04.374337",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.2,
+    "humidity": 56.1,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:54:05.128740",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:54:05.841088",
+    "board_id": "esp2",
+    "mq2": 237,
+    "temp": 25.0,
+    "humidity": 58.6,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:54:09.394152",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.2,
+    "humidity": 56.1,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:54:10.140295",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:54:10.851746",
+    "board_id": "esp2",
+    "mq2": 236,
+    "temp": 24.9,
+    "humidity": 58.6,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:54:14.360243",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.2,
+    "humidity": 56.1,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:54:15.107885",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:54:15.840664",
+    "board_id": "esp2",
+    "mq2": 235,
+    "temp": 24.9,
+    "humidity": 58.6,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:54:19.354509",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.2,
+    "humidity": 56.1,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:54:20.095905",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:54:20.829104",
+    "board_id": "esp2",
+    "mq2": 234,
+    "temp": 25.0,
+    "humidity": 58.6,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:54:24.366825",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.2,
+    "humidity": 56.0,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:54:25.097177",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:54:25.833297",
+    "board_id": "esp2",
+    "mq2": 233,
+    "temp": 24.9,
+    "humidity": 58.6,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:54:29.351473",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.2,
+    "humidity": 56.0,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:54:30.097363",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.4,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:54:30.813918",
+    "board_id": "esp2",
+    "mq2": 233,
+    "temp": 24.9,
+    "humidity": 58.5,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:54:34.354620",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.2,
+    "humidity": 56.0,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:54:35.083855",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.4,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:54:35.809716",
+    "board_id": "esp2",
+    "mq2": 230,
+    "temp": 24.9,
+    "humidity": 58.5,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:54:39.359649",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.2,
+    "humidity": 56.0,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:54:40.086044",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.4,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:54:40.845912",
+    "board_id": "esp2",
+    "mq2": 229,
+    "temp": 24.9,
+    "humidity": 58.6,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:54:44.354306",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.2,
+    "humidity": 56.0,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:54:45.087444",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:54:45.796179",
+    "board_id": "esp2",
+    "mq2": 229,
+    "temp": 24.9,
+    "humidity": 58.5,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:54:49.343668",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.2,
+    "humidity": 56.1,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:54:50.087237",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.4,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:54:50.828807",
+    "board_id": "esp2",
+    "mq2": 228,
+    "temp": 24.9,
+    "humidity": 58.5,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:54:54.739211",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.2,
+    "humidity": 56.0,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:54:55.158912",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:54:55.890858",
+    "board_id": "esp2",
+    "mq2": 226,
+    "temp": 24.9,
+    "humidity": 58.6,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:54:59.418282",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.2,
+    "humidity": 56.0,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:55:00.123300",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.4,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:55:00.846454",
+    "board_id": "esp2",
+    "mq2": 226,
+    "temp": 24.9,
+    "humidity": 58.5,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:55:04.414706",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.2,
+    "humidity": 56.0,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:55:05.164092",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:55:05.871902",
+    "board_id": "esp2",
+    "mq2": 225,
+    "temp": 24.9,
+    "humidity": 58.5,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:55:09.378961",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.2,
+    "humidity": 56.0,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:55:10.099480",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.6,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:55:10.856348",
+    "board_id": "esp2",
+    "mq2": 224,
+    "temp": 24.9,
+    "humidity": 58.5,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:55:14.399329",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.2,
+    "humidity": 56.1,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:55:15.134011",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:55:15.874733",
+    "board_id": "esp2",
+    "mq2": 224,
+    "temp": 24.9,
+    "humidity": 58.5,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:55:19.362398",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.2,
+    "humidity": 56.0,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:55:20.073639",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:55:20.801422",
+    "board_id": "esp2",
+    "mq2": 223,
+    "temp": 24.9,
+    "humidity": 58.5,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:55:24.358616",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.2,
+    "humidity": 56.0,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:55:25.109202",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.4,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:55:25.811053",
+    "board_id": "esp2",
+    "mq2": 223,
+    "temp": 24.9,
+    "humidity": 58.5,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:55:29.368911",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.2,
+    "humidity": 56.0,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:55:30.091650",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.3,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:55:30.827479",
+    "board_id": "esp2",
+    "mq2": 221,
+    "temp": 24.9,
+    "humidity": 58.5,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:55:34.355422",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.2,
+    "humidity": 56.1,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:55:35.100226",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.3,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:55:35.816678",
+    "board_id": "esp2",
+    "mq2": 220,
+    "temp": 24.9,
+    "humidity": 58.5,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:55:40.111615",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.3,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:55:40.818305",
+    "board_id": "esp2",
+    "mq2": 220,
+    "temp": 24.9,
+    "humidity": 58.5,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:55:45.116424",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.3,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:55:50.140240",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.3,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:55:55.110989",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.3,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:56:00.103138",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.3,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:56:05.110400",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.3,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:56:10.078147",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.3,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:56:10.241093",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.2,
+    "humidity": 56.1,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:56:14.557823",
+    "board_id": "esp2",
+    "mq2": 216,
+    "temp": 24.9,
+    "humidity": 58.5,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:56:15.114397",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.3,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:56:15.227027",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.1,
+    "humidity": 56.1,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:56:19.517674",
+    "board_id": "esp2",
+    "mq2": 216,
+    "temp": 24.8,
+    "humidity": 58.6,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:56:20.109294",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.4,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:56:20.204139",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.1,
+    "humidity": 56.2,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:56:24.528508",
+    "board_id": "esp2",
+    "mq2": 216,
+    "temp": 24.8,
+    "humidity": 58.6,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:56:25.121630",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.4,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:56:25.244995",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.1,
+    "humidity": 56.2,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:56:29.524702",
+    "board_id": "esp2",
+    "mq2": 216,
+    "temp": 24.8,
+    "humidity": 58.6,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:56:30.123630",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.4,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:56:30.206533",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.1,
+    "humidity": 56.2,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:56:34.510030",
+    "board_id": "esp2",
+    "mq2": 216,
+    "temp": 24.8,
+    "humidity": 58.6,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:56:35.110324",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.4,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:56:35.199359",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.1,
+    "humidity": 56.2,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:56:39.537533",
+    "board_id": "esp2",
+    "mq2": 214,
+    "temp": 24.8,
+    "humidity": 58.7,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:56:40.128710",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.3,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:56:40.233852",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.1,
+    "humidity": 56.2,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:56:44.517935",
+    "board_id": "esp2",
+    "mq2": 214,
+    "temp": 24.8,
+    "humidity": 58.6,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:56:45.108156",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.3,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:56:45.213088",
+    "board_id": "esp1",
+    "mq2": 19,
+    "temp": 25.1,
+    "humidity": 56.2,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:56:49.578779",
+    "board_id": "esp2",
+    "mq2": 213,
+    "temp": 24.8,
+    "humidity": 58.7,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:56:50.156887",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.4,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:56:50.293835",
+    "board_id": "esp1",
+    "mq2": 19,
+    "temp": 25.1,
+    "humidity": 56.3,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:56:56.328964",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.1,
+    "humidity": 56.2,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:56:56.428883",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.4,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:56:56.526617",
+    "board_id": "esp2",
+    "mq2": 213,
+    "temp": 24.8,
+    "humidity": 58.7,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:56:59.538451",
+    "board_id": "esp2",
+    "mq2": 211,
+    "temp": 24.8,
+    "humidity": 58.7,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:57:00.163361",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.4,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:57:00.276024",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.1,
+    "humidity": 56.3,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:57:04.566679",
+    "board_id": "esp2",
+    "mq2": 210,
+    "temp": 24.8,
+    "humidity": 58.7,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:57:05.131140",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.4,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:57:05.281780",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.1,
+    "humidity": 56.3,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:57:09.538136",
+    "board_id": "esp2",
+    "mq2": 209,
+    "temp": 24.8,
+    "humidity": 58.7,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:57:10.139352",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.4,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:57:10.250645",
+    "board_id": "esp1",
+    "mq2": 19,
+    "temp": 25.1,
+    "humidity": 56.2,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:57:14.558046",
+    "board_id": "esp2",
+    "mq2": 208,
+    "temp": 24.8,
+    "humidity": 58.7,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:57:15.126561",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.4,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:57:15.279213",
+    "board_id": "esp1",
+    "mq2": 19,
+    "temp": 25.1,
+    "humidity": 56.3,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:57:19.542171",
+    "board_id": "esp2",
+    "mq2": 208,
+    "temp": 24.8,
+    "humidity": 58.7,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:57:20.143119",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.3,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:57:20.258079",
+    "board_id": "esp1",
+    "mq2": 19,
+    "temp": 25.1,
+    "humidity": 56.3,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:57:24.506106",
+    "board_id": "esp2",
+    "mq2": 208,
+    "temp": 24.8,
+    "humidity": 58.7,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:57:25.125564",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.4,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:57:25.251034",
+    "board_id": "esp1",
+    "mq2": 19,
+    "temp": 25.1,
+    "humidity": 56.2,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:57:29.523230",
+    "board_id": "esp2",
+    "mq2": 207,
+    "temp": 24.8,
+    "humidity": 58.7,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:57:30.111825",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:57:30.198316",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.1,
+    "humidity": 56.2,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:57:34.527373",
+    "board_id": "esp2",
+    "mq2": 207,
+    "temp": 24.8,
+    "humidity": 58.7,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:57:35.104657",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.4,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:57:35.217778",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.1,
+    "humidity": 56.3,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:57:39.518499",
+    "board_id": "esp2",
+    "mq2": 205,
+    "temp": 24.8,
+    "humidity": 58.7,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:57:40.139404",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.4,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:57:40.248346",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.1,
+    "humidity": 56.4,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:57:44.523176",
+    "board_id": "esp2",
+    "mq2": 205,
+    "temp": 24.8,
+    "humidity": 58.8,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:57:45.114663",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.4,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:57:45.195784",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.1,
+    "humidity": 56.5,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:57:49.900291",
+    "board_id": "esp2",
+    "mq2": 204,
+    "temp": 24.8,
+    "humidity": 58.8,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:57:50.110642",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:57:50.191729",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.1,
+    "humidity": 56.5,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:57:55.115845",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:58:00.115441",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:58:05.091538",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.6,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:58:10.087647",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:58:15.107308",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:58:20.082284",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:58:24.380296",
+    "board_id": "esp2",
+    "mq2": 196,
+    "temp": 24.8,
+    "humidity": 58.9,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:58:25.129050",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:58:26.646333",
+    "board_id": "esp1",
+    "mq2": 19,
+    "temp": 25.0,
+    "humidity": 56.6,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:58:29.350226",
+    "board_id": "esp2",
+    "mq2": 192,
+    "temp": 24.8,
+    "humidity": 58.8,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:58:30.098314",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:58:31.571171",
+    "board_id": "esp1",
+    "mq2": 19,
+    "temp": 25.1,
+    "humidity": 56.5,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:58:34.340796",
+    "board_id": "esp2",
+    "mq2": 196,
+    "temp": 24.8,
+    "humidity": 58.8,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:58:35.088647",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.4,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:58:36.575317",
+    "board_id": "esp1",
+    "mq2": 19,
+    "temp": 25.1,
+    "humidity": 56.5,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:58:39.330210",
+    "board_id": "esp2",
+    "mq2": 190,
+    "temp": 24.8,
+    "humidity": 58.8,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:58:40.084080",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.4,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:58:41.560236",
+    "board_id": "esp1",
+    "mq2": 19,
+    "temp": 25.1,
+    "humidity": 56.5,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:58:44.344850",
+    "board_id": "esp2",
+    "mq2": 177,
+    "temp": 24.8,
+    "humidity": 58.8,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:58:45.090890",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.4,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:58:46.579831",
+    "board_id": "esp1",
+    "mq2": 19,
+    "temp": 25.1,
+    "humidity": 56.4,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:58:49.338000",
+    "board_id": "esp2",
+    "mq2": 188,
+    "temp": 24.8,
+    "humidity": 58.7,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:58:50.075661",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.4,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:58:51.582549",
+    "board_id": "esp1",
+    "mq2": 19,
+    "temp": 25.1,
+    "humidity": 56.4,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:58:54.326648",
+    "board_id": "esp2",
+    "mq2": 185,
+    "temp": 24.8,
+    "humidity": 58.8,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:58:56.857872",
+    "board_id": "esp1",
+    "mq2": 19,
+    "temp": 25.1,
+    "humidity": 56.4,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:58:56.945016",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.4,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:58:59.331892",
+    "board_id": "esp2",
+    "mq2": 176,
+    "temp": 24.8,
+    "humidity": 58.7,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:59:00.113420",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.4,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:59:01.596042",
+    "board_id": "esp1",
+    "mq2": 19,
+    "temp": 25.1,
+    "humidity": 56.4,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:59:04.330693",
+    "board_id": "esp2",
+    "mq2": 173,
+    "temp": 24.8,
+    "humidity": 58.7,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:59:05.098820",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.3,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:59:06.573801",
+    "board_id": "esp1",
+    "mq2": 19,
+    "temp": 25.1,
+    "humidity": 56.4,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:59:10.098448",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.3,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:59:10.452992",
+    "board_id": "esp2",
+    "mq2": 183,
+    "temp": 24.8,
+    "humidity": 58.7,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:59:11.576968",
+    "board_id": "esp1",
+    "mq2": 19,
+    "temp": 25.1,
+    "humidity": 56.4,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:59:15.080665",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.3,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:59:15.357633",
+    "board_id": "esp2",
+    "mq2": 181,
+    "temp": 24.8,
+    "humidity": 58.7,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:59:16.566247",
+    "board_id": "esp1",
+    "mq2": 19,
+    "temp": 25.1,
+    "humidity": 56.4,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:59:19.342782",
+    "board_id": "esp2",
+    "mq2": 177,
+    "temp": 24.8,
+    "humidity": 58.7,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:59:20.089093",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.3,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:59:21.581099",
+    "board_id": "esp1",
+    "mq2": 19,
+    "temp": 25.0,
+    "humidity": 56.4,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:59:24.336867",
+    "board_id": "esp2",
+    "mq2": 187,
+    "temp": 24.8,
+    "humidity": 58.7,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:59:25.084382",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.3,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:59:26.592971",
+    "board_id": "esp1",
+    "mq2": 19,
+    "temp": 25.0,
+    "humidity": 56.4,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:59:29.327704",
+    "board_id": "esp2",
+    "mq2": 177,
+    "temp": 24.8,
+    "humidity": 58.7,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:59:30.114293",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.3,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:59:31.574375",
+    "board_id": "esp1",
+    "mq2": 19,
+    "temp": 25.0,
+    "humidity": 56.4,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:59:34.344472",
+    "board_id": "esp2",
+    "mq2": 173,
+    "temp": 24.7,
+    "humidity": 58.7,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:59:35.102192",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.3,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:59:36.587339",
+    "board_id": "esp1",
+    "mq2": 19,
+    "temp": 25.0,
+    "humidity": 56.5,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:59:39.331148",
+    "board_id": "esp2",
+    "mq2": 172,
+    "temp": 24.8,
+    "humidity": 58.7,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:59:40.077937",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.3,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:59:41.581888",
+    "board_id": "esp1",
+    "mq2": 19,
+    "temp": 25.0,
+    "humidity": 56.4,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:59:44.336895",
+    "board_id": "esp2",
+    "mq2": 175,
+    "temp": 24.7,
+    "humidity": 58.7,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:59:45.092130",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.4,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:59:46.600376",
+    "board_id": "esp1",
+    "mq2": 19,
+    "temp": 25.0,
+    "humidity": 56.5,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:59:50.983604",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.4,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:59:51.086329",
+    "board_id": "esp2",
+    "mq2": 182,
+    "temp": 24.8,
+    "humidity": 58.7,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:59:51.604380",
+    "board_id": "esp1",
+    "mq2": 19,
+    "temp": 25.0,
+    "humidity": 56.5,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:59:54.365950",
+    "board_id": "esp2",
+    "mq2": 181,
+    "temp": 24.8,
+    "humidity": 58.7,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:59:55.149347",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.4,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T22:59:56.601261",
+    "board_id": "esp1",
+    "mq2": 19,
+    "temp": 25.0,
+    "humidity": 56.5,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T22:59:59.339613",
+    "board_id": "esp2",
+    "mq2": 178,
+    "temp": 24.8,
+    "humidity": 58.7,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:00:00.118978",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.4,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:00:01.574377",
+    "board_id": "esp1",
+    "mq2": 19,
+    "temp": 25.0,
+    "humidity": 56.5,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:00:04.354521",
+    "board_id": "esp2",
+    "mq2": 171,
+    "temp": 24.7,
+    "humidity": 58.8,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:00:05.084535",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.3,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:00:06.588922",
+    "board_id": "esp1",
+    "mq2": 19,
+    "temp": 25.0,
+    "humidity": 56.4,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:00:09.341027",
+    "board_id": "esp2",
+    "mq2": 162,
+    "temp": 24.7,
+    "humidity": 58.8,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:00:10.095662",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.4,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:00:11.586702",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.0,
+    "humidity": 56.5,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:00:14.355596",
+    "board_id": "esp2",
+    "mq2": 171,
+    "temp": 24.7,
+    "humidity": 58.8,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:00:15.103737",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.4,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:00:16.568550",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.0,
+    "humidity": 56.5,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:00:19.350954",
+    "board_id": "esp2",
+    "mq2": 173,
+    "temp": 24.7,
+    "humidity": 58.8,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:00:20.087616",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.3,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:00:21.567970",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.0,
+    "humidity": 56.5,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:00:24.331095",
+    "board_id": "esp2",
+    "mq2": 183,
+    "temp": 24.7,
+    "humidity": 58.8,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:00:25.100691",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.4,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:00:26.580616",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.0,
+    "humidity": 56.5,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:00:29.336963",
+    "board_id": "esp2",
+    "mq2": 183,
+    "temp": 24.8,
+    "humidity": 58.9,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:00:30.082264",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.4,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:00:31.582147",
+    "board_id": "esp1",
+    "mq2": 19,
+    "temp": 25.0,
+    "humidity": 56.5,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:00:34.370025",
+    "board_id": "esp2",
+    "mq2": 180,
+    "temp": 24.8,
+    "humidity": 58.8,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:00:35.123622",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.3,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:00:36.607871",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.0,
+    "humidity": 56.5,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:00:39.350873",
+    "board_id": "esp2",
+    "mq2": 175,
+    "temp": 24.8,
+    "humidity": 58.8,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:00:40.109219",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.4,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:00:41.605962",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.0,
+    "humidity": 56.5,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:00:44.379144",
+    "board_id": "esp2",
+    "mq2": 175,
+    "temp": 24.7,
+    "humidity": 58.9,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:00:45.104092",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.4,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:00:46.589783",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.0,
+    "humidity": 56.5,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:00:49.347535",
+    "board_id": "esp2",
+    "mq2": 173,
+    "temp": 24.7,
+    "humidity": 58.9,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:00:50.098471",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.4,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:00:51.573249",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.0,
+    "humidity": 56.6,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:00:54.363992",
+    "board_id": "esp2",
+    "mq2": 170,
+    "temp": 24.7,
+    "humidity": 58.8,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:00:55.141849",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:00:57.871531",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.0,
+    "humidity": 56.6,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:00:59.394094",
+    "board_id": "esp2",
+    "mq2": 175,
+    "temp": 24.7,
+    "humidity": 58.9,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:01:00.123762",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:01:01.611463",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.0,
+    "humidity": 56.6,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:01:04.353802",
+    "board_id": "esp2",
+    "mq2": 169,
+    "temp": 24.7,
+    "humidity": 58.9,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:01:05.120256",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:01:06.633750",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.0,
+    "humidity": 56.5,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:01:09.384701",
+    "board_id": "esp2",
+    "mq2": 173,
+    "temp": 24.7,
+    "humidity": 58.9,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:01:10.176181",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.6,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:01:11.606799",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.0,
+    "humidity": 56.6,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:01:14.353996",
+    "board_id": "esp2",
+    "mq2": 180,
+    "temp": 24.7,
+    "humidity": 58.9,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:01:15.132843",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.6,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:01:16.640713",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.0,
+    "humidity": 56.6,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:01:19.344526",
+    "board_id": "esp2",
+    "mq2": 185,
+    "temp": 24.7,
+    "humidity": 59.0,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:01:20.076379",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.6,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:01:21.576462",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.0,
+    "humidity": 56.6,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:01:24.321497",
+    "board_id": "esp2",
+    "mq2": 183,
+    "temp": 24.7,
+    "humidity": 59.0,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:01:25.120798",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.6,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:01:26.581839",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.0,
+    "humidity": 56.6,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:01:29.356176",
+    "board_id": "esp2",
+    "mq2": 173,
+    "temp": 24.7,
+    "humidity": 59.0,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:01:30.082178",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.6,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:01:31.589924",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.0,
+    "humidity": 56.7,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:01:34.311825",
+    "board_id": "esp2",
+    "mq2": 169,
+    "temp": 24.7,
+    "humidity": 59.0,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:01:35.073533",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.6,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:01:36.552637",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.0,
+    "humidity": 56.6,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:01:39.328446",
+    "board_id": "esp2",
+    "mq2": 186,
+    "temp": 24.7,
+    "humidity": 58.9,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:01:40.079895",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.6,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:01:41.582003",
+    "board_id": "esp1",
+    "mq2": 19,
+    "temp": 25.0,
+    "humidity": 56.6,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:01:44.332371",
+    "board_id": "esp2",
+    "mq2": 169,
+    "temp": 24.7,
+    "humidity": 59.0,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:01:45.090290",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.6,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:01:46.578372",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 25.0,
+    "humidity": 56.7,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:01:49.321859",
+    "board_id": "esp2",
+    "mq2": 173,
+    "temp": 24.7,
+    "humidity": 58.9,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:01:51.759030",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.0,
+    "humidity": 56.7,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:01:51.837402",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:01:54.321053",
+    "board_id": "esp2",
+    "mq2": 171,
+    "temp": 24.7,
+    "humidity": 59.0,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:01:55.100550",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:01:56.582423",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.0,
+    "humidity": 56.7,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:01:59.327859",
+    "board_id": "esp2",
+    "mq2": 180,
+    "temp": 24.7,
+    "humidity": 59.0,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:02:00.092639",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:02:01.569168",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.0,
+    "humidity": 56.6,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:02:04.333159",
+    "board_id": "esp2",
+    "mq2": 183,
+    "temp": 24.7,
+    "humidity": 59.0,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:02:05.083534",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:02:06.576793",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 25.0,
+    "humidity": 56.6,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:02:09.339562",
+    "board_id": "esp2",
+    "mq2": 178,
+    "temp": 24.7,
+    "humidity": 59.0,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:02:10.094037",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.6,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:02:11.612674",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 25.0,
+    "humidity": 56.6,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:02:14.320306",
+    "board_id": "esp2",
+    "mq2": 181,
+    "temp": 24.7,
+    "humidity": 59.0,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:02:15.076930",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.6,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:02:16.578879",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 25.0,
+    "humidity": 56.6,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:02:19.376575",
+    "board_id": "esp2",
+    "mq2": 181,
+    "temp": 24.7,
+    "humidity": 59.0,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:02:20.104619",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.6,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:02:21.602113",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.0,
+    "humidity": 56.7,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:02:24.353480",
+    "board_id": "esp2",
+    "mq2": 170,
+    "temp": 24.7,
+    "humidity": 59.0,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:02:25.136305",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:02:26.597946",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.0,
+    "humidity": 56.6,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:02:29.360752",
+    "board_id": "esp2",
+    "mq2": 176,
+    "temp": 24.7,
+    "humidity": 59.0,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:02:30.114391",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:02:31.604830",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.0,
+    "humidity": 56.7,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:02:34.349115",
+    "board_id": "esp2",
+    "mq2": 166,
+    "temp": 24.7,
+    "humidity": 59.0,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:02:35.100229",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:02:36.594865",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.0,
+    "humidity": 56.6,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:02:39.360867",
+    "board_id": "esp2",
+    "mq2": 168,
+    "temp": 24.7,
+    "humidity": 59.0,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:02:40.106820",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.6,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:02:41.611418",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.0,
+    "humidity": 56.7,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:02:44.333050",
+    "board_id": "esp2",
+    "mq2": 177,
+    "temp": 24.7,
+    "humidity": 59.0,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:02:45.093000",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:02:46.573177",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.0,
+    "humidity": 56.6,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:02:49.320333",
+    "board_id": "esp2",
+    "mq2": 176,
+    "temp": 24.7,
+    "humidity": 58.9,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:02:50.084051",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.4,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:02:51.565090",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.0,
+    "humidity": 56.6,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:02:54.316368",
+    "board_id": "esp2",
+    "mq2": 180,
+    "temp": 24.7,
+    "humidity": 59.0,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:02:55.085483",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.4,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:02:56.560842",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.0,
+    "humidity": 56.6,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:03:00.089750",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.4,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:03:01.041382",
+    "board_id": "esp2",
+    "mq2": 182,
+    "temp": 24.7,
+    "humidity": 59.0,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:03:01.556725",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.0,
+    "humidity": 56.7,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:03:04.326911",
+    "board_id": "esp2",
+    "mq2": 172,
+    "temp": 24.7,
+    "humidity": 59.0,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:03:05.109573",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.4,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:03:06.574982",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.0,
+    "humidity": 56.6,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:03:09.324833",
+    "board_id": "esp2",
+    "mq2": 172,
+    "temp": 24.7,
+    "humidity": 58.9,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:03:10.075296",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:03:11.573884",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.0,
+    "humidity": 56.6,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:03:14.315088",
+    "board_id": "esp2",
+    "mq2": 175,
+    "temp": 24.7,
+    "humidity": 59.0,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:03:15.077360",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:03:16.565308",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.0,
+    "humidity": 56.6,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:03:34.401033",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.0,
+    "humidity": 56.6,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:03:34.493685",
+    "board_id": "esp2",
+    "mq2": 169,
+    "temp": 24.7,
+    "humidity": 58.9,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:03:34.574061",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.4,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:03:35.112773",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:03:35.365751",
+    "board_id": "esp2",
+    "mq2": 180,
+    "temp": 24.7,
+    "humidity": 58.9,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:03:36.597698",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.0,
+    "humidity": 56.6,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:03:40.120021",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.4,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:03:40.294515",
+    "board_id": "esp2",
+    "mq2": 183,
+    "temp": 24.7,
+    "humidity": 58.9,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:03:41.593471",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.0,
+    "humidity": 56.7,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:03:46.031882",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.4,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:03:46.105424",
+    "board_id": "esp2",
+    "mq2": 175,
+    "temp": 24.7,
+    "humidity": 58.8,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:03:46.595563",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 24.9,
+    "humidity": 56.6,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:03:50.102399",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:03:50.300467",
+    "board_id": "esp2",
+    "mq2": 177,
+    "temp": 24.7,
+    "humidity": 59.0,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:03:55.121782",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:04:00.104051",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:04:05.115669",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:04:10.105518",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:04:15.119000",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:04:20.106495",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:04:21.751268",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 24.9,
+    "humidity": 56.7,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:04:22.053903",
+    "board_id": "esp2",
+    "mq2": 186,
+    "temp": 24.7,
+    "humidity": 59.0,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:04:25.125754",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:04:26.436384",
+    "board_id": "esp2",
+    "mq2": 188,
+    "temp": 24.7,
+    "humidity": 58.9,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:04:26.716117",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.0,
+    "humidity": 56.7,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:04:30.125236",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:04:31.439326",
+    "board_id": "esp2",
+    "mq2": 188,
+    "temp": 24.7,
+    "humidity": 58.9,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:04:31.706090",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 24.9,
+    "humidity": 56.7,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:04:35.114954",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:04:36.432898",
+    "board_id": "esp2",
+    "mq2": 189,
+    "temp": 24.7,
+    "humidity": 59.0,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:04:36.716193",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.0,
+    "humidity": 56.7,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:04:40.121674",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:04:41.432283",
+    "board_id": "esp2",
+    "mq2": 189,
+    "temp": 24.7,
+    "humidity": 58.9,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:04:41.707417",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.0,
+    "humidity": 56.7,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:04:45.107694",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.4,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:04:46.427559",
+    "board_id": "esp2",
+    "mq2": 189,
+    "temp": 24.7,
+    "humidity": 58.9,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:04:46.723219",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 24.9,
+    "humidity": 56.7,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:04:50.111136",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:04:51.430597",
+    "board_id": "esp2",
+    "mq2": 189,
+    "temp": 24.7,
+    "humidity": 59.0,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:04:51.709405",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 24.9,
+    "humidity": 56.7,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:04:55.128735",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:04:56.443251",
+    "board_id": "esp2",
+    "mq2": 190,
+    "temp": 24.7,
+    "humidity": 59.0,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:04:56.713104",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 24.9,
+    "humidity": 56.6,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:05:01.418576",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.4,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:05:01.504210",
+    "board_id": "esp2",
+    "mq2": 192,
+    "temp": 24.7,
+    "humidity": 59.0,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:05:01.727892",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 24.9,
+    "humidity": 56.7,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:05:05.114274",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.3,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:05:06.433720",
+    "board_id": "esp2",
+    "mq2": 195,
+    "temp": 24.7,
+    "humidity": 59.1,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:05:06.719259",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.0,
+    "humidity": 56.8,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:05:10.106716",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.3,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:05:11.417413",
+    "board_id": "esp2",
+    "mq2": 190,
+    "temp": 24.7,
+    "humidity": 59.1,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:05:11.705873",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.0,
+    "humidity": 56.8,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:05:15.119616",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.4,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:05:16.436958",
+    "board_id": "esp2",
+    "mq2": 192,
+    "temp": 24.7,
+    "humidity": 59.2,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:05:16.751051",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 24.9,
+    "humidity": 56.8,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:05:20.116282",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.4,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:05:21.457055",
+    "board_id": "esp2",
+    "mq2": 190,
+    "temp": 24.7,
+    "humidity": 59.1,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:05:21.711057",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.0,
+    "humidity": 56.8,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:05:25.138934",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:05:26.427205",
+    "board_id": "esp2",
+    "mq2": 190,
+    "temp": 24.7,
+    "humidity": 59.1,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:05:26.754928",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.0,
+    "humidity": 56.8,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:05:30.121735",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:05:31.457602",
+    "board_id": "esp2",
+    "mq2": 190,
+    "temp": 24.7,
+    "humidity": 59.1,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:05:31.721096",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.0,
+    "humidity": 56.8,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:05:35.118005",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:05:36.449939",
+    "board_id": "esp2",
+    "mq2": 189,
+    "temp": 24.7,
+    "humidity": 59.1,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:05:36.703054",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.0,
+    "humidity": 56.7,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:05:40.115246",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:05:41.464144",
+    "board_id": "esp2",
+    "mq2": 189,
+    "temp": 24.7,
+    "humidity": 59.1,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:05:41.729963",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.0,
+    "humidity": 56.8,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:05:45.126286",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:05:46.459488",
+    "board_id": "esp2",
+    "mq2": 190,
+    "temp": 24.7,
+    "humidity": 59.1,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:05:46.762738",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.0,
+    "humidity": 56.7,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:05:50.133333",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:05:51.453241",
+    "board_id": "esp2",
+    "mq2": 190,
+    "temp": 24.7,
+    "humidity": 59.2,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:05:53.518700",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.0,
+    "humidity": 56.7,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:05:55.124584",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:05:56.440627",
+    "board_id": "esp2",
+    "mq2": 190,
+    "temp": 24.8,
+    "humidity": 59.1,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:05:56.737153",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.0,
+    "humidity": 56.7,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:06:00.136042",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.6,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:06:01.443890",
+    "board_id": "esp2",
+    "mq2": 188,
+    "temp": 24.8,
+    "humidity": 59.1,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:06:01.728226",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.0,
+    "humidity": 56.7,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:06:05.128541",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.6,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:06:06.455613",
+    "board_id": "esp2",
+    "mq2": 192,
+    "temp": 24.8,
+    "humidity": 59.1,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:06:10.284225",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.7,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:06:11.451029",
+    "board_id": "esp2",
+    "mq2": 196,
+    "temp": 24.8,
+    "humidity": 59.1,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:06:15.121469",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:06:16.443171",
+    "board_id": "esp2",
+    "mq2": 197,
+    "temp": 24.8,
+    "humidity": 59.0,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:06:20.134695",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:06:21.457263",
+    "board_id": "esp2",
+    "mq2": 196,
+    "temp": 24.8,
+    "humidity": 59.0,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:06:25.136477",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:06:26.439966",
+    "board_id": "esp2",
+    "mq2": 196,
+    "temp": 24.8,
+    "humidity": 59.0,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:06:30.130418",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:06:31.456103",
+    "board_id": "esp2",
+    "mq2": 197,
+    "temp": 24.8,
+    "humidity": 58.9,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:06:35.132276",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.4,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:06:36.472737",
+    "board_id": "esp2",
+    "mq2": 197,
+    "temp": 24.8,
+    "humidity": 59.0,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:06:38.865239",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.0,
+    "humidity": 56.7,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:06:40.124889",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.4,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:06:41.438295",
+    "board_id": "esp2",
+    "mq2": 197,
+    "temp": 24.8,
+    "humidity": 59.0,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:06:43.834685",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.0,
+    "humidity": 56.6,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:06:45.118655",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.3,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:06:46.460216",
+    "board_id": "esp2",
+    "mq2": 197,
+    "temp": 24.8,
+    "humidity": 59.0,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:06:48.827649",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.0,
+    "humidity": 56.7,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:06:50.142807",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.3,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:06:51.437260",
+    "board_id": "esp2",
+    "mq2": 197,
+    "temp": 24.8,
+    "humidity": 59.0,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:06:53.848558",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.0,
+    "humidity": 56.7,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:06:55.124117",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.3,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:06:56.462598",
+    "board_id": "esp2",
+    "mq2": 197,
+    "temp": 24.8,
+    "humidity": 58.9,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:06:58.852644",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.0,
+    "humidity": 56.6,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:07:02.939315",
+    "board_id": "esp2",
+    "mq2": 188,
+    "temp": 24.8,
+    "humidity": 58.9,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:07:03.834737",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.0,
+    "humidity": 56.7,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:07:05.979371",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.2,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:07:06.451301",
+    "board_id": "esp2",
+    "mq2": 177,
+    "temp": 24.8,
+    "humidity": 58.9,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:07:07.616122",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.3,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:07:08.837780",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.0,
+    "humidity": 56.6,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:07:10.914860",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.3,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:07:11.427743",
+    "board_id": "esp2",
+    "mq2": 177,
+    "temp": 24.8,
+    "humidity": 59.1,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:07:13.839430",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.1,
+    "humidity": 56.6,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:07:15.893969",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.3,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:07:16.434362",
+    "board_id": "esp2",
+    "mq2": 181,
+    "temp": 24.8,
+    "humidity": 59.0,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:07:18.836321",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.1,
+    "humidity": 56.5,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:07:20.903965",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.3,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:07:21.436977",
+    "board_id": "esp2",
+    "mq2": 182,
+    "temp": 24.8,
+    "humidity": 58.9,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:07:23.832769",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.1,
+    "humidity": 56.5,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:07:25.892756",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.3,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:07:26.434156",
+    "board_id": "esp2",
+    "mq2": 182,
+    "temp": 24.9,
+    "humidity": 58.9,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:07:28.834978",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.1,
+    "humidity": 56.5,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:07:30.881315",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.4,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:07:31.445481",
+    "board_id": "esp2",
+    "mq2": 181,
+    "temp": 24.9,
+    "humidity": 58.9,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:07:33.840636",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.1,
+    "humidity": 56.5,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:07:35.911548",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.3,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:07:36.441471",
+    "board_id": "esp2",
+    "mq2": 177,
+    "temp": 24.9,
+    "humidity": 58.8,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:07:38.835954",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.1,
+    "humidity": 56.4,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:07:40.884614",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.3,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:07:41.444780",
+    "board_id": "esp2",
+    "mq2": 176,
+    "temp": 24.9,
+    "humidity": 58.8,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:07:43.849260",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.1,
+    "humidity": 56.5,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:07:45.894507",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.3,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:07:46.455523",
+    "board_id": "esp2",
+    "mq2": 181,
+    "temp": 24.9,
+    "humidity": 58.8,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:07:48.839431",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.1,
+    "humidity": 56.4,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:07:50.896431",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.3,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:07:51.437787",
+    "board_id": "esp2",
+    "mq2": 180,
+    "temp": 24.9,
+    "humidity": 58.8,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:07:54.390692",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.1,
+    "humidity": 56.4,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:07:55.906618",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.2,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:07:56.472152",
+    "board_id": "esp2",
+    "mq2": 182,
+    "temp": 24.9,
+    "humidity": 58.7,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:07:58.854062",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.1,
+    "humidity": 56.4,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:08:00.898779",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.2,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:08:01.449168",
+    "board_id": "esp2",
+    "mq2": 185,
+    "temp": 24.9,
+    "humidity": 58.7,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:08:03.859040",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.1,
+    "humidity": 56.4,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:08:05.914732",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.2,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:08:06.440117",
+    "board_id": "esp2",
+    "mq2": 183,
+    "temp": 24.9,
+    "humidity": 58.7,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:08:08.839042",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.1,
+    "humidity": 56.4,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:08:10.922759",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.2,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:08:11.441457",
+    "board_id": "esp2",
+    "mq2": 183,
+    "temp": 24.9,
+    "humidity": 58.7,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:08:13.857481",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.1,
+    "humidity": 56.4,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:08:15.945845",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.2,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:08:16.453845",
+    "board_id": "esp2",
+    "mq2": 181,
+    "temp": 24.9,
+    "humidity": 58.7,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:08:18.855174",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.1,
+    "humidity": 56.3,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:08:20.917714",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.2,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:08:21.436725",
+    "board_id": "esp2",
+    "mq2": 186,
+    "temp": 24.9,
+    "humidity": 58.6,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:08:23.850289",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.1,
+    "humidity": 56.3,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:08:25.924988",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.1,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:08:26.453849",
+    "board_id": "esp2",
+    "mq2": 180,
+    "temp": 24.9,
+    "humidity": 58.7,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:08:28.857245",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.1,
+    "humidity": 56.3,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:08:30.880115",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.2,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:08:31.421291",
+    "board_id": "esp2",
+    "mq2": 178,
+    "temp": 24.9,
+    "humidity": 58.7,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:08:33.823955",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.1,
+    "humidity": 56.3,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:08:35.884306",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.2,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:08:36.441937",
+    "board_id": "esp2",
+    "mq2": 177,
+    "temp": 24.9,
+    "humidity": 58.6,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:08:38.843746",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.1,
+    "humidity": 56.3,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:08:40.895235",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.2,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:08:41.438214",
+    "board_id": "esp2",
+    "mq2": 175,
+    "temp": 24.9,
+    "humidity": 58.7,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:08:43.855184",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.1,
+    "humidity": 56.2,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:08:45.914072",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.2,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:08:46.458723",
+    "board_id": "esp2",
+    "mq2": 180,
+    "temp": 24.9,
+    "humidity": 58.7,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:08:48.842940",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.1,
+    "humidity": 56.3,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:08:50.907083",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.2,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:08:51.428415",
+    "board_id": "esp2",
+    "mq2": 187,
+    "temp": 24.9,
+    "humidity": 58.7,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:08:53.843454",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.1,
+    "humidity": 56.4,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:08:55.896193",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.2,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:08:56.451398",
+    "board_id": "esp2",
+    "mq2": 189,
+    "temp": 24.9,
+    "humidity": 58.7,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:08:58.863401",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.1,
+    "humidity": 56.4,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:09:00.927050",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.2,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:09:04.308353",
+    "board_id": "esp2",
+    "mq2": 189,
+    "temp": 24.9,
+    "humidity": 58.7,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:09:04.405307",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.1,
+    "humidity": 56.3,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:09:05.886891",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.2,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:09:06.446080",
+    "board_id": "esp2",
+    "mq2": 189,
+    "temp": 24.9,
+    "humidity": 58.6,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:09:08.894351",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.1,
+    "humidity": 56.3,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:09:10.886581",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.2,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:09:11.420598",
+    "board_id": "esp2",
+    "mq2": 181,
+    "temp": 24.9,
+    "humidity": 58.6,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:09:13.838415",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.1,
+    "humidity": 56.3,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:09:15.893578",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.3,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:09:16.437286",
+    "board_id": "esp2",
+    "mq2": 181,
+    "temp": 24.9,
+    "humidity": 58.6,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:09:18.831079",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.2,
+    "humidity": 56.2,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:09:20.890484",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.4,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:09:21.439736",
+    "board_id": "esp2",
+    "mq2": 181,
+    "temp": 24.9,
+    "humidity": 58.5,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:09:23.833970",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.1,
+    "humidity": 56.2,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:09:25.902689",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.4,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:09:26.425895",
+    "board_id": "esp2",
+    "mq2": 190,
+    "temp": 24.9,
+    "humidity": 58.5,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:09:28.861228",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.2,
+    "humidity": 56.2,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:09:30.915275",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.4,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:09:31.444547",
+    "board_id": "esp2",
+    "mq2": 187,
+    "temp": 24.9,
+    "humidity": 58.5,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:09:33.834678",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.1,
+    "humidity": 56.2,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:09:35.920162",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.4,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:09:37.454692",
+    "board_id": "esp2",
+    "mq2": 189,
+    "temp": 24.9,
+    "humidity": 58.5,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:09:38.840825",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.1,
+    "humidity": 56.2,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:09:40.916456",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.3,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:09:41.432706",
+    "board_id": "esp2",
+    "mq2": 188,
+    "temp": 24.9,
+    "humidity": 58.5,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:09:43.822578",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.2,
+    "humidity": 56.2,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:09:45.884388",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.3,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:09:46.449986",
+    "board_id": "esp2",
+    "mq2": 188,
+    "temp": 24.9,
+    "humidity": 58.4,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:09:50.911381",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.3,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:09:51.432311",
+    "board_id": "esp2",
+    "mq2": 188,
+    "temp": 24.9,
+    "humidity": 58.4,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:09:55.884930",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.2,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:09:56.442503",
+    "board_id": "esp2",
+    "mq2": 186,
+    "temp": 24.9,
+    "humidity": 58.4,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:10:00.902193",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.2,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:10:01.443265",
+    "board_id": "esp2",
+    "mq2": 188,
+    "temp": 24.9,
+    "humidity": 58.5,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:10:05.882498",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.2,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:10:06.437868",
+    "board_id": "esp2",
+    "mq2": 188,
+    "temp": 24.9,
+    "humidity": 58.4,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:10:10.913898",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.1,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:10:15.891840",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.1,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:10:19.013875",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.2,
+    "humidity": 56.2,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:10:20.884228",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.1,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:10:24.005823",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.1,
+    "humidity": 56.1,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:10:25.904923",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.1,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:10:28.986803",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.2,
+    "humidity": 56.0,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:10:30.893584",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.1,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:10:34.019482",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.2,
+    "humidity": 56.1,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:10:35.924153",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.1,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:10:39.042959",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.2,
+    "humidity": 56.1,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:10:40.913309",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.1,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:10:44.000256",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.2,
+    "humidity": 56.1,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:10:44.713866",
+    "board_id": "esp2",
+    "mq2": 185,
+    "temp": 24.9,
+    "humidity": 58.5,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:10:45.907612",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.1,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:10:49.004348",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.2,
+    "humidity": 56.1,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:10:49.684127",
+    "board_id": "esp2",
+    "mq2": 185,
+    "temp": 24.9,
+    "humidity": 58.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:10:50.943110",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.1,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:10:54.013084",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.2,
+    "humidity": 56.1,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:10:54.702887",
+    "board_id": "esp2",
+    "mq2": 186,
+    "temp": 24.9,
+    "humidity": 58.5,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:10:55.874063",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.1,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:10:59.002499",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.1,
+    "humidity": 56.1,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:10:59.683727",
+    "board_id": "esp2",
+    "mq2": 185,
+    "temp": 24.9,
+    "humidity": 58.5,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:11:00.890080",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.2,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:11:06.108919",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.2,
+    "humidity": 56.1,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:11:06.194044",
+    "board_id": "esp2",
+    "mq2": 185,
+    "temp": 24.9,
+    "humidity": 58.5,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:11:06.273175",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.2,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:11:08.989847",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.2,
+    "humidity": 56.1,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:11:09.695128",
+    "board_id": "esp2",
+    "mq2": 185,
+    "temp": 24.9,
+    "humidity": 58.5,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:11:10.885497",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.3,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:11:14.003698",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.2,
+    "humidity": 56.1,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:11:14.672286",
+    "board_id": "esp2",
+    "mq2": 183,
+    "temp": 24.9,
+    "humidity": 58.4,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:11:15.898760",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.3,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:11:18.989775",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.2,
+    "humidity": 56.1,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:11:19.673527",
+    "board_id": "esp2",
+    "mq2": 183,
+    "temp": 24.9,
+    "humidity": 58.4,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:11:20.885390",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.2,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:11:23.991547",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.2,
+    "humidity": 56.1,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:11:24.681877",
+    "board_id": "esp2",
+    "mq2": 183,
+    "temp": 24.9,
+    "humidity": 58.4,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:11:25.885168",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.2,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:11:28.996871",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.2,
+    "humidity": 56.2,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:11:29.666736",
+    "board_id": "esp2",
+    "mq2": 182,
+    "temp": 24.9,
+    "humidity": 58.5,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:11:30.887897",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.2,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:11:34.001084",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.2,
+    "humidity": 56.2,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:11:34.684074",
+    "board_id": "esp2",
+    "mq2": 175,
+    "temp": 24.9,
+    "humidity": 58.5,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:11:35.908084",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.2,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:11:38.979962",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.2,
+    "humidity": 56.1,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:11:39.680646",
+    "board_id": "esp2",
+    "mq2": 183,
+    "temp": 24.9,
+    "humidity": 58.6,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:11:40.890193",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.2,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:11:44.005503",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.2,
+    "humidity": 56.2,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:11:44.734132",
+    "board_id": "esp2",
+    "mq2": 257,
+    "temp": 24.9,
+    "humidity": 58.6,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:11:45.912420",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.2,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:11:48.997000",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.2,
+    "humidity": 56.4,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:11:49.687543",
+    "board_id": "esp2",
+    "mq2": 286,
+    "temp": 24.9,
+    "humidity": 59.0,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:11:50.905107",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.3,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:11:54.004811",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.2,
+    "humidity": 56.4,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:11:56.048666",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.2,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:11:56.136746",
+    "board_id": "esp2",
+    "mq2": 293,
+    "temp": 24.9,
+    "humidity": 59.2,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:11:58.991279",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.2,
+    "humidity": 56.3,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:11:59.670782",
+    "board_id": "esp2",
+    "mq2": 282,
+    "temp": 25.0,
+    "humidity": 59.1,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:12:00.892521",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.1,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:12:04.004324",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.2,
+    "humidity": 56.4,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:12:04.699836",
+    "board_id": "esp2",
+    "mq2": 272,
+    "temp": 25.0,
+    "humidity": 58.9,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:12:05.884846",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.2,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-03T23:12:08.977869",
+    "board_id": "esp1",
+    "mq2": 20,
+    "temp": 25.2,
+    "humidity": 56.3,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:12:09.680814",
+    "board_id": "esp2",
+    "mq2": 266,
+    "temp": 25.0,
+    "humidity": 58.8,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-03T23:12:10.888965",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.8,
+    "humidity": 56.2,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-04T15:23:31.886771",
+    "board_id": "esp2",
+    "mq2": 168,
+    "temp": 23.7,
+    "humidity": 55.3,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-04T15:23:31.964625",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.0,
+    "humidity": 50.8,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-04T15:23:35.925503",
+    "board_id": "esp2",
+    "mq2": 168,
+    "temp": 23.7,
+    "humidity": 55.3,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-04T15:23:39.633898",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.0,
+    "humidity": 50.8,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-04T15:23:40.943575",
+    "board_id": "esp2",
+    "mq2": 168,
+    "temp": 23.7,
+    "humidity": 55.1,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-04T15:23:41.377829",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.0,
+    "humidity": 50.8,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-04T15:23:45.935822",
+    "board_id": "esp2",
+    "mq2": 168,
+    "temp": 23.7,
+    "humidity": 55.1,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-04T15:23:46.388576",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.0,
+    "humidity": 50.7,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-04T15:23:49.176403",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 24.4,
+    "humidity": 53.1,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-04T15:23:50.937910",
+    "board_id": "esp2",
+    "mq2": 168,
+    "temp": 23.7,
+    "humidity": 55.1,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-04T15:23:51.365641",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.0,
+    "humidity": 50.6,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-04T15:23:54.104267",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 24.4,
+    "humidity": 51.5,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-04T15:23:58.770241",
+    "board_id": "esp2",
+    "mq2": 168,
+    "temp": 23.7,
+    "humidity": 55.0,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-04T15:23:59.303957",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 24.3,
+    "humidity": 51.5,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-04T15:23:59.400065",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.0,
+    "humidity": 50.6,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-04T15:24:00.919210",
+    "board_id": "esp2",
+    "mq2": 168,
+    "temp": 23.7,
+    "humidity": 55.0,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-04T15:24:01.369736",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.0,
+    "humidity": 50.6,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-04T15:24:04.107322",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 24.3,
+    "humidity": 51.9,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-04T15:24:09.088158",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.0,
+    "humidity": 50.5,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-04T15:24:09.176313",
+    "board_id": "esp2",
+    "mq2": 168,
+    "temp": 23.7,
+    "humidity": 54.9,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-04T15:24:09.256634",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 24.3,
+    "humidity": 51.8,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-04T15:24:10.931745",
+    "board_id": "esp2",
+    "mq2": 168,
+    "temp": 23.7,
+    "humidity": 54.9,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-04T15:24:11.359868",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.0,
+    "humidity": 50.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-04T15:24:14.103814",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 24.4,
+    "humidity": 51.7,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-04T15:24:15.932427",
+    "board_id": "esp2",
+    "mq2": 168,
+    "temp": 23.7,
+    "humidity": 54.8,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-04T15:24:16.382108",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.0,
+    "humidity": 50.4,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-04T15:24:19.108499",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 24.4,
+    "humidity": 51.5,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-04T15:24:20.932498",
+    "board_id": "esp2",
+    "mq2": 168,
+    "temp": 23.6,
+    "humidity": 54.8,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-04T15:24:21.374405",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.0,
+    "humidity": 50.4,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-04T15:24:24.100760",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 24.4,
+    "humidity": 51.5,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-04T15:24:25.929704",
+    "board_id": "esp2",
+    "mq2": 168,
+    "temp": 23.7,
+    "humidity": 54.8,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-04T15:24:26.378254",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.0,
+    "humidity": 50.4,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-04T15:24:29.107024",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 24.4,
+    "humidity": 51.4,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-04T15:24:30.935835",
+    "board_id": "esp2",
+    "mq2": 168,
+    "temp": 23.7,
+    "humidity": 54.8,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-04T15:24:31.380676",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.0,
+    "humidity": 50.3,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-04T15:24:35.931275",
+    "board_id": "esp2",
+    "mq2": 168,
+    "temp": 23.6,
+    "humidity": 54.9,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-04T15:24:36.386797",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.0,
+    "humidity": 50.2,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-04T15:24:40.910647",
+    "board_id": "esp2",
+    "mq2": 168,
+    "temp": 23.6,
+    "humidity": 55.1,
+    "flame": 1
+  },
+  {
+    "timestamp": "2025-06-04T15:24:41.365823",
+    "board_id": "esp3",
+    "mq2": 1024,
+    "temp": 24.0,
+    "humidity": 50.2,
+    "flame": 1
+  }
+]
