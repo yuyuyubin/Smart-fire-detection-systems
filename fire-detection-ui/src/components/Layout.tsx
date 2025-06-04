@@ -1,29 +1,37 @@
 'use client'
-import { useState, useEffect } from "react"
-import Sidebar from "./Sidebar"
-import Header from "./Header"
+
+import { useState, useEffect } from 'react'
+import Sidebar from './Sidebar'
+import Header from './Header'
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   const [sidebarOpen, setSidebarOpen] = useState(false)
   const [isDesktop, setIsDesktop] = useState(false)
 
-  // 데스크탑인지 여부 감지
+  // 창 크기 감지
   useEffect(() => {
     const handleResize = () => {
       setIsDesktop(window.innerWidth >= 768)
     }
     handleResize()
-    window.addEventListener("resize", handleResize)
-    return () => window.removeEventListener("resize", handleResize)
+    window.addEventListener('resize', handleResize)
+    return () => window.removeEventListener('resize', handleResize)
   }, [])
 
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex min-h-screen">
+      {/* 사이드바 */}
       <Sidebar isOpen={sidebarOpen || isDesktop} onClose={() => setSidebarOpen(false)} />
 
-      <div className={isDesktop ? "ml-64 w-full" : "w-full"}>
+      {/* 본문 영역 */}
+      <div
+        className={isDesktop ? 'ml-64 w-full' : 'w-full'}
+        style={isDesktop ? { width: 'calc(100% - 16rem)' } : {}}
+      >
         <Header onToggleSidebar={() => setSidebarOpen(!sidebarOpen)} />
-        <main className="p-4">{children}</main>
+        <main className="px-4 py-6 max-w-screen-xl mx-auto overflow-x-hidden">
+          {children}
+        </main>
       </div>
     </div>
   )
