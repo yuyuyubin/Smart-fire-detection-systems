@@ -9,6 +9,7 @@ import time
 from datetime import datetime
 from threading import Lock
 from collections import deque
+import json
 from utils.prediction_handler import run_prediction_with_data
 from utils.sensor_handler import save_sensor_data, get_latest_status, get_sensor_history
 from utils.file_logger import save_result_json, append_logs, get_fire_status_log, get_latest_result, get_fire_events, clean_old_fire_logs, clean_old_sensor_logs
@@ -22,11 +23,68 @@ frame_lock = Lock()  # 프레임을 다룰 때 동기화
 
 DETECTED_FOLDER = "static/detected"
 RECEIVED_FOLDER = "temp/received"
+BOARD_LOGS_FOLDER = "data/board_logs"  # 보드 상태 로그 저장 디렉토리
 MAX_IMAGE_COUNT = 10
 MAX_RECEIVED_IMAGES = 5
 
 os.makedirs(DETECTED_FOLDER, exist_ok=True)
 os.makedirs(RECEIVED_FOLDER, exist_ok=True)
+os.makedirs(BOARD_LOGS_FOLDER, exist_ok=True)
+
+# 보드 상태 로그를 갱신하는 파일 경로
+board_status_log_file = os.path.join(BOARD_LOGS_FOLDER, "board_status_log.json")
+
+# 보드 상태 로그를 기록하는 함수
+def log_board_status(board_id, ip_address):
+    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    log_data = {
+        "board_id": board_id,
+        "ip_address": ip_address,
+        "timestamp": timestamp
+    }
+
+    # 기존 로그를 불러와서 최신 3개 보드 상태만 유지
+    if os.path.exists(board_status_log_file):
+        with open(board_status_log_file, 'r') as f:
+            all_logs = json.load(f)
+    else:
+        all_logs = []
+
+    # 새로운 보드 상태 추가
+    all_logs = [log for log in all_logs if log['board_id'] != board_id]  # 기존 보드 정보 제거
+    all_logs.append(log_data)
+
+    # 최신 3개 보드 상태만 남기기
+    all_logs = all_logs[-3:]
+
+    # 갱신된 로그를 다시 저장
+    with open(board_status_log_file, 'w') as f:
+        json.dump(all_logs, f, indent=4)
+
+    # 해당 보드 상태 로그를 기록한 후 3분 뒤 자동 삭제
+    def delete_old_log():
+        time.sleep(180)  # 3분
+        with open(board_status_log_file, 'r') as f:
+            all_logs = json.load(f)
+        
+        # 3분 이상 요청이 없는 보드 로그를 삭제
+        all_logs = [log for log in all_logs if log['board_id'] != board_id]
+        
+        # 삭제된 내용을 다시 저장
+        with open(board_status_log_file, 'w') as f:
+            json.dump(all_logs, f, indent=4)
+
+    threading.Thread(target=delete_old_log, daemon=True).start()
+
+# 보드 상태 로그를 확인하는 API
+@app.route('/api/board-status', methods=['GET'])
+def get_board_status():
+    if os.path.exists(board_status_log_file):
+        with open(board_status_log_file, 'r') as f:
+            all_logs = json.load(f)
+        return jsonify(all_logs), 200
+    else:
+        return jsonify({"error": "No board status logs found."}), 404
 
 @app.route('/api/fire-stat', methods=['GET'])
 def fire_stat():
@@ -101,7 +159,11 @@ def sensor_data():
             return jsonify({"error": "No JSON payload"}), 400
         
         board_id = data.get('board_id', 'Unknown')  # board_id를 확인
+        ip_address = request.remote_addr  # 클라이언트 IP 주소 가져오기
         print(f"[센서 데이터 수신] {data} from board: {board_id}")
+
+        # 보드 상태 로그 기록
+        log_board_status(board_id, ip_address)
 
         # 보드별로 센서 데이터가 수신되었을 때만 예측을 실행하도록 처리
         if board_id in ['esp1', 'esp2', 'esp3'] and any(k in data for k in ['mq2', 'temp', 'humidity','flame']):
@@ -199,6 +261,33 @@ def get_latest_received_image():
         print(f"[INFO] Latest image path: {latest_image_path}")  # 디버깅용 출력
         return latest_image_path
     return None  # 이미지가 없으면 None 반환
+
+@app.route('/api/board-status/update', methods=['POST'])
+def update_board_status():
+    try:
+        data = request.get_json()
+        if not data:
+            return jsonify({"error": "No JSON payload"}), 400
+        
+        board_id = data.get('board_id', 'Unknown')  # board_id를 확인
+        ip_address = request.remote_addr  # 클라이언트 IP 주소 가져오기
+        
+        # 보드 상태 로그 기록
+        log_board_status(board_id, ip_address)
+        
+        return jsonify({"status": "Board status updated successfully."}), 200
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+# This function should be renamed to avoid overwriting the get_board_status function
+@app.route('/api/board-status', methods=['GET'])
+def get_board_status_from_file():
+    if os.path.exists(board_status_log_file):
+        with open(board_status_log_file, 'r') as f:
+            all_logs = json.load(f)
+        return jsonify(all_logs), 200
+    else:
+        return jsonify({"error": "No board status logs found."}), 
 # ===============================
 # 메인 실행
 # ===============================
