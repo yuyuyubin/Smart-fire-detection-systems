@@ -10,6 +10,7 @@ from datetime import datetime
 from threading import Lock
 from collections import deque
 import json
+import traceback  # 예외 처리에 사용할 traceback 추가
 from utils.prediction_handler import run_prediction_with_data
 from utils.sensor_handler import save_sensor_data, get_latest_status, get_sensor_history
 from utils.file_logger import save_result_json, append_logs, get_fire_status_log, get_latest_result, get_fire_events, clean_old_fire_logs, clean_old_sensor_logs
@@ -44,73 +45,96 @@ def log_board_status(board_id, ip_address):
     }
 
     # 기존 로그를 불러와서 최신 3개 보드 상태만 유지
-    if os.path.exists(board_status_log_file):
-        with open(board_status_log_file, 'r') as f:
-            all_logs = json.load(f)
-    else:
-        all_logs = []
+    try:
+        if os.path.exists(board_status_log_file):
+            with open(board_status_log_file, 'r') as f:
+                all_logs = json.load(f)
+        else:
+            all_logs = []
 
-    # 새로운 보드 상태 추가
-    all_logs = [log for log in all_logs if log['board_id'] != board_id]  # 기존 보드 정보 제거
-    all_logs.append(log_data)
+        # 새로운 보드 상태 추가
+        all_logs = [log for log in all_logs if log['board_id'] != board_id]  # 기존 보드 정보 제거
+        all_logs.append(log_data)
 
-    # 최신 3개 보드 상태만 남기기
-    all_logs = all_logs[-3:]
+        # 최신 3개 보드 상태만 남기기
+        all_logs = all_logs[-3:]
 
-    # 갱신된 로그를 다시 저장
-    with open(board_status_log_file, 'w') as f:
-        json.dump(all_logs, f, indent=4)
-
-    # 해당 보드 상태 로그를 기록한 후 3분 뒤 자동 삭제
-    def delete_old_log():
-        time.sleep(180)  # 3분
-        with open(board_status_log_file, 'r') as f:
-            all_logs = json.load(f)
-        
-        # 3분 이상 요청이 없는 보드 로그를 삭제
-        all_logs = [log for log in all_logs if log['board_id'] != board_id]
-        
-        # 삭제된 내용을 다시 저장
+        # 갱신된 로그를 다시 저장
         with open(board_status_log_file, 'w') as f:
             json.dump(all_logs, f, indent=4)
 
-    threading.Thread(target=delete_old_log, daemon=True).start()
+        # 해당 보드 상태 로그를 기록한 후 3분 뒤 자동 삭제
+        def delete_old_log():
+            time.sleep(180)  # 3분
+            with open(board_status_log_file, 'r') as f:
+                all_logs = json.load(f)
+            
+            # 3분 이상 요청이 없는 보드 로그를 삭제
+            all_logs = [log for log in all_logs if log['board_id'] != board_id]
+            
+            # 삭제된 내용을 다시 저장
+            with open(board_status_log_file, 'w') as f:
+                json.dump(all_logs, f, indent=4)
+
+        threading.Thread(target=delete_old_log, daemon=True).start()
+
+    except Exception as e:
+        print(f"[ERROR] 보드 상태 로그 기록 중 오류 발생: {e}")
+        traceback.print_exc()
 
 # 보드 상태 로그를 확인하는 API
 @app.route('/api/board-status', methods=['GET'])
 def get_board_status():
-    if os.path.exists(board_status_log_file):
-        with open(board_status_log_file, 'r') as f:
-            all_logs = json.load(f)
-        return jsonify(all_logs), 200
-    else:
-        return jsonify({"error": "No board status logs found."}), 404
+    try:
+        if os.path.exists(board_status_log_file):
+            with open(board_status_log_file, 'r') as f:
+                all_logs = json.load(f)
+            return jsonify(all_logs), 200
+        else:
+            return jsonify({"error": "No board status logs found."}), 404
+    except Exception as e:
+        print(f"[ERROR] 보드 상태 로그 가져오기 중 오류 발생: {e}")
+        traceback.print_exc()
+        return jsonify({"error": "Failed to retrieve board status logs."}), 500
 
 @app.route('/api/fire-stat', methods=['GET'])
 def fire_stat():
-    # board_ids를 쿼리 파라미터로 전달받습니다.
-    board_ids_param = request.args.get('board_ids')  # 쉼표로 구분된 하나의 값 받기
-    
-    if board_ids_param:
-        # 쉼표로 구분된 값을 나누어서 리스트로 변환
-        board_ids = board_ids_param.split(',')
-        result = get_fire_status_log(board_ids)  # 주어진 board_ids에 대한 최신 화재 정보를 반환
-        return jsonify(result), 200
-    else:
-        return jsonify({"error": "No board_ids provided"}), 400
+    try:
+        # board_ids를 쿼리 파라미터로 전달받습니다.
+        board_ids_param = request.args.get('board_ids')  # 쉼표로 구분된 하나의 값 받기
+        
+        if board_ids_param:
+            # 쉼표로 구분된 값을 나누어서 리스트로 변환
+            board_ids = board_ids_param.split(',')
+            result = get_fire_status_log(board_ids)  # 주어진 board_ids에 대한 최신 화재 정보를 반환
+            return jsonify(result), 200
+        else:
+            return jsonify({"error": "No board_ids provided"}), 400
+    except Exception as e:
+        print(f"[ERROR] 화재 상태 가져오기 중 오류 발생: {e}")
+        traceback.print_exc()
+        return jsonify({"error": "Failed to retrieve fire status."}), 500
 
 # 예전 이미지 자동 정리
 def clean_old_images():
-    images = sorted([f for f in os.listdir(DETECTED_FOLDER) if f.endswith('.jpg')])
-    if len(images) > MAX_IMAGE_COUNT:
-        for img in images[:-MAX_IMAGE_COUNT]:
-            os.remove(os.path.join(DETECTED_FOLDER, img))
+    try:
+        images = sorted([f for f in os.listdir(DETECTED_FOLDER) if f.endswith('.jpg')])
+        if len(images) > MAX_IMAGE_COUNT:
+            for img in images[:-MAX_IMAGE_COUNT]:
+                os.remove(os.path.join(DETECTED_FOLDER, img))
+    except Exception as e:
+        print(f"[ERROR] 이미지 삭제 중 오류 발생: {e}")
+        traceback.print_exc()
 
 def clean_old_received_images():
-    images = sorted([f for f in os.listdir(RECEIVED_FOLDER) if f.endswith('.jpg')])
-    if len(images) > MAX_RECEIVED_IMAGES:
-        for img in images[:-MAX_RECEIVED_IMAGES]:
-            os.remove(os.path.join(RECEIVED_FOLDER, img))
+    try:
+        images = sorted([f for f in os.listdir(RECEIVED_FOLDER) if f.endswith('.jpg')])
+        if len(images) > MAX_RECEIVED_IMAGES:
+            for img in images[:-MAX_RECEIVED_IMAGES]:
+                os.remove(os.path.join(RECEIVED_FOLDER, img))
+    except Exception as e:
+        print(f"[ERROR] 수신 이미지 삭제 중 오류 발생: {e}")
+        traceback.print_exc()
 
 # ===============================
 # 1. 라즈베리파이에서 스트리밍 이미지 수신 (/api/stream-frame)
@@ -130,6 +154,8 @@ def receive_stream_frame():
         
         return '', 204  # 성공적으로 받았음을 알림
     except Exception as e:
+        print(f"[ERROR] 스트리밍 프레임 수신 중 오류 발생: {e}")
+        traceback.print_exc()
         return jsonify({"error": str(e)}), 500
 
 # ===============================
@@ -186,13 +212,12 @@ def sensor_data():
 [Board ID]: {result.get('board_id')}
 """.strip())
 
-                # 보드별 로그 파일에 예측 결과 저장
-               
-
         save_sensor_data(data)  # 센서 데이터 저장
         clean_old_sensor_logs()
         return jsonify({"status": "success"}), 200
     except Exception as e:
+        print(f"[ERROR] 센서 데이터 처리 중 오류 발생: {e}")
+        traceback.print_exc()
         return jsonify({"error": str(e)}), 500
 
 # ===============================
@@ -211,6 +236,8 @@ def image_data():
         clean_old_received_images()
         return jsonify({"status": "image received", "path": filepath})
     except Exception as e:
+        print(f"[ERROR] 이미지 업로드 중 오류 발생: {e}")
+        traceback.print_exc()
         return jsonify({"error": str(e)}), 500
 
 # ===============================
@@ -220,7 +247,6 @@ def image_data():
 def fire_status():
     return jsonify(get_latest_result())
 
-
 @app.route('/api/latest-image', methods=['GET'])
 def latest_image():
     try:
@@ -228,7 +254,8 @@ def latest_image():
         if images:
             return jsonify({"image_url": f"/static/detected/{images[-1]}"}), 200
     except Exception as e:
-        pass
+        print(f"[ERROR] 최신 이미지 가져오기 중 오류 발생: {e}")
+        traceback.print_exc()
     return jsonify({"image_url": None}), 404
 
 @app.route('/api/sensors', methods=['GET'])
@@ -255,11 +282,15 @@ def get_latest_received_image():
     가장 최근에 저장된 이미지를 반환하는 함수입니다.
     만약 이미지가 없다면 None을 반환합니다.
     """
-    images = sorted([f for f in os.listdir(RECEIVED_FOLDER) if f.endswith('.jpg')])
-    if images:
-        latest_image_path = os.path.join(RECEIVED_FOLDER, images[-1])
-        print(f"[INFO] Latest image path: {latest_image_path}")  # 디버깅용 출력
-        return latest_image_path
+    try:
+        images = sorted([f for f in os.listdir(RECEIVED_FOLDER) if f.endswith('.jpg')])
+        if images:
+            latest_image_path = os.path.join(RECEIVED_FOLDER, images[-1])
+            print(f"[INFO] Latest image path: {latest_image_path}")  # 디버깅용 출력
+            return latest_image_path
+    except Exception as e:
+        print(f"[ERROR] 최신 이미지 가져오기 중 오류 발생: {e}")
+        traceback.print_exc()
     return None  # 이미지가 없으면 None 반환
 
 @app.route('/api/board-status/update', methods=['POST'])
@@ -277,17 +308,25 @@ def update_board_status():
         
         return jsonify({"status": "Board status updated successfully."}), 200
     except Exception as e:
+        print(f"[ERROR] 보드 상태 업데이트 중 오류 발생: {e}")
+        traceback.print_exc()
         return jsonify({"error": str(e)}), 500
 
 # This function should be renamed to avoid overwriting the get_board_status function
 @app.route('/api/board-status', methods=['GET'])
 def get_board_status_from_file():
-    if os.path.exists(board_status_log_file):
-        with open(board_status_log_file, 'r') as f:
-            all_logs = json.load(f)
-        return jsonify(all_logs), 200
-    else:
-        return jsonify({"error": "No board status logs found."}), 
+    try:
+        if os.path.exists(board_status_log_file):
+            with open(board_status_log_file, 'r') as f:
+                all_logs = json.load(f)
+            return jsonify(all_logs), 200
+        else:
+            return jsonify({"error": "No board status logs found."}), 404
+    except Exception as e:
+        print(f"[ERROR] 보드 상태 파일 읽기 중 오류 발생: {e}")
+        traceback.print_exc()
+        return jsonify({"error": "Failed to retrieve board status logs."}), 500
+
 # ===============================
 # 메인 실행
 # ===============================
