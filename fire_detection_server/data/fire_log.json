@@ -1,563 +1,5 @@
 [
   {
-    "timestamp": "2025-06-03 22:41:39",
-    "sensor_fire_probability": 32.93,
-    "image_fire_confidence": 0,
-    "final_score": 19.76,
-    "fire_detected": false,
-    "image_path": "",
-    "board_id": "esp2"
-  },
-  {
-    "timestamp": "2025-06-03 22:41:40",
-    "sensor_fire_probability": 0.0,
-    "image_fire_confidence": 0,
-    "final_score": 0.0,
-    "fire_detected": false,
-    "image_path": "",
-    "board_id": "esp3"
-  },
-  {
-    "timestamp": "2025-06-03 22:41:40",
-    "sensor_fire_probability": 0.0,
-    "image_fire_confidence": 0,
-    "final_score": 0.0,
-    "fire_detected": false,
-    "image_path": "",
-    "board_id": "esp1"
-  },
-  {
-    "timestamp": "2025-06-03 22:41:44",
-    "sensor_fire_probability": 32.92,
-    "image_fire_confidence": 0,
-    "final_score": 19.75,
-    "fire_detected": false,
-    "image_path": "",
-    "board_id": "esp2"
-  },
-  {
-    "timestamp": "2025-06-03 22:41:45",
-    "sensor_fire_probability": 0.0,
-    "image_fire_confidence": 0,
-    "final_score": 0.0,
-    "fire_detected": false,
-    "image_path": "",
-    "board_id": "esp3"
-  },
-  {
-    "timestamp": "2025-06-03 22:41:45",
-    "sensor_fire_probability": 0.0,
-    "image_fire_confidence": 0,
-    "final_score": 0.0,
-    "fire_detected": false,
-    "image_path": "",
-    "board_id": "esp1"
-  },
-  {
-    "timestamp": "2025-06-03 22:41:49",
-    "sensor_fire_probability": 32.9,
-    "image_fire_confidence": 0,
-    "final_score": 19.74,
-    "fire_detected": false,
-    "image_path": "",
-    "board_id": "esp2"
-  },
-  {
-    "timestamp": "2025-06-03 22:41:50",
-    "sensor_fire_probability": 0.0,
-    "image_fire_confidence": 0,
-    "final_score": 0.0,
-    "fire_detected": false,
-    "image_path": "",
-    "board_id": "esp3"
-  },
-  {
-    "timestamp": "2025-06-03 22:41:50",
-    "sensor_fire_probability": 0.0,
-    "image_fire_confidence": 0,
-    "final_score": 0.0,
-    "fire_detected": false,
-    "image_path": "",
-    "board_id": "esp1"
-  },
-  {
-    "timestamp": "2025-06-03 22:41:54",
-    "sensor_fire_probability": 32.89,
-    "image_fire_confidence": 0,
-    "final_score": 19.73,
-    "fire_detected": false,
-    "image_path": "",
-    "board_id": "esp2"
-  },
-  {
-    "timestamp": "2025-06-03 22:41:55",
-    "sensor_fire_probability": 0.0,
-    "image_fire_confidence": 0,
-    "final_score": 0.0,
-    "fire_detected": false,
-    "image_path": "",
-    "board_id": "esp3"
-  },
-  {
-    "timestamp": "2025-06-03 22:41:55",
-    "sensor_fire_probability": 0.0,
-    "image_fire_confidence": 0,
-    "final_score": 0.0,
-    "fire_detected": false,
-    "image_path": "",
-    "board_id": "esp1"
-  },
-  {
-    "timestamp": "2025-06-03 22:41:59",
-    "sensor_fire_probability": 32.89,
-    "image_fire_confidence": 0,
-    "final_score": 19.73,
-    "fire_detected": false,
-    "image_path": "",
-    "board_id": "esp2"
-  },
-  {
-    "timestamp": "2025-06-03 22:42:00",
-    "sensor_fire_probability": 0.0,
-    "image_fire_confidence": 0,
-    "final_score": 0.0,
-    "fire_detected": false,
-    "image_path": "",
-    "board_id": "esp3"
-  },
-  {
-    "timestamp": "2025-06-03 22:42:00",
-    "sensor_fire_probability": 0.0,
-    "image_fire_confidence": 0,
-    "final_score": 0.0,
-    "fire_detected": false,
-    "image_path": "",
-    "board_id": "esp1"
-  },
-  {
-    "timestamp": "2025-06-03 22:42:04",
-    "sensor_fire_probability": 32.67,
-    "image_fire_confidence": 0,
-    "final_score": 19.6,
-    "fire_detected": false,
-    "image_path": "",
-    "board_id": "esp2"
-  },
-  {
-    "timestamp": "2025-06-03 22:42:05",
-    "sensor_fire_probability": 0.0,
-    "image_fire_confidence": 0,
-    "final_score": 0.0,
-    "fire_detected": false,
-    "image_path": "",
-    "board_id": "esp3"
-  },
-  {
-    "timestamp": "2025-06-03 22:42:05",
-    "sensor_fire_probability": 0.0,
-    "image_fire_confidence": 0,
-    "final_score": 0.0,
-    "fire_detected": false,
-    "image_path": "",
-    "board_id": "esp1"
-  },
-  {
-    "timestamp": "2025-06-03 22:42:09",
-    "sensor_fire_probability": 32.68,
-    "image_fire_confidence": 0,
-    "final_score": 19.61,
-    "fire_detected": false,
-    "image_path": "",
-    "board_id": "esp2"
-  },
-  {
-    "timestamp": "2025-06-03 22:42:10",
-    "sensor_fire_probability": 0.0,
-    "image_fire_confidence": 0,
-    "final_score": 0.0,
-    "fire_detected": false,
-    "image_path": "",
-    "board_id": "esp3"
-  },
-  {
-    "timestamp": "2025-06-03 22:42:10",
-    "sensor_fire_probability": 0.0,
-    "image_fire_confidence": 0,
-    "final_score": 0.0,
-    "fire_detected": false,
-    "image_path": "",
-    "board_id": "esp1"
-  },
-  {
-    "timestamp": "2025-06-03 22:42:14",
-    "sensor_fire_probability": 32.67,
-    "image_fire_confidence": 0,
-    "final_score": 19.6,
-    "fire_detected": false,
-    "image_path": "",
-    "board_id": "esp2"
-  },
-  {
-    "timestamp": "2025-06-03 22:42:15",
-    "sensor_fire_probability": 0.0,
-    "image_fire_confidence": 0,
-    "final_score": 0.0,
-    "fire_detected": false,
-    "image_path": "",
-    "board_id": "esp3"
-  },
-  {
-    "timestamp": "2025-06-03 22:42:15",
-    "sensor_fire_probability": 0.0,
-    "image_fire_confidence": 0,
-    "final_score": 0.0,
-    "fire_detected": false,
-    "image_path": "",
-    "board_id": "esp1"
-  },
-  {
-    "timestamp": "2025-06-03 22:42:19",
-    "sensor_fire_probability": 32.67,
-    "image_fire_confidence": 0,
-    "final_score": 19.6,
-    "fire_detected": false,
-    "image_path": "",
-    "board_id": "esp2"
-  },
-  {
-    "timestamp": "2025-06-03 22:42:20",
-    "sensor_fire_probability": 0.0,
-    "image_fire_confidence": 0,
-    "final_score": 0.0,
-    "fire_detected": false,
-    "image_path": "",
-    "board_id": "esp3"
-  },
-  {
-    "timestamp": "2025-06-03 22:42:20",
-    "sensor_fire_probability": 0.0,
-    "image_fire_confidence": 0,
-    "final_score": 0.0,
-    "fire_detected": false,
-    "image_path": "",
-    "board_id": "esp1"
-  },
-  {
-    "timestamp": "2025-06-03 22:42:24",
-    "sensor_fire_probability": 32.68,
-    "image_fire_confidence": 0,
-    "final_score": 19.61,
-    "fire_detected": false,
-    "image_path": "",
-    "board_id": "esp2"
-  },
-  {
-    "timestamp": "2025-06-03 22:42:25",
-    "sensor_fire_probability": 0.0,
-    "image_fire_confidence": 0,
-    "final_score": 0.0,
-    "fire_detected": false,
-    "image_path": "",
-    "board_id": "esp3"
-  },
-  {
-    "timestamp": "2025-06-03 22:42:25",
-    "sensor_fire_probability": 0.0,
-    "image_fire_confidence": 0,
-    "final_score": 0.0,
-    "fire_detected": false,
-    "image_path": "",
-    "board_id": "esp1"
-  },
-  {
-    "timestamp": "2025-06-03 22:42:29",
-    "sensor_fire_probability": 32.68,
-    "image_fire_confidence": 0,
-    "final_score": 19.61,
-    "fire_detected": false,
-    "image_path": "",
-    "board_id": "esp2"
-  },
-  {
-    "timestamp": "2025-06-03 22:42:30",
-    "sensor_fire_probability": 0.0,
-    "image_fire_confidence": 0,
-    "final_score": 0.0,
-    "fire_detected": false,
-    "image_path": "",
-    "board_id": "esp3"
-  },
-  {
-    "timestamp": "2025-06-03 22:42:30",
-    "sensor_fire_probability": 0.0,
-    "image_fire_confidence": 0,
-    "final_score": 0.0,
-    "fire_detected": false,
-    "image_path": "",
-    "board_id": "esp1"
-  },
-  {
-    "timestamp": "2025-06-03 22:42:34",
-    "sensor_fire_probability": 32.69,
-    "image_fire_confidence": 0,
-    "final_score": 19.62,
-    "fire_detected": false,
-    "image_path": "",
-    "board_id": "esp2"
-  },
-  {
-    "timestamp": "2025-06-03 22:42:35",
-    "sensor_fire_probability": 0.0,
-    "image_fire_confidence": 0,
-    "final_score": 0.0,
-    "fire_detected": false,
-    "image_path": "",
-    "board_id": "esp3"
-  },
-  {
-    "timestamp": "2025-06-03 22:42:35",
-    "sensor_fire_probability": 0.0,
-    "image_fire_confidence": 0,
-    "final_score": 0.0,
-    "fire_detected": false,
-    "image_path": "",
-    "board_id": "esp1"
-  },
-  {
-    "timestamp": "2025-06-03 22:42:39",
-    "sensor_fire_probability": 32.7,
-    "image_fire_confidence": 0,
-    "final_score": 19.62,
-    "fire_detected": false,
-    "image_path": "",
-    "board_id": "esp2"
-  },
-  {
-    "timestamp": "2025-06-03 22:42:40",
-    "sensor_fire_probability": 0.0,
-    "image_fire_confidence": 0,
-    "final_score": 0.0,
-    "fire_detected": false,
-    "image_path": "",
-    "board_id": "esp3"
-  },
-  {
-    "timestamp": "2025-06-03 22:42:40",
-    "sensor_fire_probability": 0.0,
-    "image_fire_confidence": 0,
-    "final_score": 0.0,
-    "fire_detected": false,
-    "image_path": "",
-    "board_id": "esp1"
-  },
-  {
-    "timestamp": "2025-06-03 22:42:44",
-    "sensor_fire_probability": 32.7,
-    "image_fire_confidence": 0,
-    "final_score": 19.62,
-    "fire_detected": false,
-    "image_path": "",
-    "board_id": "esp2"
-  },
-  {
-    "timestamp": "2025-06-03 22:42:45",
-    "sensor_fire_probability": 0.0,
-    "image_fire_confidence": 0,
-    "final_score": 0.0,
-    "fire_detected": false,
-    "image_path": "",
-    "board_id": "esp3"
-  },
-  {
-    "timestamp": "2025-06-03 22:42:45",
-    "sensor_fire_probability": 0.0,
-    "image_fire_confidence": 0,
-    "final_score": 0.0,
-    "fire_detected": false,
-    "image_path": "",
-    "board_id": "esp1"
-  },
-  {
-    "timestamp": "2025-06-03 22:42:49",
-    "sensor_fire_probability": 32.71,
-    "image_fire_confidence": 0,
-    "final_score": 19.63,
-    "fire_detected": false,
-    "image_path": "",
-    "board_id": "esp2"
-  },
-  {
-    "timestamp": "2025-06-03 22:42:50",
-    "sensor_fire_probability": 0.0,
-    "image_fire_confidence": 0,
-    "final_score": 0.0,
-    "fire_detected": false,
-    "image_path": "",
-    "board_id": "esp3"
-  },
-  {
-    "timestamp": "2025-06-03 22:42:50",
-    "sensor_fire_probability": 0.0,
-    "image_fire_confidence": 0,
-    "final_score": 0.0,
-    "fire_detected": false,
-    "image_path": "",
-    "board_id": "esp1"
-  },
-  {
-    "timestamp": "2025-06-03 22:42:54",
-    "sensor_fire_probability": 0.0,
-    "image_fire_confidence": 0,
-    "final_score": 0.0,
-    "fire_detected": false,
-    "image_path": "",
-    "board_id": "esp2"
-  },
-  {
-    "timestamp": "2025-06-03 22:42:55",
-    "sensor_fire_probability": 0.0,
-    "image_fire_confidence": 0,
-    "final_score": 0.0,
-    "fire_detected": false,
-    "image_path": "",
-    "board_id": "esp3"
-  },
-  {
-    "timestamp": "2025-06-03 22:42:55",
-    "sensor_fire_probability": 0.0,
-    "image_fire_confidence": 0,
-    "final_score": 0.0,
-    "fire_detected": false,
-    "image_path": "",
-    "board_id": "esp1"
-  },
-  {
-    "timestamp": "2025-06-03 22:42:59",
-    "sensor_fire_probability": 0.0,
-    "image_fire_confidence": 0,
-    "final_score": 0.0,
-    "fire_detected": false,
-    "image_path": "",
-    "board_id": "esp2"
-  },
-  {
-    "timestamp": "2025-06-03 22:43:00",
-    "sensor_fire_probability": 0.0,
-    "image_fire_confidence": 0,
-    "final_score": 0.0,
-    "fire_detected": false,
-    "image_path": "",
-    "board_id": "esp3"
-  },
-  {
-    "timestamp": "2025-06-03 22:43:00",
-    "sensor_fire_probability": 0.0,
-    "image_fire_confidence": 0,
-    "final_score": 0.0,
-    "fire_detected": false,
-    "image_path": "",
-    "board_id": "esp1"
-  },
-  {
-    "timestamp": "2025-06-03 22:43:04",
-    "sensor_fire_probability": 32.72,
-    "image_fire_confidence": 0,
-    "final_score": 19.63,
-    "fire_detected": false,
-    "image_path": "",
-    "board_id": "esp2"
-  },
-  {
-    "timestamp": "2025-06-03 22:43:05",
-    "sensor_fire_probability": 0.0,
-    "image_fire_confidence": 0,
-    "final_score": 0.0,
-    "fire_detected": false,
-    "image_path": "",
-    "board_id": "esp3"
-  },
-  {
-    "timestamp": "2025-06-03 22:43:05",
-    "sensor_fire_probability": 0.0,
-    "image_fire_confidence": 0,
-    "final_score": 0.0,
-    "fire_detected": false,
-    "image_path": "",
-    "board_id": "esp1"
-  },
-  {
-    "timestamp": "2025-06-03 22:43:09",
-    "sensor_fire_probability": 32.71,
-    "image_fire_confidence": 0,
-    "final_score": 19.63,
-    "fire_detected": false,
-    "image_path": "",
-    "board_id": "esp2"
-  },
-  {
-    "timestamp": "2025-06-03 22:43:10",
-    "sensor_fire_probability": 0.0,
-    "image_fire_confidence": 0,
-    "final_score": 0.0,
-    "fire_detected": false,
-    "image_path": "",
-    "board_id": "esp3"
-  },
-  {
-    "timestamp": "2025-06-03 22:43:10",
-    "sensor_fire_probability": 0.0,
-    "image_fire_confidence": 0,
-    "final_score": 0.0,
-    "fire_detected": false,
-    "image_path": "",
-    "board_id": "esp1"
-  },
-  {
-    "timestamp": "2025-06-03 22:43:14",
-    "sensor_fire_probability": 32.72,
-    "image_fire_confidence": 0,
-    "final_score": 19.63,
-    "fire_detected": false,
-    "image_path": "",
-    "board_id": "esp2"
-  },
-  {
-    "timestamp": "2025-06-03 22:43:15",
-    "sensor_fire_probability": 0.0,
-    "image_fire_confidence": 0,
-    "final_score": 0.0,
-    "fire_detected": false,
-    "image_path": "",
-    "board_id": "esp3"
-  },
-  {
-    "timestamp": "2025-06-03 22:43:15",
-    "sensor_fire_probability": 0.0,
-    "image_fire_confidence": 0,
-    "final_score": 0.0,
-    "fire_detected": false,
-    "image_path": "",
-    "board_id": "esp1"
-  },
-  {
-    "timestamp": "2025-06-03 22:43:19",
-    "sensor_fire_probability": 0.0,
-    "image_fire_confidence": 0,
-    "final_score": 0.0,
-    "fire_detected": false,
-    "image_path": "",
-    "board_id": "esp2"
-  },
-  {
-    "timestamp": "2025-06-03 22:43:20",
-    "sensor_fire_probability": 0.0,
-    "image_fire_confidence": 0,
-    "final_score": 0.0,
-    "fire_detected": false,
-    "image_path": "",
-    "board_id": "esp3"
-  },
-  {
     "timestamp": "2025-06-03 22:43:20",
     "sensor_fire_probability": 0.0,
     "image_fire_confidence": 0,
@@ -8998,5 +8440,563 @@
     "fire_detected": false,
     "image_path": "",
     "board_id": "esp3"
+  },
+  {
+    "timestamp": "2025-06-05 17:59:05",
+    "sensor_fire_probability": 0.0,
+    "image_fire_confidence": 0,
+    "final_score": 0.0,
+    "fire_detected": false,
+    "image_path": "",
+    "board_id": "esp1"
+  },
+  {
+    "timestamp": "2025-06-05 17:59:10",
+    "sensor_fire_probability": 0.0,
+    "image_fire_confidence": 0,
+    "final_score": 0.0,
+    "fire_detected": false,
+    "image_path": "",
+    "board_id": "esp1"
+  },
+  {
+    "timestamp": "2025-06-05 17:59:15",
+    "sensor_fire_probability": 0.0,
+    "image_fire_confidence": 0,
+    "final_score": 0.0,
+    "fire_detected": false,
+    "image_path": "",
+    "board_id": "esp1"
+  },
+  {
+    "timestamp": "2025-06-05 17:59:20",
+    "sensor_fire_probability": 0.0,
+    "image_fire_confidence": 0,
+    "final_score": 0.0,
+    "fire_detected": false,
+    "image_path": "",
+    "board_id": "esp1"
+  },
+  {
+    "timestamp": "2025-06-05 17:59:25",
+    "sensor_fire_probability": 0.0,
+    "image_fire_confidence": 0,
+    "final_score": 0.0,
+    "fire_detected": false,
+    "image_path": "",
+    "board_id": "esp1"
+  },
+  {
+    "timestamp": "2025-06-05 17:59:34",
+    "sensor_fire_probability": 0.0,
+    "image_fire_confidence": 0,
+    "final_score": 0.0,
+    "fire_detected": false,
+    "image_path": "",
+    "board_id": "esp1"
+  },
+  {
+    "timestamp": "2025-06-05 17:59:35",
+    "sensor_fire_probability": 0.0,
+    "image_fire_confidence": 0,
+    "final_score": 0.0,
+    "fire_detected": false,
+    "image_path": "",
+    "board_id": "esp1"
+  },
+  {
+    "timestamp": "2025-06-05 17:59:40",
+    "sensor_fire_probability": 0.0,
+    "image_fire_confidence": 0,
+    "final_score": 0.0,
+    "fire_detected": false,
+    "image_path": "",
+    "board_id": "esp1"
+  },
+  {
+    "timestamp": "2025-06-05 17:59:49",
+    "sensor_fire_probability": 0.0,
+    "image_fire_confidence": 0,
+    "final_score": 0.0,
+    "fire_detected": false,
+    "image_path": "",
+    "board_id": "esp1"
+  },
+  {
+    "timestamp": "2025-06-05 17:59:50",
+    "sensor_fire_probability": 0.0,
+    "image_fire_confidence": 0,
+    "final_score": 0.0,
+    "fire_detected": false,
+    "image_path": "",
+    "board_id": "esp1"
+  },
+  {
+    "timestamp": "2025-06-05 17:59:55",
+    "sensor_fire_probability": 0.0,
+    "image_fire_confidence": 0,
+    "final_score": 0.0,
+    "fire_detected": false,
+    "image_path": "",
+    "board_id": "esp1"
+  },
+  {
+    "timestamp": "2025-06-05 18:00:00",
+    "sensor_fire_probability": 0.0,
+    "image_fire_confidence": 0,
+    "final_score": 0.0,
+    "fire_detected": false,
+    "image_path": "",
+    "board_id": "esp1"
+  },
+  {
+    "timestamp": "2025-06-05 18:00:08",
+    "sensor_fire_probability": 0.0,
+    "image_fire_confidence": 0,
+    "final_score": 0.0,
+    "fire_detected": false,
+    "image_path": "",
+    "board_id": "esp1"
+  },
+  {
+    "timestamp": "2025-06-05 18:00:10",
+    "sensor_fire_probability": 0.0,
+    "image_fire_confidence": 0,
+    "final_score": 0.0,
+    "fire_detected": false,
+    "image_path": "",
+    "board_id": "esp1"
+  },
+  {
+    "timestamp": "2025-06-05 18:00:17",
+    "sensor_fire_probability": 0.0,
+    "image_fire_confidence": 0,
+    "final_score": 0.0,
+    "fire_detected": false,
+    "image_path": "",
+    "board_id": "esp1"
+  },
+  {
+    "timestamp": "2025-06-05 18:00:20",
+    "sensor_fire_probability": 0.0,
+    "image_fire_confidence": 0,
+    "final_score": 0.0,
+    "fire_detected": false,
+    "image_path": "",
+    "board_id": "esp1"
+  },
+  {
+    "timestamp": "2025-06-05 18:00:25",
+    "sensor_fire_probability": 0.0,
+    "image_fire_confidence": 0,
+    "final_score": 0.0,
+    "fire_detected": false,
+    "image_path": "",
+    "board_id": "esp1"
+  },
+  {
+    "timestamp": "2025-06-05 18:00:34",
+    "sensor_fire_probability": 0.0,
+    "image_fire_confidence": 0,
+    "final_score": 0.0,
+    "fire_detected": false,
+    "image_path": "",
+    "board_id": "esp1"
+  },
+  {
+    "timestamp": "2025-06-05 18:00:35",
+    "sensor_fire_probability": 0.0,
+    "image_fire_confidence": 0,
+    "final_score": 0.0,
+    "fire_detected": false,
+    "image_path": "",
+    "board_id": "esp1"
+  },
+  {
+    "timestamp": "2025-06-05 18:00:40",
+    "sensor_fire_probability": 0.0,
+    "image_fire_confidence": 0,
+    "final_score": 0.0,
+    "fire_detected": false,
+    "image_path": "",
+    "board_id": "esp1"
+  },
+  {
+    "timestamp": "2025-06-05 18:00:45",
+    "sensor_fire_probability": 0.0,
+    "image_fire_confidence": 0,
+    "final_score": 0.0,
+    "fire_detected": false,
+    "image_path": "",
+    "board_id": "esp1"
+  },
+  {
+    "timestamp": "2025-06-05 18:00:50",
+    "sensor_fire_probability": 0.0,
+    "image_fire_confidence": 0,
+    "final_score": 0.0,
+    "fire_detected": false,
+    "image_path": "",
+    "board_id": "esp1"
+  },
+  {
+    "timestamp": "2025-06-05 18:00:55",
+    "sensor_fire_probability": 0.0,
+    "image_fire_confidence": 0,
+    "final_score": 0.0,
+    "fire_detected": false,
+    "image_path": "",
+    "board_id": "esp1"
+  },
+  {
+    "timestamp": "2025-06-05 18:01:00",
+    "sensor_fire_probability": 0.0,
+    "image_fire_confidence": 0,
+    "final_score": 0.0,
+    "fire_detected": false,
+    "image_path": "",
+    "board_id": "esp1"
+  },
+  {
+    "timestamp": "2025-06-05 18:01:05",
+    "sensor_fire_probability": 0.0,
+    "image_fire_confidence": 0,
+    "final_score": 0.0,
+    "fire_detected": false,
+    "image_path": "",
+    "board_id": "esp1"
+  },
+  {
+    "timestamp": "2025-06-05 18:01:10",
+    "sensor_fire_probability": 0.0,
+    "image_fire_confidence": 0,
+    "final_score": 0.0,
+    "fire_detected": false,
+    "image_path": "",
+    "board_id": "esp1"
+  },
+  {
+    "timestamp": "2025-06-05 18:01:15",
+    "sensor_fire_probability": 0.0,
+    "image_fire_confidence": 0,
+    "final_score": 0.0,
+    "fire_detected": false,
+    "image_path": "",
+    "board_id": "esp1"
+  },
+  {
+    "timestamp": "2025-06-05 18:01:20",
+    "sensor_fire_probability": 0.0,
+    "image_fire_confidence": 0,
+    "final_score": 0.0,
+    "fire_detected": false,
+    "image_path": "",
+    "board_id": "esp1"
+  },
+  {
+    "timestamp": "2025-06-05 18:01:25",
+    "sensor_fire_probability": 0.0,
+    "image_fire_confidence": 0,
+    "final_score": 0.0,
+    "fire_detected": false,
+    "image_path": "",
+    "board_id": "esp1"
+  },
+  {
+    "timestamp": "2025-06-05 18:01:30",
+    "sensor_fire_probability": 0.0,
+    "image_fire_confidence": 0,
+    "final_score": 0.0,
+    "fire_detected": false,
+    "image_path": "",
+    "board_id": "esp1"
+  },
+  {
+    "timestamp": "2025-06-05 18:01:36",
+    "sensor_fire_probability": 0.0,
+    "image_fire_confidence": 0,
+    "final_score": 0.0,
+    "fire_detected": false,
+    "image_path": "",
+    "board_id": "esp1"
+  },
+  {
+    "timestamp": "2025-06-05 18:01:40",
+    "sensor_fire_probability": 0.0,
+    "image_fire_confidence": 0,
+    "final_score": 0.0,
+    "fire_detected": false,
+    "image_path": "",
+    "board_id": "esp1"
+  },
+  {
+    "timestamp": "2025-06-05 18:02:05",
+    "sensor_fire_probability": 0.0,
+    "image_fire_confidence": 0,
+    "final_score": 0.0,
+    "fire_detected": false,
+    "image_path": "",
+    "board_id": "esp1"
+  },
+  {
+    "timestamp": "2025-06-05 18:02:10",
+    "sensor_fire_probability": 0.0,
+    "image_fire_confidence": 0,
+    "final_score": 0.0,
+    "fire_detected": false,
+    "image_path": "",
+    "board_id": "esp1"
+  },
+  {
+    "timestamp": "2025-06-05 18:02:18",
+    "sensor_fire_probability": 0.0,
+    "image_fire_confidence": 0,
+    "final_score": 0.0,
+    "fire_detected": false,
+    "image_path": "",
+    "board_id": "esp1"
+  },
+  {
+    "timestamp": "2025-06-05 18:02:20",
+    "sensor_fire_probability": 0.0,
+    "image_fire_confidence": 0,
+    "final_score": 0.0,
+    "fire_detected": false,
+    "image_path": "",
+    "board_id": "esp1"
+  },
+  {
+    "timestamp": "2025-06-05 18:02:25",
+    "sensor_fire_probability": 0.0,
+    "image_fire_confidence": 0,
+    "final_score": 0.0,
+    "fire_detected": false,
+    "image_path": "",
+    "board_id": "esp1"
+  },
+  {
+    "timestamp": "2025-06-05 18:02:36",
+    "sensor_fire_probability": 0.0,
+    "image_fire_confidence": 0,
+    "final_score": 0.0,
+    "fire_detected": false,
+    "image_path": "",
+    "board_id": "esp1"
+  },
+  {
+    "timestamp": "2025-06-05 18:02:41",
+    "sensor_fire_probability": 0.0,
+    "image_fire_confidence": 0,
+    "final_score": 0.0,
+    "fire_detected": false,
+    "image_path": "",
+    "board_id": "esp1"
+  },
+  {
+    "timestamp": "2025-06-05 18:02:46",
+    "sensor_fire_probability": 0.0,
+    "image_fire_confidence": 0,
+    "final_score": 0.0,
+    "fire_detected": false,
+    "image_path": "",
+    "board_id": "esp1"
+  },
+  {
+    "timestamp": "2025-06-05 18:02:51",
+    "sensor_fire_probability": 0.0,
+    "image_fire_confidence": 0,
+    "final_score": 0.0,
+    "fire_detected": false,
+    "image_path": "",
+    "board_id": "esp1"
+  },
+  {
+    "timestamp": "2025-06-05 18:02:56",
+    "sensor_fire_probability": 0.0,
+    "image_fire_confidence": 0,
+    "final_score": 0.0,
+    "fire_detected": false,
+    "image_path": "",
+    "board_id": "esp1"
+  },
+  {
+    "timestamp": "2025-06-05 18:03:01",
+    "sensor_fire_probability": 0.0,
+    "image_fire_confidence": 0,
+    "final_score": 0.0,
+    "fire_detected": false,
+    "image_path": "",
+    "board_id": "esp1"
+  },
+  {
+    "timestamp": "2025-06-05 18:03:06",
+    "sensor_fire_probability": 0.0,
+    "image_fire_confidence": 0,
+    "final_score": 0.0,
+    "fire_detected": false,
+    "image_path": "",
+    "board_id": "esp1"
+  },
+  {
+    "timestamp": "2025-06-05 18:03:21",
+    "sensor_fire_probability": 0.0,
+    "image_fire_confidence": 0,
+    "final_score": 0.0,
+    "fire_detected": false,
+    "image_path": "",
+    "board_id": "esp1"
+  },
+  {
+    "timestamp": "2025-06-05 18:03:24",
+    "sensor_fire_probability": 0.0,
+    "image_fire_confidence": 0,
+    "final_score": 0.0,
+    "fire_detected": false,
+    "image_path": "",
+    "board_id": "esp1"
+  },
+  {
+    "timestamp": "2025-06-05 18:03:29",
+    "sensor_fire_probability": 0.0,
+    "image_fire_confidence": 0,
+    "final_score": 0.0,
+    "fire_detected": false,
+    "image_path": "",
+    "board_id": "esp1"
+  },
+  {
+    "timestamp": "2025-06-05 18:03:38",
+    "sensor_fire_probability": 0.0,
+    "image_fire_confidence": 0,
+    "final_score": 0.0,
+    "fire_detected": false,
+    "image_path": "",
+    "board_id": "esp1"
+  },
+  {
+    "timestamp": "2025-06-05 18:03:39",
+    "sensor_fire_probability": 0.0,
+    "image_fire_confidence": 0,
+    "final_score": 0.0,
+    "fire_detected": false,
+    "image_path": "",
+    "board_id": "esp1"
+  },
+  {
+    "timestamp": "2025-06-05 18:03:44",
+    "sensor_fire_probability": 0.0,
+    "image_fire_confidence": 0,
+    "final_score": 0.0,
+    "fire_detected": false,
+    "image_path": "",
+    "board_id": "esp1"
+  },
+  {
+    "timestamp": "2025-06-05 18:03:52",
+    "sensor_fire_probability": 0.0,
+    "image_fire_confidence": 0,
+    "final_score": 0.0,
+    "fire_detected": false,
+    "image_path": "",
+    "board_id": "esp1"
+  },
+  {
+    "timestamp": "2025-06-05 18:03:54",
+    "sensor_fire_probability": 0.0,
+    "image_fire_confidence": 0,
+    "final_score": 0.0,
+    "fire_detected": false,
+    "image_path": "",
+    "board_id": "esp1"
+  },
+  {
+    "timestamp": "2025-06-05 18:03:59",
+    "sensor_fire_probability": 0.0,
+    "image_fire_confidence": 0,
+    "final_score": 0.0,
+    "fire_detected": false,
+    "image_path": "",
+    "board_id": "esp1"
+  },
+  {
+    "timestamp": "2025-06-05 18:04:04",
+    "sensor_fire_probability": 0.0,
+    "image_fire_confidence": 0,
+    "final_score": 0.0,
+    "fire_detected": false,
+    "image_path": "",
+    "board_id": "esp1"
+  },
+  {
+    "timestamp": "2025-06-05 18:04:11",
+    "sensor_fire_probability": 0.0,
+    "image_fire_confidence": 0,
+    "final_score": 0.0,
+    "fire_detected": false,
+    "image_path": "",
+    "board_id": "esp1"
+  },
+  {
+    "timestamp": "2025-06-05 18:04:14",
+    "sensor_fire_probability": 0.0,
+    "image_fire_confidence": 0,
+    "final_score": 0.0,
+    "fire_detected": false,
+    "image_path": "",
+    "board_id": "esp1"
+  },
+  {
+    "timestamp": "2025-06-05 18:04:20",
+    "sensor_fire_probability": 0.0,
+    "image_fire_confidence": 0,
+    "final_score": 0.0,
+    "fire_detected": false,
+    "image_path": "",
+    "board_id": "esp1"
+  },
+  {
+    "timestamp": "2025-06-05 18:04:24",
+    "sensor_fire_probability": 0.0,
+    "image_fire_confidence": 0,
+    "final_score": 0.0,
+    "fire_detected": false,
+    "image_path": "",
+    "board_id": "esp1"
+  },
+  {
+    "timestamp": "2025-06-05 18:04:29",
+    "sensor_fire_probability": 0.0,
+    "image_fire_confidence": 0,
+    "final_score": 0.0,
+    "fire_detected": false,
+    "image_path": "",
+    "board_id": "esp1"
+  },
+  {
+    "timestamp": "2025-06-05 18:04:37",
+    "sensor_fire_probability": 0.0,
+    "image_fire_confidence": 0,
+    "final_score": 0.0,
+    "fire_detected": false,
+    "image_path": "",
+    "board_id": "esp1"
+  },
+  {
+    "timestamp": "2025-06-05 18:04:39",
+    "sensor_fire_probability": 0.0,
+    "image_fire_confidence": 0,
+    "final_score": 0.0,
+    "fire_detected": false,
+    "image_path": "",
+    "board_id": "esp1"
+  },
+  {
+    "timestamp": "2025-06-05 18:04:44",
+    "sensor_fire_probability": 0.0,
+    "image_fire_confidence": 0,
+    "final_score": 0.0,
+    "fire_detected": false,
+    "image_path": "",
+    "board_id": "esp1"
   }
 ]

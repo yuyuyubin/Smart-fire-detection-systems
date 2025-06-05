@@ -20,7 +20,7 @@ DETECTED_FOLDER = "static/detected"
 MAX_IMAGE_COUNT = 10  # 저장할 최대 이미지 개수
 
 os.makedirs(DETECTED_FOLDER, exist_ok=True)
-
+os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 # 오래된 이미지 삭제 함수
 def clean_old_images():
     images = sorted([f for f in os.listdir(DETECTED_FOLDER) if f.endswith('.jpg')])
