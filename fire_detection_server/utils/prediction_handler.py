@@ -7,7 +7,7 @@ from ultralytics import YOLO
 from datetime import datetime
 import joblib  # joblib을 사용하여 scaler를 로드합니다.
 from utils.file_logger import save_result_json, append_logs, append_fire_log, save_fire_status_log  # save_fire_status_log 추가
-
+import traceback
 # 모델 로드
 sensor_model = tf.keras.models.load_model(os.path.join("models", "fire_sensor_model_.h5"))
 image_model = YOLO(os.path.join("models", "best8_ver2.pt"))
@@ -21,6 +21,8 @@ MAX_IMAGE_COUNT = 10  # 저장할 최대 이미지 개수
 
 os.makedirs(DETECTED_FOLDER, exist_ok=True)
 
+
+
 # 오래된 이미지 삭제 함수
 def clean_old_images():
     images = sorted([f for f in os.listdir(DETECTED_FOLDER) if f.endswith('.jpg')])
@@ -29,31 +31,38 @@ def clean_old_images():
             os.remove(os.path.join(DETECTED_FOLDER, img))
 
 # 예측 처리 함수
+
+def safe_float(value):
+    try:
+        return float(value)
+    except (TypeError, ValueError):
+        print(f"[WARN] float 변환 실패: {value} → 기본값 0.0 적용")
+        return 0.0
+
 def run_prediction_with_data(sensor_data, image_path):
     try:
-        # 센서 데이터에서 board_id 가져오기
         board_id = sensor_data.get('board_id', 'Unknown')
-        
-        # 1. 센서 데이터 입력 처리 (센서 데이터는 4개 값)
-        sensor_input = np.array([[float(sensor_data.get('mq2', 0)),
-                                  float(sensor_data.get('temp', 0)),
-                                  float(sensor_data.get('humidity', 0)),
-                                  float(sensor_data.get('flame', 0))]])  # 4개의 입력 값
-        
-        # 센서 데이터 출력 (터미널에)
-        print(f"[센서 데이터] board_id: {board_id}, mq2: {sensor_data.get('mq2', 0)}, temp: {sensor_data.get('temp', 0)}, humidity: {sensor_data.get('humidity', 0)}, flame: {sensor_data.get('flame', 0)}")
 
-        # 2. 센서 데이터 정규화 (훈련 시 사용한 scaler로 변환)
-        sensor_input_scaled = scaler.transform(sensor_input)  # 정규화 적용
+        # 1. 센서 데이터 입력 처리
+        sensor_input = np.array([[safe_float(sensor_data.get('mq2')),
+                                  safe_float(sensor_data.get('temp')),
+                                  safe_float(sensor_data.get('humidity')),
+                                  safe_float(sensor_data.get('flame'))]])
 
-        # 센서 데이터로부터 화재 확률 예측
+        print(f"[센서 데이터] board_id: {board_id}, mq2: {sensor_data.get('mq2')}, temp: {sensor_data.get('temp')}, humidity: {sensor_data.get('humidity')}, flame: {sensor_data.get('flame')}")
+
+        # 2. 정규화 및 예측
+        sensor_input_scaled = scaler.transform(sensor_input)
         sensor_prob = float(sensor_model.predict(sensor_input_scaled)[0][0]) * 100
-        
-        # 3. 이미지 입력 처리 (YOLO 모델 사용)
+
+        # 3. 이미지 예측
         results = image_model.predict(image_path, conf=0.25)
         fire_conf = 0
         fire_detected = False
         img = cv2.imread(image_path)
+
+        if img is None:
+            raise ValueError(f"이미지를 읽을 수 없습니다: {image_path}")
 
         # 4. 이미지에서 화재 탐지
         for r in results:
@@ -77,9 +86,7 @@ def run_prediction_with_data(sensor_data, image_path):
             ts = datetime.now().strftime("%Y%m%d_%H%M%S")
             save_path = f"static/detected/fire_{ts}.jpg"
             cv2.imwrite(save_path, img)
-
-            # 이미지 저장 후 오래된 이미지 삭제
-            clean_old_images()  # 오래된 이미지 삭제 호출
+            clean_old_images()
 
         # 6. 예측 결과 반환
         result = {
@@ -89,23 +96,18 @@ def run_prediction_with_data(sensor_data, image_path):
             "final_score": round(final_score, 2),
             "fire_detected": fire_status,
             "image_path": save_path,
-            "board_id": board_id  # board_id를 예측 결과에 포함
+            "board_id": board_id
         }
 
-        # 센서 데이터와 예측 결과를 함께 포함하여 하나의 항목으로 로그 저장
-        data_with_sensor = {**result, "sensor_data": sensor_data}  # 예측 결과와 센서 데이터를 합침
-        save_result_json(result)  # 최종 예측 결과 저장
-        append_logs(board_id, data_with_sensor)  # 센서 데이터와 예측 결과를 함께 로그에 저장
-
-        # 7. 화재가 감지되었든 아니든 항상 fire_log에 기록
-        append_fire_log(result)  # fire_log.json에 화재 이벤트 저장
-
-        # 화재 상태를 따로 저장하는 함수 호출
-        save_fire_status_log(result)  # fire_status_log 저장
+        data_with_sensor = {**result, "sensor_data": sensor_data}
+        save_result_json(result)
+        append_logs(board_id, data_with_sensor)
+        append_fire_log(result)
+        save_fire_status_log(result)
 
         return result
 
     except Exception as e:
-        # 예측 실패 시 오류 반환
-        print(f"[ERROR] 예측 실패: {e}")
-        return {"error": str(e)}
+       print("[? run_prediction_with_data 예외 발생]:", str(e))
+       traceback.print_exc()   # ? 콘솔에 구체적인 에러 라인까지 출력
+       raise                   # ? Flask에게도 오류 알림

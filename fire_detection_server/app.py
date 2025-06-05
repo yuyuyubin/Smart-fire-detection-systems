@@ -13,7 +13,7 @@ import json
 from utils.prediction_handler import run_prediction_with_data
 from utils.sensor_handler import save_sensor_data, get_latest_status, get_sensor_history
 from utils.file_logger import save_result_json, append_logs, get_fire_status_log, get_latest_result, get_fire_events, clean_old_fire_logs, clean_old_sensor_logs
-
+import traceback
 app = Flask(__name__)
 CORS(app)
 
@@ -165,36 +165,39 @@ def sensor_data():
         # 보드 상태 로그 기록
         log_board_status(board_id, ip_address)
 
-        # 보드별로 센서 데이터가 수신되었을 때만 예측을 실행하도록 처리
-        if board_id in ['esp1', 'esp2', 'esp3'] and any(k in data for k in ['mq2', 'temp', 'humidity','flame']):
-            # 센서 데이터가 유효하면 예측 함수 호출
-            image_path = get_latest_received_image()  # 최신 이미지 가져오기
+        # 예측 수행 조건 확인
+        if board_id in ['esp1', 'esp2', 'esp3'] and any(k in data for k in ['mq2', 'temp', 'humidity', 'flame']):
+            image_path = get_latest_received_image()
+            print("[DEBUG] image_path:", image_path)
+
             if image_path:
-                result = run_prediction_with_data(data, image_path)
+                try:
+                    result = run_prediction_with_data(data, image_path)
+                    result['board_id'] = board_id
 
-                # 예측 결과에 board_id 포함
-                result['board_id'] = board_id  # 예측 결과에 board_id 추가
-
-                # 예측 결과 출력
-                print(f"""
-[🔥 예측 결과]
-🕒 시간: {result.get('timestamp', 'Unknown Time')}
-📟 센서 화재 확률: {result.get('sensor_fire_probability', 'N/A')}%
-🖼️  이미지 화재 신뢰도: {result.get('image_fire_confidence', 'N/A')}%
-📊 최종 예측 점수: {result.get('final_score', 'N/A')}%
-🚨 화재 감지 여부: {"🔥 화재 발생" if result.get('fire_detected') else "✅ 정상"}
+                    print(f"""
+[?? 예측 결과]
+?? 시간: {result.get('timestamp', 'Unknown Time')}
+?? 센서 화재 확률: {result.get('sensor_fire_probability', 'N/A')}%
+???  이미지 화재 신뢰도: {result.get('image_fire_confidence', 'N/A')}%
+?? 최종 예측 점수: {result.get('final_score', 'N/A')}%
+?? 화재 감지 여부: {"?? 화재 발생" if result.get('fire_detected') else "? 정상"}
 [Board ID]: {result.get('board_id')}
 """.strip())
+                except Exception as e:
+                    print("[? 예측 중 오류 발생]", str(e))
+                    traceback.print_exc()
+                    raise  # 에러 재전파해서 최종 except 블록으로 넘김
 
-                # 보드별 로그 파일에 예측 결과 저장
-               
-
-        save_sensor_data(data)  # 센서 데이터 저장
+        # 예측 여부와 무관하게 센서 데이터는 항상 저장
+        save_sensor_data(data)
         clean_old_sensor_logs()
         return jsonify({"status": "success"}), 200
-    except Exception as e:
-        return jsonify({"error": str(e)}), 500
 
+    except Exception as e:
+        print("[? /api/sensor-data 예외 발생]:", str(e))
+        traceback.print_exc()
+        return jsonify({"error": str(e)}), 500
 # ===============================
 # 4. 이미지 수동 업로드 (/api/image)
 # ===============================
