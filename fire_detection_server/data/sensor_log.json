@@ -1,29 +1,5 @@
 [
   {
-    "timestamp": "2025-06-03T22:41:39.128090",
-    "board_id": "esp2",
-    "mq2": 147,
-    "temp": 24.6,
-    "humidity": 59.4,
-    "flame": 1
-  },
-  {
-    "timestamp": "2025-06-03T22:41:40.076508",
-    "board_id": "esp3",
-    "mq2": 1024,
-    "temp": 24.7,
-    "humidity": 57.0,
-    "flame": 0
-  },
-  {
-    "timestamp": "2025-06-03T22:41:40.425074",
-    "board_id": "esp1",
-    "mq2": 21,
-    "temp": 25.0,
-    "humidity": 56.8,
-    "flame": 0
-  },
-  {
     "timestamp": "2025-06-03T22:41:44.126222",
     "board_id": "esp2",
     "mq2": 147,
@@ -7997,6 +7973,30 @@
     "mq2": 1024,
     "temp": 24.8,
     "humidity": 56.2,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-05T16:47:39.356728",
+    "board_id": "esp1",
+    "mq2": 38,
+    "temp": 23.9,
+    "humidity": 47.9,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-05T16:47:50.514819",
+    "board_id": "esp1",
+    "mq2": 40,
+    "temp": 23.9,
+    "humidity": 47.8,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-05T16:47:52.348758",
+    "board_id": "esp1",
+    "mq2": 40,
+    "temp": 23.9,
+    "humidity": 48.0,
     "flame": 0
   }
 ]
