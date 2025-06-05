@@ -1,1 +1,5 @@
+<<<<<<< Updated upstream
 {"timestamp": "2025-06-05T17:09:42.508354", "board_id": "esp1", "mq2": 36, "temp": 23.9, "humidity": 48.4, "flame": 0}
+=======
+{"timestamp": "2025-06-05T18:39:27.259562", "board_id": "esp1", "mq2": 20, "temp": 23.5, "humidity": 47.9, "flame": 0}
+>>>>>>> Stashed changes
