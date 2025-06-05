@@ -279,7 +279,7 @@ def update_board_status():
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
-# This function should be renamed to avoid overwriting the get_board_status function
+# 보드명과 IP 반환
 @app.route('/api/board-status', methods=['GET'])
 def get_board_status_from_file():
     if os.path.exists(board_status_log_file):
