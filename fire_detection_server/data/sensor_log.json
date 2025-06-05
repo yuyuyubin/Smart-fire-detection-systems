@@ -1,421 +1,5 @@
 [
   {
-    "timestamp": "2025-06-03T22:48:30.081778",
-    "board_id": "esp3",
-    "mq2": 1024,
-    "temp": 24.7,
-    "humidity": 56.6,
-    "flame": 0
-  },
-  {
-    "timestamp": "2025-06-03T22:48:34.741425",
-    "board_id": "esp1",
-    "mq2": 21,
-    "temp": 25.3,
-    "humidity": 56.3,
-    "flame": 0
-  },
-  {
-    "timestamp": "2025-06-03T22:48:35.077829",
-    "board_id": "esp3",
-    "mq2": 1024,
-    "temp": 24.7,
-    "humidity": 56.6,
-    "flame": 0
-  },
-  {
-    "timestamp": "2025-06-03T22:48:39.743011",
-    "board_id": "esp1",
-    "mq2": 21,
-    "temp": 25.3,
-    "humidity": 56.3,
-    "flame": 0
-  },
-  {
-    "timestamp": "2025-06-03T22:48:40.070486",
-    "board_id": "esp3",
-    "mq2": 1024,
-    "temp": 24.7,
-    "humidity": 56.6,
-    "flame": 0
-  },
-  {
-    "timestamp": "2025-06-03T22:48:44.756445",
-    "board_id": "esp1",
-    "mq2": 21,
-    "temp": 25.3,
-    "humidity": 56.2,
-    "flame": 0
-  },
-  {
-    "timestamp": "2025-06-03T22:48:45.095316",
-    "board_id": "esp3",
-    "mq2": 1024,
-    "temp": 24.7,
-    "humidity": 56.6,
-    "flame": 0
-  },
-  {
-    "timestamp": "2025-06-03T22:48:50.277139",
-    "board_id": "esp1",
-    "mq2": 21,
-    "temp": 25.3,
-    "humidity": 56.2,
-    "flame": 0
-  },
-  {
-    "timestamp": "2025-06-03T22:48:51.725761",
-    "board_id": "esp3",
-    "mq2": 1024,
-    "temp": 24.7,
-    "humidity": 56.6,
-    "flame": 0
-  },
-  {
-    "timestamp": "2025-06-03T22:48:54.788767",
-    "board_id": "esp1",
-    "mq2": 21,
-    "temp": 25.3,
-    "humidity": 56.2,
-    "flame": 0
-  },
-  {
-    "timestamp": "2025-06-03T22:48:55.068422",
-    "board_id": "esp3",
-    "mq2": 1024,
-    "temp": 24.7,
-    "humidity": 56.6,
-    "flame": 0
-  },
-  {
-    "timestamp": "2025-06-03T22:48:59.756152",
-    "board_id": "esp1",
-    "mq2": 21,
-    "temp": 25.3,
-    "humidity": 56.1,
-    "flame": 0
-  },
-  {
-    "timestamp": "2025-06-03T22:49:00.066839",
-    "board_id": "esp3",
-    "mq2": 1024,
-    "temp": 24.7,
-    "humidity": 56.6,
-    "flame": 0
-  },
-  {
-    "timestamp": "2025-06-03T22:49:00.852824",
-    "board_id": "esp2",
-    "mq2": 327,
-    "temp": 24.8,
-    "humidity": 59.1,
-    "flame": 1
-  },
-  {
-    "timestamp": "2025-06-03T22:49:04.749572",
-    "board_id": "esp1",
-    "mq2": 21,
-    "temp": 25.3,
-    "humidity": 56.2,
-    "flame": 0
-  },
-  {
-    "timestamp": "2025-06-03T22:49:05.081121",
-    "board_id": "esp3",
-    "mq2": 1024,
-    "temp": 24.7,
-    "humidity": 56.6,
-    "flame": 0
-  },
-  {
-    "timestamp": "2025-06-03T22:49:05.813592",
-    "board_id": "esp2",
-    "mq2": 361,
-    "temp": 24.9,
-    "humidity": 59.0,
-    "flame": 1
-  },
-  {
-    "timestamp": "2025-06-03T22:49:09.759592",
-    "board_id": "esp1",
-    "mq2": 21,
-    "temp": 25.3,
-    "humidity": 56.2,
-    "flame": 0
-  },
-  {
-    "timestamp": "2025-06-03T22:49:10.067965",
-    "board_id": "esp3",
-    "mq2": 1024,
-    "temp": 24.8,
-    "humidity": 56.6,
-    "flame": 0
-  },
-  {
-    "timestamp": "2025-06-03T22:49:10.822914",
-    "board_id": "esp2",
-    "mq2": 376,
-    "temp": 24.9,
-    "humidity": 59.1,
-    "flame": 1
-  },
-  {
-    "timestamp": "2025-06-03T22:49:14.765269",
-    "board_id": "esp1",
-    "mq2": 21,
-    "temp": 25.3,
-    "humidity": 56.2,
-    "flame": 0
-  },
-  {
-    "timestamp": "2025-06-03T22:49:15.064209",
-    "board_id": "esp3",
-    "mq2": 1024,
-    "temp": 24.7,
-    "humidity": 56.6,
-    "flame": 0
-  },
-  {
-    "timestamp": "2025-06-03T22:49:15.820860",
-    "board_id": "esp2",
-    "mq2": 379,
-    "temp": 24.9,
-    "humidity": 59.2,
-    "flame": 1
-  },
-  {
-    "timestamp": "2025-06-03T22:49:19.755195",
-    "board_id": "esp1",
-    "mq2": 21,
-    "temp": 25.3,
-    "humidity": 56.2,
-    "flame": 0
-  },
-  {
-    "timestamp": "2025-06-03T22:49:20.081938",
-    "board_id": "esp3",
-    "mq2": 1024,
-    "temp": 24.7,
-    "humidity": 56.7,
-    "flame": 0
-  },
-  {
-    "timestamp": "2025-06-03T22:49:20.811902",
-    "board_id": "esp2",
-    "mq2": 406,
-    "temp": 24.9,
-    "humidity": 59.2,
-    "flame": 1
-  },
-  {
-    "timestamp": "2025-06-03T22:49:24.745767",
-    "board_id": "esp1",
-    "mq2": 21,
-    "temp": 25.3,
-    "humidity": 56.2,
-    "flame": 0
-  },
-  {
-    "timestamp": "2025-06-03T22:49:25.071409",
-    "board_id": "esp3",
-    "mq2": 1024,
-    "temp": 24.8,
-    "humidity": 56.7,
-    "flame": 0
-  },
-  {
-    "timestamp": "2025-06-03T22:49:25.818663",
-    "board_id": "esp2",
-    "mq2": 427,
-    "temp": 24.9,
-    "humidity": 59.2,
-    "flame": 1
-  },
-  {
-    "timestamp": "2025-06-03T22:49:29.766624",
-    "board_id": "esp1",
-    "mq2": 21,
-    "temp": 25.3,
-    "humidity": 56.2,
-    "flame": 0
-  },
-  {
-    "timestamp": "2025-06-03T22:49:30.077053",
-    "board_id": "esp3",
-    "mq2": 1024,
-    "temp": 24.8,
-    "humidity": 56.7,
-    "flame": 0
-  },
-  {
-    "timestamp": "2025-06-03T22:49:30.813516",
-    "board_id": "esp2",
-    "mq2": 433,
-    "temp": 24.9,
-    "humidity": 59.1,
-    "flame": 0
-  },
-  {
-    "timestamp": "2025-06-03T22:49:34.747464",
-    "board_id": "esp1",
-    "mq2": 21,
-    "temp": 25.3,
-    "humidity": 56.1,
-    "flame": 0
-  },
-  {
-    "timestamp": "2025-06-03T22:49:35.074990",
-    "board_id": "esp3",
-    "mq2": 1024,
-    "temp": 24.7,
-    "humidity": 56.8,
-    "flame": 0
-  },
-  {
-    "timestamp": "2025-06-03T22:49:35.821427",
-    "board_id": "esp2",
-    "mq2": 404,
-    "temp": 24.9,
-    "humidity": 59.0,
-    "flame": 0
-  },
-  {
-    "timestamp": "2025-06-03T22:49:39.758939",
-    "board_id": "esp1",
-    "mq2": 21,
-    "temp": 25.3,
-    "humidity": 56.1,
-    "flame": 0
-  },
-  {
-    "timestamp": "2025-06-03T22:49:40.079248",
-    "board_id": "esp3",
-    "mq2": 1024,
-    "temp": 24.8,
-    "humidity": 56.7,
-    "flame": 0
-  },
-  {
-    "timestamp": "2025-06-03T22:49:40.824897",
-    "board_id": "esp2",
-    "mq2": 387,
-    "temp": 24.9,
-    "humidity": 58.9,
-    "flame": 1
-  },
-  {
-    "timestamp": "2025-06-03T22:49:46.267710",
-    "board_id": "esp1",
-    "mq2": 21,
-    "temp": 25.3,
-    "humidity": 56.1,
-    "flame": 0
-  },
-  {
-    "timestamp": "2025-06-03T22:49:46.369928",
-    "board_id": "esp3",
-    "mq2": 1024,
-    "temp": 24.8,
-    "humidity": 56.7,
-    "flame": 0
-  },
-  {
-    "timestamp": "2025-06-03T22:49:46.469680",
-    "board_id": "esp2",
-    "mq2": 374,
-    "temp": 24.9,
-    "humidity": 58.9,
-    "flame": 0
-  },
-  {
-    "timestamp": "2025-06-03T22:49:49.769606",
-    "board_id": "esp1",
-    "mq2": 21,
-    "temp": 25.4,
-    "humidity": 56.1,
-    "flame": 0
-  },
-  {
-    "timestamp": "2025-06-03T22:49:50.079419",
-    "board_id": "esp3",
-    "mq2": 1024,
-    "temp": 24.8,
-    "humidity": 56.7,
-    "flame": 0
-  },
-  {
-    "timestamp": "2025-06-03T22:49:50.817330",
-    "board_id": "esp2",
-    "mq2": 363,
-    "temp": 25.0,
-    "humidity": 58.9,
-    "flame": 0
-  },
-  {
-    "timestamp": "2025-06-03T22:49:54.775452",
-    "board_id": "esp1",
-    "mq2": 21,
-    "temp": 25.3,
-    "humidity": 56.0,
-    "flame": 0
-  },
-  {
-    "timestamp": "2025-06-03T22:49:55.082504",
-    "board_id": "esp3",
-    "mq2": 1024,
-    "temp": 24.8,
-    "humidity": 56.6,
-    "flame": 0
-  },
-  {
-    "timestamp": "2025-06-03T22:49:55.821781",
-    "board_id": "esp2",
-    "mq2": 354,
-    "temp": 24.9,
-    "humidity": 58.8,
-    "flame": 1
-  },
-  {
-    "timestamp": "2025-06-03T22:49:59.771601",
-    "board_id": "esp1",
-    "mq2": 20,
-    "temp": 25.3,
-    "humidity": 56.0,
-    "flame": 1
-  },
-  {
-    "timestamp": "2025-06-03T22:50:00.072081",
-    "board_id": "esp3",
-    "mq2": 1024,
-    "temp": 24.8,
-    "humidity": 56.6,
-    "flame": 0
-  },
-  {
-    "timestamp": "2025-06-03T22:50:00.827888",
-    "board_id": "esp2",
-    "mq2": 355,
-    "temp": 25.0,
-    "humidity": 58.8,
-    "flame": 1
-  },
-  {
-    "timestamp": "2025-06-03T22:50:04.774047",
-    "board_id": "esp1",
-    "mq2": 22,
-    "temp": 25.3,
-    "humidity": 55.9,
-    "flame": 1
-  },
-  {
-    "timestamp": "2025-06-03T22:50:05.082565",
-    "board_id": "esp3",
-    "mq2": 1024,
-    "temp": 24.8,
-    "humidity": 56.6,
-    "flame": 0
-  },
-  {
     "timestamp": "2025-06-03T22:50:05.828487",
     "board_id": "esp2",
     "mq2": 364,
@@ -7996,6 +7580,422 @@
     "board_id": "esp1",
     "mq2": 24,
     "temp": 23.4,
+    "humidity": 48.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-05T17:37:12.892456",
+    "board_id": "esp1",
+    "mq2": 24,
+    "temp": 23.4,
+    "humidity": 48.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-05T17:37:18.794517",
+    "board_id": "esp1",
+    "mq2": 26,
+    "temp": 23.4,
+    "humidity": 48.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-05T17:37:22.859390",
+    "board_id": "esp1",
+    "mq2": 26,
+    "temp": 23.4,
+    "humidity": 48.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-05T17:37:30.034201",
+    "board_id": "esp1",
+    "mq2": 25,
+    "temp": 23.4,
+    "humidity": 48.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-05T17:37:32.872192",
+    "board_id": "esp1",
+    "mq2": 26,
+    "temp": 23.5,
+    "humidity": 48.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-05T17:37:37.861262",
+    "board_id": "esp1",
+    "mq2": 22,
+    "temp": 23.4,
+    "humidity": 48.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-05T17:37:42.886026",
+    "board_id": "esp1",
+    "mq2": 24,
+    "temp": 23.4,
+    "humidity": 48.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-05T17:37:47.880526",
+    "board_id": "esp1",
+    "mq2": 24,
+    "temp": 23.4,
+    "humidity": 48.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-05T17:37:52.887995",
+    "board_id": "esp1",
+    "mq2": 24,
+    "temp": 23.4,
+    "humidity": 48.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-05T17:37:57.877808",
+    "board_id": "esp1",
+    "mq2": 24,
+    "temp": 23.5,
+    "humidity": 48.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-05T17:38:05.678356",
+    "board_id": "esp1",
+    "mq2": 25,
+    "temp": 23.4,
+    "humidity": 48.6,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-05T17:38:07.890683",
+    "board_id": "esp1",
+    "mq2": 24,
+    "temp": 23.5,
+    "humidity": 48.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-05T17:38:13.440993",
+    "board_id": "esp1",
+    "mq2": 24,
+    "temp": 23.4,
+    "humidity": 48.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-05T17:38:20.834522",
+    "board_id": "esp1",
+    "mq2": 24,
+    "temp": 23.5,
+    "humidity": 48.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-05T17:38:22.879199",
+    "board_id": "esp1",
+    "mq2": 24,
+    "temp": 23.4,
+    "humidity": 48.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-05T17:38:27.891265",
+    "board_id": "esp1",
+    "mq2": 24,
+    "temp": 23.4,
+    "humidity": 48.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-05T17:38:32.889745",
+    "board_id": "esp1",
+    "mq2": 24,
+    "temp": 23.4,
+    "humidity": 48.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-05T17:38:37.883209",
+    "board_id": "esp1",
+    "mq2": 25,
+    "temp": 23.4,
+    "humidity": 48.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-05T17:38:42.892541",
+    "board_id": "esp1",
+    "mq2": 24,
+    "temp": 23.4,
+    "humidity": 48.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-05T17:38:47.881054",
+    "board_id": "esp1",
+    "mq2": 25,
+    "temp": 23.4,
+    "humidity": 48.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-05T17:38:52.889423",
+    "board_id": "esp1",
+    "mq2": 24,
+    "temp": 23.4,
+    "humidity": 48.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-05T17:38:57.881225",
+    "board_id": "esp1",
+    "mq2": 25,
+    "temp": 23.4,
+    "humidity": 48.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-05T17:39:02.879906",
+    "board_id": "esp1",
+    "mq2": 25,
+    "temp": 23.4,
+    "humidity": 48.6,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-05T17:39:07.873829",
+    "board_id": "esp1",
+    "mq2": 24,
+    "temp": 23.4,
+    "humidity": 48.6,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-05T17:39:12.877290",
+    "board_id": "esp1",
+    "mq2": 24,
+    "temp": 23.4,
+    "humidity": 48.6,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-05T17:39:20.554192",
+    "board_id": "esp1",
+    "mq2": 24,
+    "temp": 23.4,
+    "humidity": 48.6,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-05T17:39:22.878972",
+    "board_id": "esp1",
+    "mq2": 24,
+    "temp": 23.4,
+    "humidity": 48.7,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-05T17:39:31.589620",
+    "board_id": "esp1",
+    "mq2": 24,
+    "temp": 23.4,
+    "humidity": 48.7,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-05T17:39:32.903944",
+    "board_id": "esp1",
+    "mq2": 24,
+    "temp": 23.4,
+    "humidity": 48.7,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-05T17:39:37.859659",
+    "board_id": "esp1",
+    "mq2": 24,
+    "temp": 23.4,
+    "humidity": 48.7,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-05T17:39:42.873932",
+    "board_id": "esp1",
+    "mq2": 25,
+    "temp": 23.4,
+    "humidity": 48.7,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-05T17:39:48.851377",
+    "board_id": "esp1",
+    "mq2": 24,
+    "temp": 23.4,
+    "humidity": 48.8,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-05T17:39:53.810784",
+    "board_id": "esp1",
+    "mq2": 25,
+    "temp": 23.4,
+    "humidity": 48.7,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-05T17:39:58.800969",
+    "board_id": "esp1",
+    "mq2": 24,
+    "temp": 23.5,
+    "humidity": 48.7,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-05T17:40:06.350433",
+    "board_id": "esp1",
+    "mq2": 22,
+    "temp": 23.5,
+    "humidity": 48.7,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-05T17:40:08.775083",
+    "board_id": "esp1",
+    "mq2": 24,
+    "temp": 23.5,
+    "humidity": 48.7,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-05T17:40:13.777330",
+    "board_id": "esp1",
+    "mq2": 24,
+    "temp": 23.5,
+    "humidity": 48.7,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-05T17:40:21.864646",
+    "board_id": "esp1",
+    "mq2": 24,
+    "temp": 23.5,
+    "humidity": 48.6,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-05T17:40:23.818581",
+    "board_id": "esp1",
+    "mq2": 24,
+    "temp": 23.5,
+    "humidity": 48.7,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-05T17:40:28.845971",
+    "board_id": "esp1",
+    "mq2": 22,
+    "temp": 23.5,
+    "humidity": 48.7,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-05T17:40:33.826901",
+    "board_id": "esp1",
+    "mq2": 21,
+    "temp": 23.5,
+    "humidity": 48.7,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-05T17:40:38.799898",
+    "board_id": "esp1",
+    "mq2": 22,
+    "temp": 23.5,
+    "humidity": 48.7,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-05T17:40:43.813543",
+    "board_id": "esp1",
+    "mq2": 22,
+    "temp": 23.5,
+    "humidity": 48.6,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-05T17:40:48.790566",
+    "board_id": "esp1",
+    "mq2": 22,
+    "temp": 23.5,
+    "humidity": 48.7,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-05T17:40:53.829199",
+    "board_id": "esp1",
+    "mq2": 24,
+    "temp": 23.5,
+    "humidity": 48.6,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-05T17:40:58.798073",
+    "board_id": "esp1",
+    "mq2": 24,
+    "temp": 23.5,
+    "humidity": 48.6,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-05T17:41:03.790835",
+    "board_id": "esp1",
+    "mq2": 24,
+    "temp": 23.5,
+    "humidity": 48.6,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-05T17:41:08.780346",
+    "board_id": "esp1",
+    "mq2": 24,
+    "temp": 23.5,
+    "humidity": 48.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-05T17:41:13.786107",
+    "board_id": "esp1",
+    "mq2": 25,
+    "temp": 23.5,
+    "humidity": 48.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-05T17:41:25.849976",
+    "board_id": "esp1",
+    "mq2": 25,
+    "temp": 23.5,
+    "humidity": 48.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-05T17:41:33.247934",
+    "board_id": "esp1",
+    "mq2": 24,
+    "temp": 23.5,
+    "humidity": 48.5,
+    "flame": 0
+  },
+  {
+    "timestamp": "2025-06-05T17:41:34.512226",
+    "board_id": "esp1",
+    "mq2": 24,
+    "temp": 23.5,
     "humidity": 48.5,
     "flame": 0
   }

@@ -1,682 +1,6 @@
 [
   {
     "board_id": "esp1",
-    "timestamp": "2025-06-03 21:31:55",
-    "sensor_data": {
-      "board_id": "esp1",
-      "mq2": 29,
-      "temp": 25.2,
-      "humidity": 57.8,
-      "flame": 0
-    },
-    "fire_detected": false,
-    "image_path": ""
-  },
-  {
-    "board_id": "esp1",
-    "timestamp": "2025-06-03 21:32:00",
-    "sensor_data": {
-      "board_id": "esp1",
-      "mq2": 29,
-      "temp": 25.3,
-      "humidity": 57.8,
-      "flame": 0
-    },
-    "fire_detected": false,
-    "image_path": ""
-  },
-  {
-    "board_id": "esp1",
-    "timestamp": "2025-06-03 21:32:05",
-    "sensor_data": {
-      "board_id": "esp1",
-      "mq2": 29,
-      "temp": 25.3,
-      "humidity": 57.7,
-      "flame": 0
-    },
-    "fire_detected": false,
-    "image_path": ""
-  },
-  {
-    "board_id": "esp1",
-    "timestamp": "2025-06-03 21:32:10",
-    "sensor_data": {
-      "board_id": "esp1",
-      "mq2": 29,
-      "temp": 25.3,
-      "humidity": 57.7,
-      "flame": 0
-    },
-    "fire_detected": false,
-    "image_path": ""
-  },
-  {
-    "board_id": "esp1",
-    "timestamp": "2025-06-03 21:32:15",
-    "sensor_data": {
-      "board_id": "esp1",
-      "mq2": 29,
-      "temp": 25.3,
-      "humidity": 57.6,
-      "flame": 0
-    },
-    "fire_detected": false,
-    "image_path": ""
-  },
-  {
-    "board_id": "esp1",
-    "timestamp": "2025-06-03 21:32:20",
-    "sensor_data": {
-      "board_id": "esp1",
-      "mq2": 29,
-      "temp": 25.2,
-      "humidity": 57.6,
-      "flame": 0
-    },
-    "fire_detected": false,
-    "image_path": ""
-  },
-  {
-    "board_id": "esp1",
-    "timestamp": "2025-06-03 21:32:25",
-    "sensor_data": {
-      "board_id": "esp1",
-      "mq2": 29,
-      "temp": 25.2,
-      "humidity": 57.6,
-      "flame": 0
-    },
-    "fire_detected": false,
-    "image_path": ""
-  },
-  {
-    "board_id": "esp1",
-    "timestamp": "2025-06-03 21:32:30",
-    "sensor_data": {
-      "board_id": "esp1",
-      "mq2": 29,
-      "temp": 25.3,
-      "humidity": 57.7,
-      "flame": 0
-    },
-    "fire_detected": false,
-    "image_path": ""
-  },
-  {
-    "board_id": "esp1",
-    "timestamp": "2025-06-03 21:32:35",
-    "sensor_data": {
-      "board_id": "esp1",
-      "mq2": 28,
-      "temp": 25.2,
-      "humidity": 57.6,
-      "flame": 0
-    },
-    "fire_detected": false,
-    "image_path": ""
-  },
-  {
-    "board_id": "esp1",
-    "timestamp": "2025-06-03 21:32:40",
-    "sensor_data": {
-      "board_id": "esp1",
-      "mq2": 28,
-      "temp": 25.3,
-      "humidity": 57.6,
-      "flame": 0
-    },
-    "fire_detected": false,
-    "image_path": ""
-  },
-  {
-    "board_id": "esp1",
-    "timestamp": "2025-06-03 21:32:45",
-    "sensor_data": {
-      "board_id": "esp1",
-      "mq2": 28,
-      "temp": 25.3,
-      "humidity": 57.6,
-      "flame": 0
-    },
-    "fire_detected": false,
-    "image_path": ""
-  },
-  {
-    "board_id": "esp1",
-    "timestamp": "2025-06-03 21:32:50",
-    "sensor_data": {
-      "board_id": "esp1",
-      "mq2": 28,
-      "temp": 25.3,
-      "humidity": 57.6,
-      "flame": 0
-    },
-    "fire_detected": false,
-    "image_path": ""
-  },
-  {
-    "board_id": "esp1",
-    "timestamp": "2025-06-03 21:32:55",
-    "sensor_data": {
-      "board_id": "esp1",
-      "mq2": 28,
-      "temp": 25.3,
-      "humidity": 57.5,
-      "flame": 0
-    },
-    "fire_detected": false,
-    "image_path": ""
-  },
-  {
-    "board_id": "esp1",
-    "timestamp": "2025-06-03 21:33:00",
-    "sensor_data": {
-      "board_id": "esp1",
-      "mq2": 28,
-      "temp": 25.2,
-      "humidity": 57.5,
-      "flame": 0
-    },
-    "fire_detected": false,
-    "image_path": ""
-  },
-  {
-    "board_id": "esp1",
-    "timestamp": "2025-06-03 21:33:05",
-    "sensor_data": {
-      "board_id": "esp1",
-      "mq2": 28,
-      "temp": 25.2,
-      "humidity": 57.5,
-      "flame": 0
-    },
-    "fire_detected": false,
-    "image_path": ""
-  },
-  {
-    "board_id": "esp1",
-    "timestamp": "2025-06-03 21:33:10",
-    "sensor_data": {
-      "board_id": "esp1",
-      "mq2": 28,
-      "temp": 25.2,
-      "humidity": 57.5,
-      "flame": 0
-    },
-    "fire_detected": false,
-    "image_path": ""
-  },
-  {
-    "board_id": "esp1",
-    "timestamp": "2025-06-03 21:33:15",
-    "sensor_data": {
-      "board_id": "esp1",
-      "mq2": 28,
-      "temp": 25.2,
-      "humidity": 57.6,
-      "flame": 0
-    },
-    "fire_detected": false,
-    "image_path": ""
-  },
-  {
-    "board_id": "esp1",
-    "timestamp": "2025-06-03 21:33:20",
-    "sensor_data": {
-      "board_id": "esp1",
-      "mq2": 28,
-      "temp": 25.2,
-      "humidity": 57.6,
-      "flame": 0
-    },
-    "fire_detected": false,
-    "image_path": ""
-  },
-  {
-    "board_id": "esp1",
-    "timestamp": "2025-06-03 21:33:25",
-    "sensor_data": {
-      "board_id": "esp1",
-      "mq2": 28,
-      "temp": 25.2,
-      "humidity": 57.6,
-      "flame": 0
-    },
-    "fire_detected": false,
-    "image_path": ""
-  },
-  {
-    "board_id": "esp1",
-    "timestamp": "2025-06-03 21:33:30",
-    "sensor_data": {
-      "board_id": "esp1",
-      "mq2": 28,
-      "temp": 25.2,
-      "humidity": 57.6,
-      "flame": 0
-    },
-    "fire_detected": false,
-    "image_path": ""
-  },
-  {
-    "board_id": "esp1",
-    "timestamp": "2025-06-03 21:33:35",
-    "sensor_data": {
-      "board_id": "esp1",
-      "mq2": 27,
-      "temp": 25.2,
-      "humidity": 57.6,
-      "flame": 0
-    },
-    "fire_detected": false,
-    "image_path": ""
-  },
-  {
-    "board_id": "esp1",
-    "timestamp": "2025-06-03 21:33:40",
-    "sensor_data": {
-      "board_id": "esp1",
-      "mq2": 27,
-      "temp": 25.2,
-      "humidity": 57.7,
-      "flame": 0
-    },
-    "fire_detected": false,
-    "image_path": ""
-  },
-  {
-    "board_id": "esp1",
-    "timestamp": "2025-06-03 21:33:45",
-    "sensor_data": {
-      "board_id": "esp1",
-      "mq2": 27,
-      "temp": 25.2,
-      "humidity": 57.7,
-      "flame": 0
-    },
-    "fire_detected": false,
-    "image_path": ""
-  },
-  {
-    "board_id": "esp1",
-    "timestamp": "2025-06-03 21:33:50",
-    "sensor_data": {
-      "board_id": "esp1",
-      "mq2": 27,
-      "temp": 25.2,
-      "humidity": 57.7,
-      "flame": 0
-    },
-    "fire_detected": false,
-    "image_path": ""
-  },
-  {
-    "board_id": "esp1",
-    "timestamp": "2025-06-03 21:33:55",
-    "sensor_data": {
-      "board_id": "esp1",
-      "mq2": 27,
-      "temp": 25.2,
-      "humidity": 57.7,
-      "flame": 0
-    },
-    "fire_detected": false,
-    "image_path": ""
-  },
-  {
-    "board_id": "esp1",
-    "timestamp": "2025-06-03 21:34:00",
-    "sensor_data": {
-      "board_id": "esp1",
-      "mq2": 27,
-      "temp": 25.2,
-      "humidity": 57.7,
-      "flame": 0
-    },
-    "fire_detected": false,
-    "image_path": ""
-  },
-  {
-    "board_id": "esp1",
-    "timestamp": "2025-06-03 21:34:05",
-    "sensor_data": {
-      "board_id": "esp1",
-      "mq2": 27,
-      "temp": 25.2,
-      "humidity": 57.6,
-      "flame": 0
-    },
-    "fire_detected": false,
-    "image_path": ""
-  },
-  {
-    "board_id": "esp1",
-    "timestamp": "2025-06-03 21:34:10",
-    "sensor_data": {
-      "board_id": "esp1",
-      "mq2": 27,
-      "temp": 25.1,
-      "humidity": 57.6,
-      "flame": 0
-    },
-    "fire_detected": false,
-    "image_path": ""
-  },
-  {
-    "board_id": "esp1",
-    "timestamp": "2025-06-03 21:34:15",
-    "sensor_data": {
-      "board_id": "esp1",
-      "mq2": 27,
-      "temp": 25.2,
-      "humidity": 57.6,
-      "flame": 0
-    },
-    "fire_detected": false,
-    "image_path": ""
-  },
-  {
-    "board_id": "esp1",
-    "timestamp": "2025-06-03 21:34:20",
-    "sensor_data": {
-      "board_id": "esp1",
-      "mq2": 27,
-      "temp": 25.1,
-      "humidity": 57.8,
-      "flame": 0
-    },
-    "fire_detected": false,
-    "image_path": ""
-  },
-  {
-    "board_id": "esp1",
-    "timestamp": "2025-06-03 21:34:25",
-    "sensor_data": {
-      "board_id": "esp1",
-      "mq2": 27,
-      "temp": 25.1,
-      "humidity": 57.8,
-      "flame": 0
-    },
-    "fire_detected": false,
-    "image_path": ""
-  },
-  {
-    "board_id": "esp1",
-    "timestamp": "2025-06-03 21:34:30",
-    "sensor_data": {
-      "board_id": "esp1",
-      "mq2": 27,
-      "temp": 25.1,
-      "humidity": 57.9,
-      "flame": 0
-    },
-    "fire_detected": false,
-    "image_path": ""
-  },
-  {
-    "board_id": "esp1",
-    "timestamp": "2025-06-03 21:34:35",
-    "sensor_data": {
-      "board_id": "esp1",
-      "mq2": 27,
-      "temp": 25.1,
-      "humidity": 57.9,
-      "flame": 0
-    },
-    "fire_detected": false,
-    "image_path": ""
-  },
-  {
-    "board_id": "esp1",
-    "timestamp": "2025-06-03 21:34:40",
-    "sensor_data": {
-      "board_id": "esp1",
-      "mq2": 27,
-      "temp": 25.1,
-      "humidity": 57.9,
-      "flame": 0
-    },
-    "fire_detected": false,
-    "image_path": ""
-  },
-  {
-    "board_id": "esp1",
-    "timestamp": "2025-06-03 21:34:45",
-    "sensor_data": {
-      "board_id": "esp1",
-      "mq2": 27,
-      "temp": 25.1,
-      "humidity": 58.0,
-      "flame": 0
-    },
-    "fire_detected": false,
-    "image_path": ""
-  },
-  {
-    "board_id": "esp1",
-    "timestamp": "2025-06-03 21:34:50",
-    "sensor_data": {
-      "board_id": "esp1",
-      "mq2": 27,
-      "temp": 25.1,
-      "humidity": 58.0,
-      "flame": 0
-    },
-    "fire_detected": false,
-    "image_path": ""
-  },
-  {
-    "board_id": "esp1",
-    "timestamp": "2025-06-03 21:34:55",
-    "sensor_data": {
-      "board_id": "esp1",
-      "mq2": 27,
-      "temp": 25.1,
-      "humidity": 58.0,
-      "flame": 0
-    },
-    "fire_detected": false,
-    "image_path": ""
-  },
-  {
-    "board_id": "esp1",
-    "timestamp": "2025-06-03 21:35:00",
-    "sensor_data": {
-      "board_id": "esp1",
-      "mq2": 26,
-      "temp": 25.1,
-      "humidity": 58.0,
-      "flame": 0
-    },
-    "fire_detected": false,
-    "image_path": ""
-  },
-  {
-    "board_id": "esp1",
-    "timestamp": "2025-06-03 21:35:05",
-    "sensor_data": {
-      "board_id": "esp1",
-      "mq2": 26,
-      "temp": 25.1,
-      "humidity": 58.0,
-      "flame": 0
-    },
-    "fire_detected": false,
-    "image_path": ""
-  },
-  {
-    "board_id": "esp1",
-    "timestamp": "2025-06-03 21:35:10",
-    "sensor_data": {
-      "board_id": "esp1",
-      "mq2": 26,
-      "temp": 25.1,
-      "humidity": 58.0,
-      "flame": 0
-    },
-    "fire_detected": false,
-    "image_path": ""
-  },
-  {
-    "board_id": "esp1",
-    "timestamp": "2025-06-03 21:35:15",
-    "sensor_data": {
-      "board_id": "esp1",
-      "mq2": 27,
-      "temp": 25.1,
-      "humidity": 58.0,
-      "flame": 0
-    },
-    "fire_detected": false,
-    "image_path": ""
-  },
-  {
-    "board_id": "esp1",
-    "timestamp": "2025-06-03 21:35:20",
-    "sensor_data": {
-      "board_id": "esp1",
-      "mq2": 27,
-      "temp": 25.1,
-      "humidity": 58.2,
-      "flame": 0
-    },
-    "fire_detected": false,
-    "image_path": ""
-  },
-  {
-    "board_id": "esp1",
-    "timestamp": "2025-06-03 21:35:25",
-    "sensor_data": {
-      "board_id": "esp1",
-      "mq2": 25,
-      "temp": 25.1,
-      "humidity": 58.6,
-      "flame": 0
-    },
-    "fire_detected": false,
-    "image_path": ""
-  },
-  {
-    "board_id": "esp1",
-    "timestamp": "2025-06-03 21:35:30",
-    "sensor_data": {
-      "board_id": "esp1",
-      "mq2": 25,
-      "temp": 25.1,
-      "humidity": 58.7,
-      "flame": 0
-    },
-    "fire_detected": false,
-    "image_path": ""
-  },
-  {
-    "board_id": "esp1",
-    "timestamp": "2025-06-03 21:35:35",
-    "sensor_data": {
-      "board_id": "esp1",
-      "mq2": 25,
-      "temp": 25.1,
-      "humidity": 58.5,
-      "flame": 0
-    },
-    "fire_detected": false,
-    "image_path": ""
-  },
-  {
-    "board_id": "esp1",
-    "timestamp": "2025-06-03 21:35:40",
-    "sensor_data": {
-      "board_id": "esp1",
-      "mq2": 24,
-      "temp": 25.1,
-      "humidity": 58.4,
-      "flame": 0
-    },
-    "fire_detected": false,
-    "image_path": ""
-  },
-  {
-    "board_id": "esp1",
-    "timestamp": "2025-06-03 21:35:45",
-    "sensor_data": {
-      "board_id": "esp1",
-      "mq2": 24,
-      "temp": 25.1,
-      "humidity": 58.3,
-      "flame": 0
-    },
-    "fire_detected": false,
-    "image_path": ""
-  },
-  {
-    "board_id": "esp1",
-    "timestamp": "2025-06-03 21:35:50",
-    "sensor_data": {
-      "board_id": "esp1",
-      "mq2": 25,
-      "temp": 25.1,
-      "humidity": 58.2,
-      "flame": 0
-    },
-    "fire_detected": false,
-    "image_path": ""
-  },
-  {
-    "board_id": "esp1",
-    "timestamp": "2025-06-03 21:35:55",
-    "sensor_data": {
-      "board_id": "esp1",
-      "mq2": 24,
-      "temp": 25.1,
-      "humidity": 58.2,
-      "flame": 0
-    },
-    "fire_detected": false,
-    "image_path": ""
-  },
-  {
-    "board_id": "esp1",
-    "timestamp": "2025-06-03 21:36:00",
-    "sensor_data": {
-      "board_id": "esp1",
-      "mq2": 24,
-      "temp": 25.1,
-      "humidity": 58.2,
-      "flame": 0
-    },
-    "fire_detected": false,
-    "image_path": ""
-  },
-  {
-    "board_id": "esp1",
-    "timestamp": "2025-06-03 21:36:05",
-    "sensor_data": {
-      "board_id": "esp1",
-      "mq2": 24,
-      "temp": 25.1,
-      "humidity": 58.1,
-      "flame": 0
-    },
-    "fire_detected": false,
-    "image_path": ""
-  },
-  {
-    "board_id": "esp1",
-    "timestamp": "2025-06-03 21:36:10",
-    "sensor_data": {
-      "board_id": "esp1",
-      "mq2": 24,
-      "temp": 25.1,
-      "humidity": 58.1,
-      "flame": 0
-    },
-    "fire_detected": false,
-    "image_path": ""
-  },
-  {
-    "board_id": "esp1",
     "timestamp": "2025-06-03 21:36:15",
     "sensor_data": {
       "board_id": "esp1",
@@ -12993,6 +12317,682 @@
       "board_id": "esp1",
       "mq2": 24,
       "temp": 23.4,
+      "humidity": 48.5,
+      "flame": 0
+    },
+    "fire_detected": false,
+    "image_path": ""
+  },
+  {
+    "board_id": "esp1",
+    "timestamp": "2025-06-05 17:37:12",
+    "sensor_data": {
+      "board_id": "esp1",
+      "mq2": 24,
+      "temp": 23.4,
+      "humidity": 48.5,
+      "flame": 0
+    },
+    "fire_detected": false,
+    "image_path": ""
+  },
+  {
+    "board_id": "esp1",
+    "timestamp": "2025-06-05 17:37:18",
+    "sensor_data": {
+      "board_id": "esp1",
+      "mq2": 26,
+      "temp": 23.4,
+      "humidity": 48.5,
+      "flame": 0
+    },
+    "fire_detected": false,
+    "image_path": ""
+  },
+  {
+    "board_id": "esp1",
+    "timestamp": "2025-06-05 17:37:22",
+    "sensor_data": {
+      "board_id": "esp1",
+      "mq2": 26,
+      "temp": 23.4,
+      "humidity": 48.5,
+      "flame": 0
+    },
+    "fire_detected": false,
+    "image_path": ""
+  },
+  {
+    "board_id": "esp1",
+    "timestamp": "2025-06-05 17:37:30",
+    "sensor_data": {
+      "board_id": "esp1",
+      "mq2": 25,
+      "temp": 23.4,
+      "humidity": 48.5,
+      "flame": 0
+    },
+    "fire_detected": false,
+    "image_path": ""
+  },
+  {
+    "board_id": "esp1",
+    "timestamp": "2025-06-05 17:37:32",
+    "sensor_data": {
+      "board_id": "esp1",
+      "mq2": 26,
+      "temp": 23.5,
+      "humidity": 48.5,
+      "flame": 0
+    },
+    "fire_detected": false,
+    "image_path": ""
+  },
+  {
+    "board_id": "esp1",
+    "timestamp": "2025-06-05 17:37:37",
+    "sensor_data": {
+      "board_id": "esp1",
+      "mq2": 22,
+      "temp": 23.4,
+      "humidity": 48.5,
+      "flame": 0
+    },
+    "fire_detected": false,
+    "image_path": ""
+  },
+  {
+    "board_id": "esp1",
+    "timestamp": "2025-06-05 17:37:42",
+    "sensor_data": {
+      "board_id": "esp1",
+      "mq2": 24,
+      "temp": 23.4,
+      "humidity": 48.5,
+      "flame": 0
+    },
+    "fire_detected": false,
+    "image_path": ""
+  },
+  {
+    "board_id": "esp1",
+    "timestamp": "2025-06-05 17:37:47",
+    "sensor_data": {
+      "board_id": "esp1",
+      "mq2": 24,
+      "temp": 23.4,
+      "humidity": 48.5,
+      "flame": 0
+    },
+    "fire_detected": false,
+    "image_path": ""
+  },
+  {
+    "board_id": "esp1",
+    "timestamp": "2025-06-05 17:37:52",
+    "sensor_data": {
+      "board_id": "esp1",
+      "mq2": 24,
+      "temp": 23.4,
+      "humidity": 48.5,
+      "flame": 0
+    },
+    "fire_detected": false,
+    "image_path": ""
+  },
+  {
+    "board_id": "esp1",
+    "timestamp": "2025-06-05 17:37:57",
+    "sensor_data": {
+      "board_id": "esp1",
+      "mq2": 24,
+      "temp": 23.5,
+      "humidity": 48.5,
+      "flame": 0
+    },
+    "fire_detected": false,
+    "image_path": ""
+  },
+  {
+    "board_id": "esp1",
+    "timestamp": "2025-06-05 17:38:05",
+    "sensor_data": {
+      "board_id": "esp1",
+      "mq2": 25,
+      "temp": 23.4,
+      "humidity": 48.6,
+      "flame": 0
+    },
+    "fire_detected": false,
+    "image_path": ""
+  },
+  {
+    "board_id": "esp1",
+    "timestamp": "2025-06-05 17:38:07",
+    "sensor_data": {
+      "board_id": "esp1",
+      "mq2": 24,
+      "temp": 23.5,
+      "humidity": 48.5,
+      "flame": 0
+    },
+    "fire_detected": false,
+    "image_path": ""
+  },
+  {
+    "board_id": "esp1",
+    "timestamp": "2025-06-05 17:38:13",
+    "sensor_data": {
+      "board_id": "esp1",
+      "mq2": 24,
+      "temp": 23.4,
+      "humidity": 48.5,
+      "flame": 0
+    },
+    "fire_detected": false,
+    "image_path": ""
+  },
+  {
+    "board_id": "esp1",
+    "timestamp": "2025-06-05 17:38:20",
+    "sensor_data": {
+      "board_id": "esp1",
+      "mq2": 24,
+      "temp": 23.5,
+      "humidity": 48.5,
+      "flame": 0
+    },
+    "fire_detected": false,
+    "image_path": ""
+  },
+  {
+    "board_id": "esp1",
+    "timestamp": "2025-06-05 17:38:22",
+    "sensor_data": {
+      "board_id": "esp1",
+      "mq2": 24,
+      "temp": 23.4,
+      "humidity": 48.5,
+      "flame": 0
+    },
+    "fire_detected": false,
+    "image_path": ""
+  },
+  {
+    "board_id": "esp1",
+    "timestamp": "2025-06-05 17:38:27",
+    "sensor_data": {
+      "board_id": "esp1",
+      "mq2": 24,
+      "temp": 23.4,
+      "humidity": 48.5,
+      "flame": 0
+    },
+    "fire_detected": false,
+    "image_path": ""
+  },
+  {
+    "board_id": "esp1",
+    "timestamp": "2025-06-05 17:38:32",
+    "sensor_data": {
+      "board_id": "esp1",
+      "mq2": 24,
+      "temp": 23.4,
+      "humidity": 48.5,
+      "flame": 0
+    },
+    "fire_detected": false,
+    "image_path": ""
+  },
+  {
+    "board_id": "esp1",
+    "timestamp": "2025-06-05 17:38:37",
+    "sensor_data": {
+      "board_id": "esp1",
+      "mq2": 25,
+      "temp": 23.4,
+      "humidity": 48.5,
+      "flame": 0
+    },
+    "fire_detected": false,
+    "image_path": ""
+  },
+  {
+    "board_id": "esp1",
+    "timestamp": "2025-06-05 17:38:42",
+    "sensor_data": {
+      "board_id": "esp1",
+      "mq2": 24,
+      "temp": 23.4,
+      "humidity": 48.5,
+      "flame": 0
+    },
+    "fire_detected": false,
+    "image_path": ""
+  },
+  {
+    "board_id": "esp1",
+    "timestamp": "2025-06-05 17:38:47",
+    "sensor_data": {
+      "board_id": "esp1",
+      "mq2": 25,
+      "temp": 23.4,
+      "humidity": 48.5,
+      "flame": 0
+    },
+    "fire_detected": false,
+    "image_path": ""
+  },
+  {
+    "board_id": "esp1",
+    "timestamp": "2025-06-05 17:38:52",
+    "sensor_data": {
+      "board_id": "esp1",
+      "mq2": 24,
+      "temp": 23.4,
+      "humidity": 48.5,
+      "flame": 0
+    },
+    "fire_detected": false,
+    "image_path": ""
+  },
+  {
+    "board_id": "esp1",
+    "timestamp": "2025-06-05 17:38:57",
+    "sensor_data": {
+      "board_id": "esp1",
+      "mq2": 25,
+      "temp": 23.4,
+      "humidity": 48.5,
+      "flame": 0
+    },
+    "fire_detected": false,
+    "image_path": ""
+  },
+  {
+    "board_id": "esp1",
+    "timestamp": "2025-06-05 17:39:02",
+    "sensor_data": {
+      "board_id": "esp1",
+      "mq2": 25,
+      "temp": 23.4,
+      "humidity": 48.6,
+      "flame": 0
+    },
+    "fire_detected": false,
+    "image_path": ""
+  },
+  {
+    "board_id": "esp1",
+    "timestamp": "2025-06-05 17:39:07",
+    "sensor_data": {
+      "board_id": "esp1",
+      "mq2": 24,
+      "temp": 23.4,
+      "humidity": 48.6,
+      "flame": 0
+    },
+    "fire_detected": false,
+    "image_path": ""
+  },
+  {
+    "board_id": "esp1",
+    "timestamp": "2025-06-05 17:39:12",
+    "sensor_data": {
+      "board_id": "esp1",
+      "mq2": 24,
+      "temp": 23.4,
+      "humidity": 48.6,
+      "flame": 0
+    },
+    "fire_detected": false,
+    "image_path": ""
+  },
+  {
+    "board_id": "esp1",
+    "timestamp": "2025-06-05 17:39:20",
+    "sensor_data": {
+      "board_id": "esp1",
+      "mq2": 24,
+      "temp": 23.4,
+      "humidity": 48.6,
+      "flame": 0
+    },
+    "fire_detected": false,
+    "image_path": ""
+  },
+  {
+    "board_id": "esp1",
+    "timestamp": "2025-06-05 17:39:22",
+    "sensor_data": {
+      "board_id": "esp1",
+      "mq2": 24,
+      "temp": 23.4,
+      "humidity": 48.7,
+      "flame": 0
+    },
+    "fire_detected": false,
+    "image_path": ""
+  },
+  {
+    "board_id": "esp1",
+    "timestamp": "2025-06-05 17:39:31",
+    "sensor_data": {
+      "board_id": "esp1",
+      "mq2": 24,
+      "temp": 23.4,
+      "humidity": 48.7,
+      "flame": 0
+    },
+    "fire_detected": false,
+    "image_path": ""
+  },
+  {
+    "board_id": "esp1",
+    "timestamp": "2025-06-05 17:39:32",
+    "sensor_data": {
+      "board_id": "esp1",
+      "mq2": 24,
+      "temp": 23.4,
+      "humidity": 48.7,
+      "flame": 0
+    },
+    "fire_detected": false,
+    "image_path": ""
+  },
+  {
+    "board_id": "esp1",
+    "timestamp": "2025-06-05 17:39:37",
+    "sensor_data": {
+      "board_id": "esp1",
+      "mq2": 24,
+      "temp": 23.4,
+      "humidity": 48.7,
+      "flame": 0
+    },
+    "fire_detected": false,
+    "image_path": ""
+  },
+  {
+    "board_id": "esp1",
+    "timestamp": "2025-06-05 17:39:42",
+    "sensor_data": {
+      "board_id": "esp1",
+      "mq2": 25,
+      "temp": 23.4,
+      "humidity": 48.7,
+      "flame": 0
+    },
+    "fire_detected": false,
+    "image_path": ""
+  },
+  {
+    "board_id": "esp1",
+    "timestamp": "2025-06-05 17:39:48",
+    "sensor_data": {
+      "board_id": "esp1",
+      "mq2": 24,
+      "temp": 23.4,
+      "humidity": 48.8,
+      "flame": 0
+    },
+    "fire_detected": false,
+    "image_path": ""
+  },
+  {
+    "board_id": "esp1",
+    "timestamp": "2025-06-05 17:39:53",
+    "sensor_data": {
+      "board_id": "esp1",
+      "mq2": 25,
+      "temp": 23.4,
+      "humidity": 48.7,
+      "flame": 0
+    },
+    "fire_detected": false,
+    "image_path": ""
+  },
+  {
+    "board_id": "esp1",
+    "timestamp": "2025-06-05 17:39:58",
+    "sensor_data": {
+      "board_id": "esp1",
+      "mq2": 24,
+      "temp": 23.5,
+      "humidity": 48.7,
+      "flame": 0
+    },
+    "fire_detected": false,
+    "image_path": ""
+  },
+  {
+    "board_id": "esp1",
+    "timestamp": "2025-06-05 17:40:06",
+    "sensor_data": {
+      "board_id": "esp1",
+      "mq2": 22,
+      "temp": 23.5,
+      "humidity": 48.7,
+      "flame": 0
+    },
+    "fire_detected": false,
+    "image_path": ""
+  },
+  {
+    "board_id": "esp1",
+    "timestamp": "2025-06-05 17:40:08",
+    "sensor_data": {
+      "board_id": "esp1",
+      "mq2": 24,
+      "temp": 23.5,
+      "humidity": 48.7,
+      "flame": 0
+    },
+    "fire_detected": false,
+    "image_path": ""
+  },
+  {
+    "board_id": "esp1",
+    "timestamp": "2025-06-05 17:40:13",
+    "sensor_data": {
+      "board_id": "esp1",
+      "mq2": 24,
+      "temp": 23.5,
+      "humidity": 48.7,
+      "flame": 0
+    },
+    "fire_detected": false,
+    "image_path": ""
+  },
+  {
+    "board_id": "esp1",
+    "timestamp": "2025-06-05 17:40:21",
+    "sensor_data": {
+      "board_id": "esp1",
+      "mq2": 24,
+      "temp": 23.5,
+      "humidity": 48.6,
+      "flame": 0
+    },
+    "fire_detected": false,
+    "image_path": ""
+  },
+  {
+    "board_id": "esp1",
+    "timestamp": "2025-06-05 17:40:23",
+    "sensor_data": {
+      "board_id": "esp1",
+      "mq2": 24,
+      "temp": 23.5,
+      "humidity": 48.7,
+      "flame": 0
+    },
+    "fire_detected": false,
+    "image_path": ""
+  },
+  {
+    "board_id": "esp1",
+    "timestamp": "2025-06-05 17:40:28",
+    "sensor_data": {
+      "board_id": "esp1",
+      "mq2": 22,
+      "temp": 23.5,
+      "humidity": 48.7,
+      "flame": 0
+    },
+    "fire_detected": false,
+    "image_path": ""
+  },
+  {
+    "board_id": "esp1",
+    "timestamp": "2025-06-05 17:40:33",
+    "sensor_data": {
+      "board_id": "esp1",
+      "mq2": 21,
+      "temp": 23.5,
+      "humidity": 48.7,
+      "flame": 0
+    },
+    "fire_detected": false,
+    "image_path": ""
+  },
+  {
+    "board_id": "esp1",
+    "timestamp": "2025-06-05 17:40:38",
+    "sensor_data": {
+      "board_id": "esp1",
+      "mq2": 22,
+      "temp": 23.5,
+      "humidity": 48.7,
+      "flame": 0
+    },
+    "fire_detected": false,
+    "image_path": ""
+  },
+  {
+    "board_id": "esp1",
+    "timestamp": "2025-06-05 17:40:43",
+    "sensor_data": {
+      "board_id": "esp1",
+      "mq2": 22,
+      "temp": 23.5,
+      "humidity": 48.6,
+      "flame": 0
+    },
+    "fire_detected": false,
+    "image_path": ""
+  },
+  {
+    "board_id": "esp1",
+    "timestamp": "2025-06-05 17:40:48",
+    "sensor_data": {
+      "board_id": "esp1",
+      "mq2": 22,
+      "temp": 23.5,
+      "humidity": 48.7,
+      "flame": 0
+    },
+    "fire_detected": false,
+    "image_path": ""
+  },
+  {
+    "board_id": "esp1",
+    "timestamp": "2025-06-05 17:40:53",
+    "sensor_data": {
+      "board_id": "esp1",
+      "mq2": 24,
+      "temp": 23.5,
+      "humidity": 48.6,
+      "flame": 0
+    },
+    "fire_detected": false,
+    "image_path": ""
+  },
+  {
+    "board_id": "esp1",
+    "timestamp": "2025-06-05 17:40:58",
+    "sensor_data": {
+      "board_id": "esp1",
+      "mq2": 24,
+      "temp": 23.5,
+      "humidity": 48.6,
+      "flame": 0
+    },
+    "fire_detected": false,
+    "image_path": ""
+  },
+  {
+    "board_id": "esp1",
+    "timestamp": "2025-06-05 17:41:03",
+    "sensor_data": {
+      "board_id": "esp1",
+      "mq2": 24,
+      "temp": 23.5,
+      "humidity": 48.6,
+      "flame": 0
+    },
+    "fire_detected": false,
+    "image_path": ""
+  },
+  {
+    "board_id": "esp1",
+    "timestamp": "2025-06-05 17:41:08",
+    "sensor_data": {
+      "board_id": "esp1",
+      "mq2": 24,
+      "temp": 23.5,
+      "humidity": 48.5,
+      "flame": 0
+    },
+    "fire_detected": false,
+    "image_path": ""
+  },
+  {
+    "board_id": "esp1",
+    "timestamp": "2025-06-05 17:41:13",
+    "sensor_data": {
+      "board_id": "esp1",
+      "mq2": 25,
+      "temp": 23.5,
+      "humidity": 48.5,
+      "flame": 0
+    },
+    "fire_detected": false,
+    "image_path": ""
+  },
+  {
+    "board_id": "esp1",
+    "timestamp": "2025-06-05 17:41:25",
+    "sensor_data": {
+      "board_id": "esp1",
+      "mq2": 25,
+      "temp": 23.5,
+      "humidity": 48.5,
+      "flame": 0
+    },
+    "fire_detected": false,
+    "image_path": ""
+  },
+  {
+    "board_id": "esp1",
+    "timestamp": "2025-06-05 17:41:33",
+    "sensor_data": {
+      "board_id": "esp1",
+      "mq2": 24,
+      "temp": 23.5,
+      "humidity": 48.5,
+      "flame": 0
+    },
+    "fire_detected": false,
+    "image_path": ""
+  },
+  {
+    "board_id": "esp1",
+    "timestamp": "2025-06-05 17:41:34",
+    "sensor_data": {
+      "board_id": "esp1",
+      "mq2": 24,
+      "temp": 23.5,
       "humidity": 48.5,
       "flame": 0
     },

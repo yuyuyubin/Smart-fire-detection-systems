@@ -151,48 +151,70 @@ def video_feed():
 # ===============================
 # 3. 센서 데이터 수신 및 저장 (/api/sensor-data)
 # ===============================
+def safe_float(value):
+    try:
+        return float(value)
+    except (TypeError, ValueError):
+        print(f"[WARN] float 변환 실패 → 기본값 0.0 사용 (value: {value})")
+        return 0.0
+
 @app.route('/api/sensor-data', methods=['POST'])
 def sensor_data():
     try:
-        data = request.get_json()
+        data = request.get_json(force=True)  # force로 헤더 문제 방지
         if not data:
             return jsonify({"error": "No JSON payload"}), 400
         
-        board_id = data.get('board_id', 'Unknown')  # board_id를 확인
-        ip_address = request.remote_addr  # 클라이언트 IP 주소 가져오기
+        board_id = data.get('board_id', 'Unknown')
+        ip_address = request.remote_addr
         print(f"[센서 데이터 수신] {data} from board: {board_id}")
 
-        # 보드 상태 로그 기록
         log_board_status(board_id, ip_address)
 
-        # 예측 수행 조건 확인
+        prediction_result = None  # 예측 결과 저장용
+
         if board_id in ['esp1', 'esp2', 'esp3'] and any(k in data for k in ['mq2', 'temp', 'humidity', 'flame']):
             image_path = get_latest_received_image()
             print("[DEBUG] image_path:", image_path)
 
             if image_path:
                 try:
-                    result = run_prediction_with_data(data, image_path)
-                    result['board_id'] = board_id
+                    # 안전한 float 변환으로 sensor_input 생성
+                    sensor_input = np.array([[safe_float(data.get('mq2')),
+                                              safe_float(data.get('temp')),
+                                              safe_float(data.get('humidity')),
+                                              safe_float(data.get('flame'))]])
+                    print("[DEBUG] sensor_input:", sensor_input)
+
+                    prediction_result = run_prediction_with_data(data, image_path)
+                    prediction_result['board_id'] = board_id
 
                     print(f"""
 [?? 예측 결과]
-?? 시간: {result.get('timestamp', 'Unknown Time')}
-?? 센서 화재 확률: {result.get('sensor_fire_probability', 'N/A')}%
-???  이미지 화재 신뢰도: {result.get('image_fire_confidence', 'N/A')}%
-?? 최종 예측 점수: {result.get('final_score', 'N/A')}%
-?? 화재 감지 여부: {"?? 화재 발생" if result.get('fire_detected') else "? 정상"}
-[Board ID]: {result.get('board_id')}
+?? 시간: {prediction_result.get('timestamp', 'Unknown Time')}
+?? 센서 화재 확률: {prediction_result.get('sensor_fire_probability', 'N/A')}%
+???  이미지 화재 신뢰도: {prediction_result.get('image_fire_confidence', 'N/A')}%
+?? 최종 예측 점수: {prediction_result.get('final_score', 'N/A')}%
+?? 화재 감지 여부: {"?? 화재 발생" if prediction_result.get('fire_detected') else "? 정상"}
+[Board ID]: {prediction_result.get('board_id')}
 """.strip())
+
                 except Exception as e:
                     print("[? 예측 중 오류 발생]", str(e))
                     traceback.print_exc()
-                    raise  # 에러 재전파해서 최종 except 블록으로 넘김
+                    raise
 
-        # 예측 여부와 무관하게 센서 데이터는 항상 저장
+            else:
+                print("[WARN] 이미지 경로가 존재하지 않아서 예측 생략됨")
+
         save_sensor_data(data)
         clean_old_sensor_logs()
-        return jsonify({"status": "success"}), 200
+
+        # 예측 결과가 있다면 함께 반환
+        if prediction_result:
+            return jsonify({"status": "success", "prediction": prediction_result}), 200
+        else:
+            return jsonify({"status": "success", "prediction": None}), 200
 
     except Exception as e:
         print("[? /api/sensor-data 예외 발생]:", str(e))
