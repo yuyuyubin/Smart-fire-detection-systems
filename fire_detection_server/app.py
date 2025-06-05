@@ -235,35 +235,6 @@ def latest_image():
 def sensors():
     return jsonify(get_latest_status())
 
-@app.route('/api/sensors/all', methods=['GET'])
-def get_all_sensors_data():
-    """
-    ESP1, ESP2, ESP3의 센서 로그 데이터를 모두 반환합니다.
-    """
-    try:
-        # 각 보드 로그 파일 경로
-        esp1_log_file = "data/board_logs/esp1_log.json"
-        esp2_log_file = "data/board_logs/esp2_log.json"
-        esp3_log_file = "data/board_logs/esp3_log.json"
-
-        # 로그 파일이 존재하면 로드
-        sensors_data = {}
-        if os.path.exists(esp1_log_file):
-            with open(esp1_log_file, 'r') as f:
-                sensors_data['esp1'] = json.load(f)
-        if os.path.exists(esp2_log_file):
-            with open(esp2_log_file, 'r') as f:
-                sensors_data['esp2'] = json.load(f)
-        if os.path.exists(esp3_log_file):
-            with open(esp3_log_file, 'r') as f:
-                sensors_data['esp3'] = json.load(f)
-
-        # 모든 보드의 센서 데이터 반환
-        return jsonify(sensors_data), 200
-    
-    except Exception as e:
-        return jsonify({"error": str(e)}), 500
-
 @app.route('/api/sensors/history', methods=['GET'])
 def sensors_history():
     return jsonify(get_sensor_history())
