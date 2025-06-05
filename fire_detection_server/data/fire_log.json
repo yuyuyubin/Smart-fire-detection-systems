@@ -1,23 +1,5 @@
 [
   {
-    "timestamp": "2025-06-03 22:41:44",
-    "sensor_fire_probability": 32.92,
-    "image_fire_confidence": 0,
-    "final_score": 19.75,
-    "fire_detected": false,
-    "image_path": "",
-    "board_id": "esp2"
-  },
-  {
-    "timestamp": "2025-06-03 22:41:45",
-    "sensor_fire_probability": 0.0,
-    "image_fire_confidence": 0,
-    "final_score": 0.0,
-    "fire_detected": false,
-    "image_path": "",
-    "board_id": "esp3"
-  },
-  {
     "timestamp": "2025-06-03 22:41:45",
     "sensor_fire_probability": 0.0,
     "image_fire_confidence": 0,
@@ -8992,6 +8974,24 @@
   },
   {
     "timestamp": "2025-06-05 16:47:52",
+    "sensor_fire_probability": 0.0,
+    "image_fire_confidence": 0,
+    "final_score": 0.0,
+    "fire_detected": false,
+    "image_path": "",
+    "board_id": "esp1"
+  },
+  {
+    "timestamp": "2025-06-05 17:09:38",
+    "sensor_fire_probability": 0.0,
+    "image_fire_confidence": 0,
+    "final_score": 0.0,
+    "fire_detected": false,
+    "image_path": "",
+    "board_id": "esp1"
+  },
+  {
+    "timestamp": "2025-06-05 17:09:42",
     "sensor_fire_probability": 0.0,
     "image_fire_confidence": 0,
     "final_score": 0.0,
