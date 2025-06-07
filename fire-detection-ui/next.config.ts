@@ -1,11 +1,15 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
-
-  images: {
-    domains: ['18.234.186.47'],
+const nextConfig = {
+  async rewrites() {
+    return [
+      {
+        source: '/api-proxy/:path*',
+        destination: `${process.env.INTERNAL_API_BASE_URL}/:path*`,
+      },
+    ]
   },
-  /* config options here */
-};
+  images: {
+    domains: [process.env.IMAGE_DOMAIN],
+  },
+}
 
-export default nextConfig;
+module.exports = nextConfig;

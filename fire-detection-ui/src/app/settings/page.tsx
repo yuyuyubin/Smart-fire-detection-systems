@@ -11,10 +11,10 @@ export default function SettingsPage() {
         </h1>
 
         <div className="bg-zinc-100 dark:bg-zinc-900 p-6 rounded-2xl shadow-xl space-y-6 transition-colors duration-500">
-          {/* API 서버 주소 */}
+          {/* API 서버 주소 (마스킹 처리) */}
           <div className="border-b border-zinc-300 dark:border-zinc-700 pb-4">
             <p className="text-zinc-500 dark:text-zinc-400 text-sm mb-1">API 서버 주소</p>
-            <p className="font-medium break-all">{process.env.NEXT_PUBLIC_API_BASE_URL}</p>
+            <p className="font-medium text-zinc-400">http://18.234.***.***:5000</p>
           </div>
 
           {/* 모델 버전 */}
@@ -32,7 +32,7 @@ export default function SettingsPage() {
           {/* 데이터 로그 */}
           <div>
             <p className="text-zinc-500 dark:text-zinc-400 text-sm mb-1">로그 파일 저장 위치</p>
-            <p className="font-medium">`/data/board_logs/*.json`, `/data/fire_log.json` 등</p>
+            <p className="font-medium">/data/board_logs/*.json, /data/fire_log.json 등</p>
           </div>
         </div>
       </div>
