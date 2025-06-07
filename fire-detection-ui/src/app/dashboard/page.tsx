@@ -3,6 +3,7 @@
 import useSWR from 'swr'
 import axios from 'axios'
 import { useState, useEffect } from 'react'
+import { useRouter } from 'next/navigation'
 import Layout from '@/components/Layout'
 import FireStatusCard from '@/components/FireStatusCard'
 import SensorStatusCard from '@/components/SensorStatusCard'
@@ -14,7 +15,29 @@ import PredictionLogs from '@/components/PredictionLogs'
 const API = process.env.NEXT_PUBLIC_API_BASE_URL as string
 const fetcher = (url: string) => axios.get(url).then(res => res.data)
 
+interface SensorEntry {
+  timestamp: string
+  sensor_data: {
+    temp: number
+    humidity: number
+    mq2: number
+    flame: number
+  }
+}
+
+interface ParsedSensorData {
+  timestamp: string
+  temperature: number
+  humidity: number
+  mq2: number
+  flame: number
+}
+
 export default function DashboardPage() {
+  const router = useRouter()
+  const [isAuth, setIsAuth] = useState<boolean | null>(null)
+
+  // 모든 훅은 무조건 최상단에서 호출
   const { data: fireStatus } = useSWR(`${API}/api/fire-status`, fetcher, { refreshInterval: 3000 })
   const { data: sensorData } = useSWR(`${API}/api/sensors`, fetcher, { refreshInterval: 3000 })
   const { data: imageData } = useSWR(`${API}/api/latest-image`, fetcher, { refreshInterval: 5000 })
@@ -24,11 +47,20 @@ export default function DashboardPage() {
 
   const [selectedBoard, setSelectedBoard] = useState('esp1')
   const [selectedMetric, setSelectedMetric] = useState('temperature')
-  const [sensorHistory, setSensorHistory] = useState<any[]>([])
+  const [sensorHistory, setSensorHistory] = useState<ParsedSensorData[]>([])
+
+  useEffect(() => {
+    const auth = localStorage.getItem('auth')
+    if (auth !== 'true') {
+      router.push('/login')
+    } else {
+      setIsAuth(true)
+    }
+  }, [router])
 
   useEffect(() => {
     if (graphData && selectedBoard in graphData) {
-      const parsed = graphData[selectedBoard].map((entry: any) => ({
+      const parsed = (graphData[selectedBoard] as SensorEntry[]).map((entry) => ({
         timestamp: entry.timestamp,
         temperature: entry.sensor_data?.temp,
         humidity: entry.sensor_data?.humidity,
@@ -38,6 +70,9 @@ export default function DashboardPage() {
       setSensorHistory(parsed)
     }
   }, [graphData, selectedBoard])
+
+  // 인증 상태 확인 중이면 렌더링 보류
+  if (isAuth === null) return null
 
   return (
     <Layout>

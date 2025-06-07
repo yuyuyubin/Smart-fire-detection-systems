@@ -1,6 +1,14 @@
 import React from 'react'
 
-export default function SensorStatusCard({ sensorData }: { sensorData: any }) {
+interface SensorData {
+  temp: number
+  humidity: number
+  mq2: number
+  flame: number
+  timestamp: string
+}
+
+export default function SensorStatusCard({ sensorData }: { sensorData: SensorData | null }) {
   return (
     <div className="bg-white dark:bg-zinc-900 p-5 rounded-xl shadow text-zinc-900 dark:text-white space-y-2 transition-colors duration-500">
       <div className="text-lg font-semibold transition-colors duration-500">센서 정보</div>

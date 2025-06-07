@@ -1,6 +1,12 @@
 import React from 'react'
 
-export default function FireStatusCard({ fireStatus }: { fireStatus: any }) {
+interface FireStatus {
+  sensor_fire_probability: number
+  image_fire_confidence: number
+  fire_detected: boolean
+}
+
+export default function FireStatusCard({ fireStatus }: { fireStatus: FireStatus }) {
   return (
     <div className="bg-white dark:bg-zinc-900 p-5 rounded-xl shadow text-zinc-900 dark:text-white space-y-2 transition-colors duration-500 ease-in-out">
       <div className="text-lg font-semibold transition-colors duration-500 ease-in-out">

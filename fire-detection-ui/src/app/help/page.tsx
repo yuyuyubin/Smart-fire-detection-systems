@@ -39,7 +39,7 @@ export default function HelpPage() {
               <li>
                 <p className="font-medium text-orange-500">Q. 화재 알림 기준은 어떻게 되나요?</p>
                 <p className="text-zinc-700 dark:text-zinc-300">
-                  센서 예측 확률과 이미지 신뢰도가 일정 임계치를 넘으면 "화재 발생"으로 판단하고 알림을 보냅니다.
+                  센서 예측 확률과 이미지 신뢰도가 일정 임계치를 넘으면 &quot;화재 발생&quot;으로 판단하고 알림을 보냅니다.
                 </p>
               </li>
             </ul>
