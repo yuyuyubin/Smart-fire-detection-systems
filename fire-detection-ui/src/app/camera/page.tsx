@@ -16,7 +16,7 @@ export default function CameraPage() {
         <div className="bg-zinc-100 dark:bg-zinc-900 p-5 rounded-2xl shadow-xl transition-colors duration-500 ease-in-out">
           <div className="aspect-video bg-black rounded-lg overflow-hidden border border-zinc-700">
             <iframe
-              src={`${process.env.NEXT_PUBLIC_API_BASE_URL}/video_feed`}
+              src={`/api-proxy/video_feed`}  // ✅ 프록시 경로로 수정
               className="w-full h-full"
               title="Live Fire Detection Camera"
               allow="autoplay"

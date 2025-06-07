@@ -10,10 +10,10 @@ interface CameraFeedProps {
 }
 
 export default function CameraFeed({ imageData, streamUrl }: CameraFeedProps) {
-  const imageUrl =
-    imageData?.image_url && process.env.NEXT_PUBLIC_API_BASE_URL
-      ? `${process.env.NEXT_PUBLIC_API_BASE_URL}${imageData.image_url}`
-      : null
+  // 🔁 API 주소 노출 없이 프록시 경로로 이미지 URL 구성
+  const imageUrl = imageData?.image_url
+    ? `/api-proxy${imageData.image_url}`
+    : null
 
   return (
     <div className="bg-white dark:bg-zinc-900 p-5 rounded-xl shadow text-zinc-900 dark:text-white transition-colors duration-500 ease-in-out">

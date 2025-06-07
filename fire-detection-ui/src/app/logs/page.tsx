@@ -9,7 +9,7 @@ const fetcher = (url: string) => axios.get(url).then(res => res.data)
 
 export default function LogsPage() {
   const { data, error, isLoading } = useSWR(
-    `${process.env.NEXT_PUBLIC_API_BASE_URL}/api/sensors/graph-data`,
+    '/api-proxy/api/sensors/graph-data', // ✅ 프록시 경로로 수정
     fetcher
   )
 
