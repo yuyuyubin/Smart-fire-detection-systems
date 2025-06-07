@@ -12,12 +12,20 @@ import {
 } from 'recharts'
 import React from 'react'
 
+interface ParsedSensorData {
+  timestamp: string
+  temperature: number
+  humidity: number
+  mq2: number
+  flame: number
+}
+
 interface LineChartProps {
   selectedBoard: string
   setSelectedBoard: (boardId: string) => void
   selectedMetric: string
   setSelectedMetric: (metric: string) => void
-  sensorHistory: any[]
+  sensorHistory: ParsedSensorData[]
 }
 
 export default function LineChart({
@@ -27,6 +35,13 @@ export default function LineChart({
   setSelectedMetric,
   sensorHistory
 }: LineChartProps) {
+  const colorMap: Record<string, string> = {
+    temperature: '#60a5fa',
+    humidity: '#34d399',
+    mq2: '#facc15',
+    flame: '#f87171'
+  }
+
   return (
     <div className="bg-white dark:bg-zinc-800 p-4 rounded-xl shadow-md text-zinc-900 dark:text-white transition-colors duration-500">
       <div className="flex flex-col md:flex-row gap-3 mb-4 items-start md:items-center justify-between">
@@ -41,6 +56,20 @@ export default function LineChart({
               <option value="esp1">ESP1</option>
               <option value="esp2">ESP2</option>
               <option value="esp3">ESP3</option>
+            </select>
+          </label>
+
+          <label className="text-sm font-medium transition-colors duration-500">
+            센서 선택
+            <select
+              className="ml-2 bg-zinc-200 dark:bg-zinc-700 px-3 py-1 rounded text-zinc-900 dark:text-white transition-colors duration-500"
+              value={selectedMetric}
+              onChange={(e) => setSelectedMetric(e.target.value)}
+            >
+              <option value="temperature">온도</option>
+              <option value="humidity">습도</option>
+              <option value="mq2">가스 (MQ2)</option>
+              <option value="flame">불꽃</option>
             </select>
           </label>
         </div>
@@ -67,33 +96,8 @@ export default function LineChart({
             <Legend wrapperStyle={{ color: '#fff' }} />
             <Line
               type="monotone"
-              dataKey="temperature"
-              stroke="#60a5fa"
-              strokeWidth={2}
-              dot={false}
-              isAnimationActive={false}
-            />
-            <Line
-              type="monotone"
-              dataKey="humidity"
-              stroke="#34d399"
-              strokeWidth={2}
-              dot={false}
-              isAnimationActive={false}
-            />
-            <Line
-              type="monotone"
-              dataKey="mq2"
-              stroke="#facc15"
-              strokeWidth={2}
-              dot={false}
-              isAnimationActive={false}
-            />
-            <Line
-              type="monotone"
-              dataKey="flame"
-              stroke="#f87171"
-              strokeDasharray="4 4"
+              dataKey={selectedMetric}
+              stroke={colorMap[selectedMetric]}
               strokeWidth={2}
               dot={false}
               isAnimationActive={false}

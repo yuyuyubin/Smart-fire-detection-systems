@@ -1,6 +1,15 @@
 // components/PredictionLogTable.tsx
+interface PredictionLog {
+  timestamp: string
+  board_id: string
+  sensor_fire_probability: number
+  image_fire_confidence: number
+  final_score: number
+  fire_detected: boolean
+}
+
 interface PredictionLogsProps {
-  logs: any[];
+  logs: PredictionLog[]
 }
 
 export default function PredictionLogTable({ logs }: PredictionLogsProps) {
@@ -10,7 +19,7 @@ export default function PredictionLogTable({ logs }: PredictionLogsProps) {
         <h3 className="text-lg font-semibold mb-2">예측 로그</h3>
         <p className="text-zinc-400">예측 로그 데이터가 없습니다.</p>
       </div>
-    );
+    )
   }
 
   return (
@@ -43,5 +52,5 @@ export default function PredictionLogTable({ logs }: PredictionLogsProps) {
         </tbody>
       </table>
     </div>
-  );
+  )
 }

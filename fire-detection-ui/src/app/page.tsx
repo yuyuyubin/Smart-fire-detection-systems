@@ -9,7 +9,7 @@ export default function Home() {
 
   useEffect(() => {
     router.replace('/login')  // 로그인 페이지로 자동 이동
-  }, [])
+  }, [router])
 
   return null
 }

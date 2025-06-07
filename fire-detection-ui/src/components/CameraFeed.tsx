@@ -1,5 +1,7 @@
 'use client'
 
+import Image from 'next/image'
+
 interface CameraFeedProps {
   imageData: {
     image_url?: string
@@ -32,9 +34,12 @@ export default function CameraFeed({ imageData, streamUrl }: CameraFeedProps) {
         <div>
           <h4 className="text-sm mb-2 text-zinc-500 dark:text-zinc-300 transition-colors duration-500">최신 감지 이미지</h4>
           {imageUrl ? (
-            <img
+            <Image
               src={imageUrl}
               alt="Latest Detected"
+              width={640}
+              height={360}
+              unoptimized
               className="w-full h-[300px] object-contain rounded border border-zinc-300 dark:border-zinc-700 transition-colors duration-500"
             />
           ) : (
