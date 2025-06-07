@@ -1,0 +1,29 @@
+[
+    {
+        "timestamp": "2025-06-03 23:12:09",
+        "sensor_fire_probability": 97.38,
+        "image_fire_confidence": 34.92,
+        "final_score": 72.39,
+        "fire_detected": true,
+        "image_path": "static/detected/fire_20250603_231209.jpg",
+        "board_id": "esp2"
+    },
+    {
+        "timestamp": "2025-06-03 23:12:10",
+        "sensor_fire_probability": 0.0,
+        "image_fire_confidence": 34.92,
+        "final_score": 13.97,
+        "fire_detected": false,
+        "image_path": "",
+        "board_id": "esp3"
+    },
+    {
+        "timestamp": "2025-06-05 19:59:55",
+        "sensor_fire_probability": 0.0,
+        "image_fire_confidence": 0,
+        "final_score": 0.0,
+        "fire_detected": false,
+        "image_path": "",
+        "board_id": "esp1"
+    }
+]
