@@ -1,0 +1,110 @@
+'use client'
+
+import {
+  LineChart as ReLineChart,
+  Line,
+  XAxis,
+  YAxis,
+  CartesianGrid,
+  Tooltip,
+  Legend,
+  ResponsiveContainer
+} from 'recharts'
+import React from 'react'
+
+interface LineChartProps {
+  selectedBoard: string
+  setSelectedBoard: (boardId: string) => void
+  selectedMetric: string
+  setSelectedMetric: (metric: string) => void
+  sensorHistory: any[]
+}
+
+export default function LineChart({
+  selectedBoard,
+  setSelectedBoard,
+  selectedMetric,
+  setSelectedMetric,
+  sensorHistory
+}: LineChartProps) {
+  return (
+    <div className="bg-white dark:bg-zinc-800 p-4 rounded-xl shadow-md text-zinc-900 dark:text-white transition-colors duration-500">
+      <div className="flex flex-col md:flex-row gap-3 mb-4 items-start md:items-center justify-between">
+        <div className="flex gap-3">
+          <label className="text-sm font-medium transition-colors duration-500">
+            보드 선택
+            <select
+              className="ml-2 bg-zinc-200 dark:bg-zinc-700 px-3 py-1 rounded text-zinc-900 dark:text-white transition-colors duration-500"
+              value={selectedBoard}
+              onChange={(e) => setSelectedBoard(e.target.value)}
+            >
+              <option value="esp1">ESP1</option>
+              <option value="esp2">ESP2</option>
+              <option value="esp3">ESP3</option>
+            </select>
+          </label>
+        </div>
+      </div>
+
+      {sensorHistory.length > 0 ? (
+        <ResponsiveContainer width="100%" height={300}>
+          <ReLineChart
+            data={sensorHistory}
+            margin={{ top: 10, right: 20, left: 0, bottom: 0 }}
+          >
+            <CartesianGrid strokeDasharray="3 3" stroke="#444" />
+            <XAxis
+              dataKey="timestamp"
+              tick={{ fill: '#8884d8', fontSize: 12 }}
+              minTickGap={25}
+            />
+            <YAxis tick={{ fill: '#8884d8', fontSize: 12 }} />
+            <Tooltip
+              contentStyle={{ backgroundColor: '#1f2937', border: 'none' }}
+              labelStyle={{ color: '#fff' }}
+              itemStyle={{ color: '#fff' }}
+            />
+            <Legend wrapperStyle={{ color: '#fff' }} />
+            <Line
+              type="monotone"
+              dataKey="temperature"
+              stroke="#60a5fa"
+              strokeWidth={2}
+              dot={false}
+              isAnimationActive={false}
+            />
+            <Line
+              type="monotone"
+              dataKey="humidity"
+              stroke="#34d399"
+              strokeWidth={2}
+              dot={false}
+              isAnimationActive={false}
+            />
+            <Line
+              type="monotone"
+              dataKey="mq2"
+              stroke="#facc15"
+              strokeWidth={2}
+              dot={false}
+              isAnimationActive={false}
+            />
+            <Line
+              type="monotone"
+              dataKey="flame"
+              stroke="#f87171"
+              strokeDasharray="4 4"
+              strokeWidth={2}
+              dot={false}
+              isAnimationActive={false}
+            />
+          </ReLineChart>
+        </ResponsiveContainer>
+      ) : (
+        <p className="text-zinc-400 dark:text-zinc-300 mt-4 transition-colors duration-500">
+          그래프를 표시할 데이터가 없습니다.
+        </p>
+      )}
+    </div>
+  )
+}
